@@ -1,0 +1,103 @@
+{
+  "name": "Discover -> monitor -> qualify: local business lead pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "days", "daysInterval": 1 }] }
+      },
+      "id": "trigger-schedule",
+      "name": "Daily",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [200, 400]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-maps-new-business-monitor-quickstart/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": { "parameters": [{ "name": "token", "value": "={{ $credentials.apifyToken }}" }] },
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ JSON.stringify({ searches: [\"coffee shops in Austin, TX\"], maxPlacesPerSearch: 10, monitorEnabled: true, maxTotalChargeUsd: 1 }) }}",
+        "options": { "timeout": 300000 }
+      },
+      "id": "step1-discover",
+      "name": "1. Detect new businesses (Maps New Business)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [420, 400],
+      "notes": "Delta logic already handled by the Actor -- output is ONLY businesses new since the last run."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "loose" },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.website }}",
+              "rightValue": "",
+              "operator": { "type": "string", "operation": "notEquals" }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "step2-has-website",
+      "name": "2. Has a website?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [640, 400],
+      "notes": "Only a business with a public website can be qualified for a contact email in step 3."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-lead-quality-api-quickstart/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": { "parameters": [{ "name": "token", "value": "={{ $credentials.apifyToken }}" }] },
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ JSON.stringify({ websiteUrls: [$json.website], maxTotalChargeUsd: 1 }) }}",
+        "options": { "timeout": 300000 }
+      },
+      "id": "step3-qualify",
+      "name": "3. Qualify contact email (Lead Quality API)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [860, 320]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": { "value": "={{ $credentials.sheetId }}" },
+        "sheetName": "Qualified Leads",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "business_name": "={{ $('1. Detect new businesses (Maps New Business)').item.json.business_name }}",
+            "category": "={{ $('1. Detect new businesses (Maps New Business)').item.json.category }}",
+            "address": "={{ $('1. Detect new businesses (Maps New Business)').item.json.address }}",
+            "website": "={{ $('1. Detect new businesses (Maps New Business)').item.json.website }}",
+            "verified_email": "={{ $json.business_contacts && $json.business_contacts[0] ? $json.business_contacts[0].email : '' }}"
+          }
+        }
+      },
+      "id": "step4-deliver",
+      "name": "4. Deliver to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [1080, 320]
+    }
+  ],
+  "connections": {
+    "Daily": { "main": [[{ "node": "1. Detect new businesses (Maps New Business)", "type": "main", "index": 0 }]] },
+    "1. Detect new businesses (Maps New Business)": { "main": [[{ "node": "2. Has a website?", "type": "main", "index": 0 }]] },
+    "2. Has a website?": { "main": [[{ "node": "3. Qualify contact email (Lead Quality API)", "type": "main", "index": 0 }]] },
+    "3. Qualify contact email (Lead Quality API)": { "main": [[{ "node": "4. Deliver to Google Sheets", "type": "main", "index": 0 }]] }
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "The fleet's flagship multi-Actor chain: DISCOVER newly-detected local businesses -> IDENTIFY the ones with a public website -> QUALIFY a verified contact email -> DELIVER a ready-to-work lead list in Google Sheets, once a day, fully automated. 4 nodes total (deliberately not a 25-node build) -- each Actor already does its own logic (delta detection, email verification), so n8n is pure orchestration. Set your APIFY_TOKEN and Google Sheets credentials. Edit the 'searches' array in step 1 to your own target category+location."
+  }
+}

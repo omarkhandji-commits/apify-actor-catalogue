@@ -1,0 +1,55 @@
+{
+  "name": "New Google Business Profile question -> Slack alert",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "hours", "hoursInterval": 6 }] }
+      },
+      "id": "trigger-schedule",
+      "name": "Every 6 hours",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-gbp-qa-monitor-quickstart/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [{ "name": "token", "value": "={{ $credentials.apifyToken }}" }]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ JSON.stringify({ placeUrls: [\"https://www.google.com/maps/place/?q=place_id:ChIJN1t_tDeuEmsRUsoyG83frY4\"], maxTotalChargeUsd: 1 }) }}",
+        "options": { "timeout": 300000 }
+      },
+      "id": "run-actor",
+      "name": "Run Google Business Profile Q&A Scraper",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "notes": "Actor already returns only unanswered public questions -- no filter logic needed here."
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "value": "={{ $credentials.slackChannel }}" },
+        "text": "=New unanswered question on your listing: \"{{ $json.question_text }}\""
+      },
+      "id": "notify-slack",
+      "name": "Notify Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "Every 6 hours": { "main": [[{ "node": "Run Google Business Profile Q&A Scraper", "type": "main", "index": 0 }]] },
+    "Run Google Business Profile Q&A Scraper": { "main": [[{ "node": "Notify Slack", "type": "main", "index": 0 }]] }
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "Checks a Google Business Profile's public Q&A tab every 6 hours and posts a Slack alert for each new question -- a spot where leads get lost if nobody answers quickly. Set your APIFY_TOKEN and Slack credentials. Replace the placeUrls entry with your own listing."
+  }
+}

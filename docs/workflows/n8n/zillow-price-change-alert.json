@@ -1,0 +1,73 @@
+{
+  "name": "Zillow price/status change -> Slack alert",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "days", "daysInterval": 1 }] }
+      },
+      "id": "trigger-schedule",
+      "name": "Daily",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-zillow-realestate-monitor-quickstart/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [{ "name": "token", "value": "={{ $credentials.apifyToken }}" }]
+        },
+        "options": { "timeout": 300000 }
+      },
+      "id": "run-actor",
+      "name": "Run Zillow Listings Scraper",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "notes": "Actor already computes the price/status delta -- change_type is either 'new' or a real change. No diffing logic needed in n8n."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "loose" },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.change_type }}",
+              "rightValue": "price_down",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "or"
+        }
+      },
+      "id": "is-price-drop",
+      "name": "Price dropped?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "value": "={{ $credentials.slackChannel }}" },
+        "text": "=Price change: {{ $json.name }} -- {{ $json.source_url }}"
+      },
+      "id": "notify-slack",
+      "name": "Notify Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [900, 300]
+    }
+  ],
+  "connections": {
+    "Daily": { "main": [[{ "node": "Run Zillow Listings Scraper", "type": "main", "index": 0 }]] },
+    "Run Zillow Listings Scraper": { "main": [[{ "node": "Price dropped?", "type": "main", "index": 0 }]] },
+    "Price dropped?": { "main": [[{ "node": "Notify Slack", "type": "main", "index": 0 }]] }
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "Daily check of a saved Zillow search for price/status changes, alerting on Slack only when a tracked listing's price actually drops. Set your APIFY_TOKEN and Slack credentials. Replace the Task's saved search URL with your own on apify.com."
+  }
+}

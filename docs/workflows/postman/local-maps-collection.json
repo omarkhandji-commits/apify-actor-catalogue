@@ -1,0 +1,122 @@
+{
+  "info": {
+    "name": "om_kh Apify Catalogue - Local & Maps",
+    "description": "Wave E of the om_kh Apify Actor Catalogue's portfolio Postman workspace. One collection per family; this is the Local / Maps family. Every request calls a live Public Task via the real Apify REST endpoint. Set the {{APIFY_TOKEN}} collection variable to your own Apify API token before running -- never commit a real value.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "APIFY_TOKEN", "value": "", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "Google Maps Business Scraper - single search",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-local-business-monitor-quickstart/run-sync-get-dataset-items?token={{APIFY_TOKEN}}",
+          "protocol": "https",
+          "host": ["api", "apify", "com"],
+          "path": ["v2", "actor-tasks", "om_kh~vigia-local-business-monitor-quickstart", "run-sync-get-dataset-items"],
+          "query": [{ "key": "token", "value": "{{APIFY_TOKEN}}" }]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"searchQueries\":[\"coffee shop\"],\"locationQuery\":\"Austin, TX\",\"maxTotalChargeUsd\":1}"
+        },
+        "description": "Current full set of businesses matching a category+location search. Response: array of {title, rating, reviews_count, address, categories, hours_fingerprint, permanently_closed}."
+      }
+    },
+    {
+      "name": "Google Maps Business Scraper - multi-location",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-local-business-monitor-multi-location/run-sync-get-dataset-items?token={{APIFY_TOKEN}}",
+          "protocol": "https",
+          "host": ["api", "apify", "com"],
+          "path": ["v2", "actor-tasks", "om_kh~vigia-local-business-monitor-multi-location", "run-sync-get-dataset-items"],
+          "query": [{ "key": "token", "value": "{{APIFY_TOKEN}}" }]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"searchQueries\":[\"Starbucks Reserve Roastery Seattle\",\"Starbucks Reserve Roastery Chicago\",\"Starbucks Reserve Roastery New York\"],\"maxTotalChargeUsd\":2}"
+        },
+        "description": "Multiple locations in one run -- for franchise/competitor portfolio tracking."
+      }
+    },
+    {
+      "name": "Google Maps New Business Scraper",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-maps-new-business-monitor-quickstart/run-sync-get-dataset-items?token={{APIFY_TOKEN}}",
+          "protocol": "https",
+          "host": ["api", "apify", "com"],
+          "path": ["v2", "actor-tasks", "om_kh~vigia-maps-new-business-monitor-quickstart", "run-sync-get-dataset-items"],
+          "query": [{ "key": "token", "value": "{{APIFY_TOKEN}}" }]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"searches\":[\"coffee shops in Austin, TX\"],\"maxPlacesPerSearch\":10,\"monitorEnabled\":false,\"maxTotalChargeUsd\":1}"
+        },
+        "description": "Native business fields (business_name, place_id, category, address, rating, review_count, phone, website, google_maps_url). Set monitorEnabled=true for real delta behavior across scheduled runs."
+      }
+    },
+    {
+      "name": "Google Business Profile Q&A Scraper",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-gbp-qa-monitor-quickstart/run-sync-get-dataset-items?token={{APIFY_TOKEN}}",
+          "protocol": "https",
+          "host": ["api", "apify", "com"],
+          "path": ["v2", "actor-tasks", "om_kh~vigia-gbp-qa-monitor-quickstart", "run-sync-get-dataset-items"],
+          "query": [{ "key": "token", "value": "{{APIFY_TOKEN}}" }]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"placeUrls\":[\"https://www.google.com/maps/place/?q=place_id:ChIJN1t_tDeuEmsRUsoyG83frY4\"],\"maxTotalChargeUsd\":1}"
+        },
+        "description": "Public unanswered questions on a Google Business Profile listing."
+      }
+    },
+    {
+      "name": "Zillow Listings Scraper",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-zillow-realestate-monitor-quickstart/run-sync-get-dataset-items?token={{APIFY_TOKEN}}",
+          "protocol": "https",
+          "host": ["api", "apify", "com"],
+          "path": ["v2", "actor-tasks", "om_kh~vigia-zillow-realestate-monitor-quickstart", "run-sync-get-dataset-items"],
+          "query": [{ "key": "token", "value": "{{APIFY_TOKEN}}" }]
+        },
+        "description": "Zillow listings with a price/status delta vs. the last pull. Uses the Task's saved search URL."
+      }
+    },
+    {
+      "name": "Business Email Finder & Verifier (chain step)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-lead-quality-api-quickstart/run-sync-get-dataset-items?token={{APIFY_TOKEN}}",
+          "protocol": "https",
+          "host": ["api", "apify", "com"],
+          "path": ["v2", "actor-tasks", "om_kh~vigia-lead-quality-api-quickstart", "run-sync-get-dataset-items"],
+          "query": [{ "key": "token", "value": "{{APIFY_TOKEN}}" }]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"websiteUrls\":[\"https://www.gnu.org\"],\"maxTotalChargeUsd\":1}"
+        },
+        "description": "The qualification step in the flagship local-lead pipeline: pass a discovered business's website here to get a verified public contact email."
+      }
+    }
+  ]
+}

@@ -34,6 +34,10 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 - [Turn YouTube videos into transcripts for AI workflows](examples/youtube-example.md)
 - [Track new and removed competitor ad creatives](examples/ads-example.md)
 
+## Automate a whole family
+
+- [Automate local business intelligence with Apify](automate-local-business-intelligence.md) — discovery, new-business monitoring, Q&A alerts, and lead qualification, with ready-to-import n8n/Make/Postman assets.
+
 ## Agent / MCP access
 
 Several Actors in this catalogue also expose an [MCP](https://apify.com/mcp) tool, so an AI agent can call them directly from a natural-language request. For common asks like "get the transcript of this YouTube video" or "find current jobs from this company," the matching Actor is generally discoverable — see each family page for specifics.

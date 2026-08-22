@@ -1,0 +1,62 @@
+{
+  "name": "Local business discovery snapshot -> Google Sheets",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "trigger-manual",
+      "name": "Manual trigger (or add a Schedule node)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-local-business-monitor-quickstart/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [{ "name": "token", "value": "={{ $credentials.apifyToken }}" }]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ JSON.stringify({ searchQueries: [\"coffee shop\"], locationQuery: \"Austin, TX\", maxTotalChargeUsd: 1 }) }}",
+        "options": { "timeout": 300000 }
+      },
+      "id": "run-actor",
+      "name": "Run Google Maps Business Scraper",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": { "value": "={{ $credentials.sheetId }}" },
+        "sheetName": "Businesses",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "title": "={{ $json.title }}",
+            "rating": "={{ $json.rating }}",
+            "reviews_count": "={{ $json.reviews_count }}",
+            "address": "={{ $json.address }}",
+            "categories": "={{ $json.categories.join(', ') }}"
+          }
+        }
+      },
+      "id": "log-to-sheets",
+      "name": "Log to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "Manual trigger (or add a Schedule node)": { "main": [[{ "node": "Run Google Maps Business Scraper", "type": "main", "index": 0 }]] },
+    "Run Google Maps Business Scraper": { "main": [[{ "node": "Log to Google Sheets", "type": "main", "index": 0 }]] }
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "Pulls the current full set of businesses matching a category+location search and logs them to a Google Sheet -- the discovery snapshot that precedes ongoing new-business monitoring (see maps-new-business-alert.json). Set your APIFY_TOKEN and Google Sheets credentials. Edit searchQueries/locationQuery to your own target."
+  }
+}

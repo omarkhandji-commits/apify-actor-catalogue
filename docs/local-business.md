@@ -17,7 +17,7 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/vigia-local-business-monitor) | Current full set of businesses for a category+area | $0.10 + $9/1K, 10 free |
+| [Google Maps Business Scraper](https://apify.com/om_kh/vigia-local-business-monitor) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/vigia-local-business-monitor/examples/vigia-local-business-monitor-multi-location)) | $0.10 + $9/1K, 10 free |
 | [Google Maps New Business Scraper](https://apify.com/om_kh/vigia-maps-new-business-monitor) | Only businesses newly detected since your last check | $0.08 + $0.01 |
 | [Google Business Profile Q&A Scraper](https://apify.com/om_kh/vigia-gbp-qa-monitor) | Public questions asked on a listing | $0.03 + $0.015 |
 | [Zillow Listings Scraper](https://apify.com/om_kh/vigia-zillow-realestate-monitor) | Home listings, price/status changes | $0.18 + $0.01 |
@@ -33,6 +33,10 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 ## Workflow example
 
 See [Find newly discovered local businesses and qualify them](examples/local-business-example.md) for the full walkthrough (discovery → new-business monitoring → contact qualification).
+
+## Automation examples
+
+This is the fleet's most automated family: [Automate local business intelligence with Apify](automate-local-business-intelligence.md) covers all four Actors together, including the flagship discover → monitor → qualify pipeline, with ready-to-import [n8n workflows](workflows/n8n/), [Make scenario specs](workflows/make/README.md), and a shared [Postman collection](workflows/postman/local-maps-collection.json).
 
 ## Related family
 

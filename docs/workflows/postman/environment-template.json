@@ -1,0 +1,6 @@
+{
+  "name": "om_kh Apify Catalogue - Environment Template",
+  "values": [
+    { "key": "APIFY_TOKEN", "value": "", "type": "secret", "enabled": true }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "name": "New Google Maps business detected -> Slack + Sheets",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1
+            }
+          ]
+        }
+      },
+      "id": "trigger-schedule",
+      "name": "Daily at 8am",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actor-tasks/om_kh~vigia-maps-new-business-monitor-quickstart/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "token",
+              "value": "={{ $credentials.apifyToken }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ JSON.stringify({ searches: [\"coffee shops in Austin, TX\"], maxPlacesPerSearch: 10, monitorEnabled: true, maxTotalChargeUsd: 1 }) }}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "id": "run-actor",
+      "name": "Run Google Maps New Business Scraper",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "notes": "Actor already handles baseline/delta state -- this call returns ONLY newly-detected businesses since the last check. No dedup logic needed here (Executable Advantage: HIGH)."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "has-new-businesses",
+      "name": "Any new businesses?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "value": "={{ $credentials.sheetId }}"
+        },
+        "sheetName": "New Businesses",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "business_name": "={{ $json.business_name }}",
+            "category": "={{ $json.category }}",
+            "address": "={{ $json.address }}",
+            "rating": "={{ $json.rating }}",
+            "website": "={{ $json.website }}",
+            "google_maps_url": "={{ $json.google_maps_url }}"
+          }
+        }
+      },
+      "id": "log-to-sheets",
+      "name": "Log to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [900, 220]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "value": "={{ $credentials.slackChannel }}"
+        },
+        "text": "=New business detected: *{{ $json.business_name }}* ({{ $json.category }}) at {{ $json.address }} -- {{ $json.google_maps_url }}"
+      },
+      "id": "notify-slack",
+      "name": "Notify Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [900, 380]
+    }
+  ],
+  "connections": {
+    "Daily at 8am": { "main": [[{ "node": "Run Google Maps New Business Scraper", "type": "main", "index": 0 }]] },
+    "Run Google Maps New Business Scraper": { "main": [[{ "node": "Any new businesses?", "type": "main", "index": 0 }]] },
+    "Any new businesses?": {
+      "main": [
+        [
+          { "node": "Log to Google Sheets", "type": "main", "index": 0 },
+          { "node": "Notify Slack", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "Daily check for newly-detected Google Maps businesses matching a category+location search. Logs each new listing to a Google Sheet and posts a Slack alert. Set your APIFY_TOKEN as an n8n HTTP Query Auth credential (or a header credential named apifyToken), plus your own Google Sheets and Slack credentials. Edit the 'searches' array in the Run node to your own category+location."
+  }
+}

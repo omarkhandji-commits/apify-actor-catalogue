@@ -36,6 +36,10 @@ These walk through a real multi-step problem, start to finish:
 - [Turn YouTube videos into transcripts for AI workflows](docs/examples/youtube-example.md)
 - [Track new and removed competitor ad creatives](docs/examples/ads-example.md)
 
+## Automate a whole family
+
+- [Automate local business intelligence with Apify](docs/automate-local-business-intelligence.md) — discovery, new-business monitoring, Q&A alerts, and lead qualification, with ready-to-import n8n/Make/Postman assets.
+
 ## Agent / MCP access
 
 Several Actors in this catalogue also expose an [MCP](https://apify.com/mcp) tool, so an AI agent can call them directly from a natural-language request instead of you writing the integration by hand. Not every request maps automatically — the agent still needs a tool description that matches your intent — but for common asks like:
