@@ -37,7 +37,7 @@ The four single-provider Actors (Greenhouse/Lever/Ashby/Workday) do exactly one 
 
 ## Workflow example
 
-See [Get current jobs from a company without knowing its ATS](../examples/jobs-example.md) for the full walkthrough (domain → jobs → optional hiring-signal layer).
+See [Get current jobs from a company without knowing its ATS](examples/jobs-example.md) for the full walkthrough (domain → jobs → optional hiring-signal layer).
 
 ## Related family
 

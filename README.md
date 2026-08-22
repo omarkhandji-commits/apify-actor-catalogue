@@ -30,11 +30,11 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 
 These walk through a real multi-step problem, start to finish:
 
-- [Get current jobs from a company without knowing its ATS](examples/jobs-example.md)
-- [Find newly discovered local businesses and qualify them](examples/local-business-example.md)
-- [Monitor reviews and detect what changed](examples/reviews-example.md)
-- [Turn YouTube videos into transcripts for AI workflows](examples/youtube-example.md)
-- [Track new and removed competitor ad creatives](examples/ads-example.md)
+- [Get current jobs from a company without knowing its ATS](docs/examples/jobs-example.md)
+- [Find newly discovered local businesses and qualify them](docs/examples/local-business-example.md)
+- [Monitor reviews and detect what changed](docs/examples/reviews-example.md)
+- [Turn YouTube videos into transcripts for AI workflows](docs/examples/youtube-example.md)
+- [Track new and removed competitor ad creatives](docs/examples/ads-example.md)
 
 ## Agent / MCP access
 

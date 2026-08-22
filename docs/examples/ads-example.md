@@ -1,4 +1,4 @@
-[← Catalogue home](../README.md) · [Ads & Competitive Intelligence family](../docs/ads-competitive-intelligence.md)
+[← Catalogue home](../../README.md) · [Ads & Competitive Intelligence family](../ads-competitive-intelligence.md)
 
 # Track new and removed competitor ad creatives
 
@@ -70,4 +70,4 @@ const ads = await res.json();
 
 ## Next step
 
-Also want to see if the same competitor is hiring for a related push? See [Jobs & Hiring](../docs/jobs.md).
+Also want to see if the same competitor is hiring for a related push? See [Jobs & Hiring](../jobs.md).

@@ -29,7 +29,7 @@ Seeing what a competitor is currently advertising — and, more usefully, what c
 
 ## Workflow example
 
-See [Track new and removed competitor ad creatives](../examples/ads-example.md) for the full walkthrough.
+See [Track new and removed competitor ad creatives](examples/ads-example.md) for the full walkthrough.
 
 ## Related family
 

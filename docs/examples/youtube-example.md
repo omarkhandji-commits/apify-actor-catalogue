@@ -1,4 +1,4 @@
-[← Catalogue home](../README.md) · [YouTube & Video family](../docs/youtube-video.md)
+[← Catalogue home](../../README.md) · [YouTube & Video family](../youtube-video.md)
 
 # Turn YouTube videos into transcripts for AI workflows
 
@@ -75,4 +75,4 @@ This is one of the clearest MCP matches in the catalogue: a natural-language req
 
 ## Next step
 
-Need to know what people are *saying about* a video topic, not the video itself? See [News & Community](../docs/news-community.md) or [Social Monitoring](../docs/social-monitoring.md).
+Need to know what people are *saying about* a video topic, not the video itself? See [News & Community](../news-community.md) or [Social Monitoring](../social-monitoring.md).

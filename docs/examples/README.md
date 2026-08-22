@@ -1,4 +1,4 @@
-[← Catalogue home](../README.md)
+[← Catalogue home](../../README.md)
 
 # Workflow examples
 

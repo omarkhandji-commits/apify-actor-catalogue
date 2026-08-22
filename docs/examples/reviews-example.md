@@ -1,4 +1,4 @@
-[← Catalogue home](../README.md) · [Reviews & Reputation family](../docs/reviews-reputation.md)
+[← Catalogue home](../../README.md) · [Reviews & Reputation family](../reviews-reputation.md)
 
 # Monitor reviews and detect what changed
 
@@ -8,7 +8,7 @@ You want to know when a business gets a new review — not re-download the same 
 
 ## Actors used
 
-1. A source Actor from [Reviews & Reputation](../docs/reviews-reputation.md) — e.g. [Google Maps Reviews Scraper](https://apify.com/om_kh/vigia-google-review-monitor)
+1. A source Actor from [Reviews & Reputation](../reviews-reputation.md) — e.g. [Google Maps Reviews Scraper](https://apify.com/om_kh/vigia-google-review-monitor)
 2. [Review Cleaner & Deduplicator](https://apify.com/om_kh/vigia-reviews-delta) — if you're combining review data from more than one source or need explicit dedup + delta
 
 ## Inputs
@@ -75,4 +75,4 @@ const reviews = await res.json();
 
 ## Next step
 
-Want the business's own profile data alongside its reviews? See [Local Business](../docs/local-business.md).
+Want the business's own profile data alongside its reviews? See [Local Business](../local-business.md).

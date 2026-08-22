@@ -1,4 +1,4 @@
-[← Catalogue home](../README.md) · [Local Business family](../docs/local-business.md)
+[← Catalogue home](../../README.md) · [Local Business family](../local-business.md)
 
 # Find newly discovered local businesses and qualify them
 
@@ -78,4 +78,4 @@ new_businesses = resp.json()
 
 ## Next step
 
-See [Leads & Verification](../docs/leads-verification.md) for the qualification-step Actor used above.
+See [Leads & Verification](../leads-verification.md) for the qualification-step Actor used above.

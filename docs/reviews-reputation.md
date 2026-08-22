@@ -41,7 +41,7 @@ Each platform Actor is scoped to exactly one source — pick the one matching wh
 
 ## Workflow example
 
-See [Monitor reviews and detect what changed](../examples/reviews-example.md) for the full walkthrough (source Actor → Review Cleaner & Deduplicator).
+See [Monitor reviews and detect what changed](examples/reviews-example.md) for the full walkthrough (source Actor → Review Cleaner & Deduplicator).
 
 ## Related family
 

@@ -36,7 +36,7 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 ## Workflow example
 
-See [Turn YouTube videos into transcripts for AI workflows](../examples/youtube-example.md) for the full walkthrough (single video → whole-channel scale-up).
+See [Turn YouTube videos into transcripts for AI workflows](examples/youtube-example.md) for the full walkthrough (single video → whole-channel scale-up).
 
 ## Agent / MCP
 

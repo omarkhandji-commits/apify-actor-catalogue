@@ -24,7 +24,7 @@ Point it at a company's website; it reads public contact-page content and valida
 
 ## Workflow example
 
-See [Get current jobs from a company without knowing its ATS](../examples/jobs-example.md) and [Find newly discovered local businesses and qualify them](../examples/local-business-example.md) — both chain into this Actor as the final step.
+See [Get current jobs from a company without knowing its ATS](examples/jobs-example.md) and [Find newly discovered local businesses and qualify them](examples/local-business-example.md) — both chain into this Actor as the final step.
 
 ## Related families
 

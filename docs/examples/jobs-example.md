@@ -1,4 +1,4 @@
-[← Catalogue home](../README.md) · [Jobs & Hiring family](../docs/jobs.md)
+[← Catalogue home](../../README.md) · [Jobs & Hiring family](../jobs.md)
 
 # Get current jobs from a company without knowing its ATS
 
@@ -83,4 +83,4 @@ const jobs = await res.json();
 
 ## Next step
 
-Found a company worth reaching out to? See [Leads & Verification](../docs/leads-verification.md) to get a verified contact email for it.
+Found a company worth reaching out to? See [Leads & Verification](../leads-verification.md) to get a verified contact email for it.

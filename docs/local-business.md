@@ -32,7 +32,7 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 
 ## Workflow example
 
-See [Find newly discovered local businesses and qualify them](../examples/local-business-example.md) for the full walkthrough (discovery → new-business monitoring → contact qualification).
+See [Find newly discovered local businesses and qualify them](examples/local-business-example.md) for the full walkthrough (discovery → new-business monitoring → contact qualification).
 
 ## Related family
 
