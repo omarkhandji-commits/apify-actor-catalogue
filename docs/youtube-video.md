@@ -32,11 +32,11 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 ## Recommended starting point
 
-[**YouTube Transcript Scraper**](https://apify.com/om_kh/youtube-transcript-api) — free, single video, the simplest way to try this family. Try it: [live example](https://apify.com/om_kh/youtube-transcript-api/examples/youtube-transcript-single-video).
+[**YouTube Transcript Scraper**](https://apify.com/om_kh/youtube-transcript-api) — free, single video, the simplest way to try this family. Try it: [live example](https://apify.com/om_kh/youtube-transcript-api/examples/youtube-transcript-single-video). Once you need more than one video, [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) is the natural next step — same underlying data, scaled to a whole channel in one run.
 
 ## Workflow example
 
-See [Turn YouTube videos into transcripts for AI workflows](examples/youtube-example.md) for the full walkthrough (single video → whole-channel scale-up).
+See [Turn YouTube videos into transcripts for AI workflows](examples/youtube-example.md) for the full walkthrough (single video → whole-channel scale-up), or [Turn YouTube into text, at any scale](automate-youtube-transcripts.md) for all four jobs this family covers (get transcript, feed AI/RAG, process channel transcripts, monitor for new uploads) in one place.
 
 ## Agent / MCP
 

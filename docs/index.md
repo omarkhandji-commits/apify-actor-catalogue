@@ -37,6 +37,7 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 ## Automate a whole family
 
 - [Automate local business intelligence with Apify](automate-local-business-intelligence.md) — discovery, new-business monitoring, Q&A alerts, and lead qualification, with ready-to-import n8n/Make/Postman assets.
+- [Turn YouTube into text, at any scale](automate-youtube-transcripts.md) — get a transcript, feed it into AI/RAG, scale to a whole channel, or monitor for new uploads.
 
 ## Agent / MCP access
 
