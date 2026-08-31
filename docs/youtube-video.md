@@ -21,7 +21,7 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 | [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | One video, free, fastest way to get text out | Free |
 | [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same free transcript, structured for RAG/agent pipelines | Free |
 | [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-subtitles-scraper) | Raw caption/subtitle track instead of prose text | Free |
-| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $1/1K, 5 free |
+| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $1/1K, 1 free |
 | [YouTube Channel Videos Scraper](https://apify.com/om_kh/vigia-youtube-video-watch) | Get notified when a channel uploads (no transcripts) | $0.05 + $0.01 |
 | [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search by topic instead of watching a known channel | $0.10 + $0.01 |
 | [YouTube Comments Scraper](https://apify.com/om_kh/vigia-youtube-comments-monitor) | Bulk-export the comments on a video | $0.08 + $0.01 |

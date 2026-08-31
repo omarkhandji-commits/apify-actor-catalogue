@@ -31,7 +31,7 @@ Same transcript data, pre-shaped for agent pipelines instead of a one-off read.
 
 Scale from one video to a channel's worth of recent uploads in a single run.
 
-- **Actor**: [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) — covers ~15 recent videos per run, 5 free, then $1/1K.
+- **Actor**: [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) — covers ~15 recent videos per run, 1 free, then $1/1K.
 - **Try it live**: [channel-transcripts-recent-videos example](https://apify.com/om_kh/youtube-channel-transcripts/examples/channel-transcripts-recent-videos)
 
 Natural next step from job #1: start with a single video on **YouTube Transcript Scraper** to confirm the output shape costs you nothing, then move to **YouTube Channel Transcripts** once you need a whole channel instead of one URL at a time.
