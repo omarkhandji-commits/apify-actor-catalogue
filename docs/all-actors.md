@@ -2,7 +2,7 @@
 
 # All om_kh Apify Actors
 
-The complete list of **73 public Actors**, with what each one returns and its current price. Every Actor runs on [Apify](https://apify.com) with no infrastructure to manage: from the browser, the API, n8n / Make / Zapier, or an AI agent through MCP (`https://mcp.apify.com`).
+The complete list of **76 public Actors**, with what each one returns and its current price. Every Actor runs on [Apify](https://apify.com) with no infrastructure to manage: from the browser, the API, n8n / Make / Zapier, or an AI agent through MCP (`https://mcp.apify.com`).
 
 ## AI & data cleaning
 
@@ -48,6 +48,7 @@ The complete list of **73 public Actors**, with what each one returns and its cu
 | [Indeed Jobs Scraper - Listings, Companies, Salary Data](https://apify.com/om_kh/indeed-jobs-scraper) | Scrape Indeed job listings for any title, keyword or location: job title, company, location, salary where shown, posting date and URL. Export to JSON, CSV or Excel, or call it as an API. No login needed. For... | $0.008 / new job + $0.05 / monitored subject re-checked |
 | [Lever.co Jobs API - Title, Location, Department, Salary](https://apify.com/om_kh/lever-jobs-api) | Lever jobs API: every open job from any jobs.lever.co board as clean data, with title, location, team, date, apply link, function, seniority and remote flags. $1.50 per 1,000 jobs, first 3 per run free. Filters run... | $0.0015 / job listing |
 | [LinkedIn Jobs Scraper - Listings, Companies, Location Data](https://apify.com/om_kh/linkedin-jobs-scraper) | Scrape LinkedIn job listings from any search URL: title, company, location, seniority, employment type, posting date and URL. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login or cookies... | $0.01 / new job alert + $0.06 / monitored subject re-checked |
+| [SEEK & JobStreet Jobs Scraper - Salary, Company, AU NZ Asia](https://apify.com/om_kh/seek-jobstreet-jobs-scraper) | Job listings from SEEK (Australia, New Zealand), JobStreet (Malaysia, Singapore, Indonesia, Philippines) and JobsDB (Hong Kong, Thailand) in one Actor: title, company, location, parsed salary, work type, date, full... | $0.001 / job + $0.001 / job details |
 | [Workday Jobs API - Title, Location, Department Data](https://apify.com/om_kh/workday-jobs-api) | Workday jobs API: every open job from any myworkdayjobs.com careers site as clean data, with title, location, date, apply link, function, seniority and remote flags. $1.50 per 1,000 jobs, first 3 per run free.... | $0.0015 / job listing |
 
 ## Leads & local business
@@ -68,14 +69,16 @@ The complete list of **73 public Actors**, with what each one returns and its cu
 | [Product Hunt Scraper - Launches, Upvotes, Comments, Date](https://apify.com/om_kh/product-hunt-scraper) | Scrape Product Hunt launches for any day or topic: product name, tagline, URL, upvotes, comments, topics and launch date. Export to JSON, CSV or Excel, or call it as an API. No login needed. For market research,... | $0.01 / new launch alert + $0.2 / monitored subject re-checked |
 | [ThomasNet Supplier Scraper - Name, Address, Verified Status](https://apify.com/om_kh/thomasnet-supplier-scraper) | Verify US industrial suppliers against ThomasNet: legal name, address, year established, employee range, product and service categories and public contact. One failed lookup never stops your batch. Export to JSON,... | $0.011 / supplier verified |
 | [Yelp Reviews Scraper - Ratings, Text, Reviewer Name](https://apify.com/om_kh/yelp-reviews-scraper) | Bulk-download Yelp reviews for any business: rating, text, reviewer name, reviewer review count and date. Paste business URLs, export to JSON, CSV or Excel, or call it as an API. No login needed. For local reputation... | $0.02 / actionable review alert + $0.15 / monitored subject re-checked |
+| [YouTube Channel Email Scraper - Business Emails, Socials](https://apify.com/om_kh/youtube-channel-email-scraper) | Find the public business email of any YouTube channel: from the channel bio or the creator's own website, MX-checked. Input @handles, channel URLs or keywords. Adds socials, country, subscribers and a hidden-email... | $0.0005 / channel checked + $0.004 / email found |
 | [YouTube Channel Search Scraper - Subscribers, Emails](https://apify.com/om_kh/youtube-channel-search-scraper) | YouTube channel search by keyword: channel name, handle, subscribers, description and link, up to 500 per search. Optional enrichment: country, total views, social links and public business email (MX-checked). $0.50... | $0.0005 / channel + $0.002 / enriched channel |
 | [YouTube Creator Lead Finder - Views, Niche, Email](https://apify.com/om_kh/youtube-creator-lead-finder) | Find YouTube creators by niche or keyword: subscribers, median recent views, language, posting cadence and public business contact, each backed by its source URL. Export to JSON, CSV or Excel, or call it as an API.... | $0.004 / qualified creator + $0.002 / verified contact |
 
-## News
+## News & markets
 
 | Actor | What you get | Price |
 |---|---|---|
 | [Google News API - Headlines, Source, Date, No Login](https://apify.com/om_kh/google-news-scraper) | Google News API: every article for any keyword, company or topic, in any country edition and language (US, UK, France, India...), with headline, publisher, date, snippet and link. Time filter from last hour to last... | Free (see Store page) |
+| [Kalshi & Polymarket Scraper - Odds, Probability, Volume](https://apify.com/om_kh/kalshi-polymarket-scraper) | Live prediction-market data from Kalshi and Polymarket in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time and rules. Search any topic (elections,... | $0.001 / market |
 
 ## Real estate
 

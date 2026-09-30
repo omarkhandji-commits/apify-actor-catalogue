@@ -28,6 +28,9 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 
 ## New this month
 
+- [YouTube Channel Email Scraper](https://apify.com/om_kh/youtube-channel-email-scraper) — public business emails of YouTube channels from the bio or the creator's website, MX-checked, with socials and country. $0.004 per email found.
+- [SEEK & JobStreet Jobs Scraper](https://apify.com/om_kh/seek-jobstreet-jobs-scraper) — jobs from SEEK (AU, NZ), JobStreet (MY, SG, ID, PH) and JobsDB (HK, TH) with parsed salary and company profile. $0.001 per job.
+- [Kalshi & Polymarket Scraper](https://apify.com/om_kh/kalshi-polymarket-scraper) — live prediction-market odds from both exchanges in one table. $0.001 per market.
 - [Google Trends Scraper](https://apify.com/om_kh/google-trends-scraper) — interest over time, average / peak / % change, top regions, rising and **Breakout** queries, compare mode, and daily **Trending now** searches for any country. $0.002 per keyword.
 - [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) — find YouTube channels by keyword with subscriber filters; optional country, total views, social links and public business email. $0.0005 per channel.
 
@@ -35,7 +38,7 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 
 ## Guides
 
-Answer-first guides with code: [YouTube transcript API](docs/guides/youtube-transcript-api-python.md) · [Google Trends API](docs/guides/google-trends-api.md) · [Find YouTube channels with email](docs/guides/find-youtube-channels-with-email.md) · [Greenhouse / Lever / Workday jobs API](docs/guides/greenhouse-lever-workday-jobs-api.md) · [Google News API](docs/guides/google-news-api.md) · [Export YouTube comments](docs/guides/export-youtube-comments.md) · [Export an Instagram following list](docs/guides/export-instagram-following-list.md) · [New businesses on Google Maps](docs/guides/new-businesses-google-maps.md) — [all guides](docs/guides/index.md)
+Answer-first guides with code: [YouTube transcript API](docs/guides/youtube-transcript-api-python.md) · [Google Trends API](docs/guides/google-trends-api.md) · [Find YouTube channels with email](docs/guides/find-youtube-channels-with-email.md) · [Greenhouse / Lever / Workday jobs API](docs/guides/greenhouse-lever-workday-jobs-api.md) · [Google News API](docs/guides/google-news-api.md) · [Export YouTube comments](docs/guides/export-youtube-comments.md) · [Export an Instagram following list](docs/guides/export-instagram-following-list.md) · [New businesses on Google Maps](docs/guides/new-businesses-google-maps.md) · [YouTube channel email finder](docs/guides/youtube-channel-email-finder.md) · [SEEK / JobStreet jobs API](docs/guides/seek-jobstreet-jobs-api.md) · [Kalshi / Polymarket API](docs/guides/kalshi-polymarket-api.md) — [all guides](docs/guides/index.md)
 
 ## Try a workflow, not just an Actor
 
