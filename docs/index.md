@@ -26,6 +26,13 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 | [News & Community](news-community.md) | Monitor Reddit, Hacker News, Stack Overflow, Product Hunt, Google News | [Reddit Posts & Comments Scraper](https://apify.com/om_kh/reddit-posts-comments-scraper) |
 | [Leads & Verification](leads-verification.md) | Turn discovered businesses/companies into verified contacts | [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) |
 
+## New this month
+
+- [Google Trends Scraper](https://apify.com/om_kh/google-trends-scraper) — interest over time, average / peak / % change, top regions, rising and **Breakout** queries, compare mode, and daily **Trending now** searches for any country. $0.002 per keyword.
+- [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) — find YouTube channels by keyword with subscriber filters; optional country, total views, social links and public business email. $0.0005 per channel.
+
+**See every Actor with its current price: [All Actors](all-actors.md).**
+
 ## Try a workflow, not just an Actor
 
 - [Get current jobs from a company without knowing its ATS](examples/jobs-example.md)
