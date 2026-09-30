@@ -16,20 +16,20 @@ Reviews live scattered across a dozen platforms — Google, Yelp, Trustpilot, G2
 
 | Actor | Source | Pricing |
 |---|---|---|
-| [Google Maps Reviews Scraper](https://apify.com/om_kh/vigia-google-review-monitor) | Google Maps listings | $0.05 + $0.02 |
-| [Yelp Reviews Scraper](https://apify.com/om_kh/vigia-yelp-review-monitor) | Yelp business pages | $0.15 + $0.02 |
-| [Trustpilot Reviews Scraper](https://apify.com/om_kh/vigia-trustpilot-review-monitor) | Trustpilot company pages | $0.06 + $0.02 |
-| [G2 Software Reviews Scraper](https://apify.com/om_kh/vigia-g2-review-monitor) | G2 product pages (B2B software) | $0.15/run |
-| [TripAdvisor Reviews Scraper](https://apify.com/om_kh/vigia-tripadvisor-review-monitor) | Hotels/restaurants/attractions | $0.05 + $0.02 |
-| [Glassdoor Reviews Scraper](https://apify.com/om_kh/vigia-glassdoor-review-monitor) | Employer/workplace reviews | $0.20/run |
-| [Amazon Reviews Scraper](https://apify.com/om_kh/vigia-amazon-review-intelligence) | Amazon product reviews, with a review-velocity flag | $0.45 + $0.02 |
-| [App Store & Google Play Reviews Scraper](https://apify.com/om_kh/vigia-app-review-radar) | Mobile app reviews, both stores in one run | $0.03 + $0.02 |
+| [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) | Google Maps listings | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
+| [Yelp Reviews Scraper](https://apify.com/om_kh/yelp-reviews-scraper) | Yelp business pages | $0.02 / actionable review alert + $0.15 / monitored subject re-checked |
+| [Trustpilot Reviews Scraper](https://apify.com/om_kh/trustpilot-reviews-scraper) | Trustpilot company pages | $0.02 / actionable review alert + $0.06 / monitored subject re-checked |
+| [G2 Software Reviews Scraper](https://apify.com/om_kh/g2-reviews-scraper) | G2 product pages (B2B software) | $0.15 / monitored subject re-checked |
+| [TripAdvisor Reviews Scraper](https://apify.com/om_kh/tripadvisor-reviews-scraper) | Hotels/restaurants/attractions | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
+| [Glassdoor Reviews Scraper](https://apify.com/om_kh/glassdoor-reviews-scraper) | Employer/workplace reviews | $0.2 / monitored subject re-checked |
+| [Amazon Reviews Scraper](https://apify.com/om_kh/amazon-reviews-scraper) | Amazon product reviews, with a review-velocity flag | $0.02 / actionable review alert + $0.45 / monitored subject re-checked |
+| [App Store & Google Play Reviews Scraper](https://apify.com/om_kh/app-store-google-play-reviews-scraper) | Mobile app reviews, both stores in one run | $0.02 / actionable review alert + $0.03 / monitored subject re-checked |
 
 Plus one companion utility, not a source:
 
 | Actor | Purpose | Pricing |
 |---|---|---|
-| [Review Cleaner & Deduplicator](https://apify.com/om_kh/vigia-reviews-delta) | Feed it review data from anywhere; get back deduped rows + a "what's new" flag | $0.02 |
+| [Review Cleaner & Deduplicator](https://apify.com/om_kh/reviews-cleaner-deduplicator) | Feed it review data from anywhere; get back deduped rows + a "what's new" flag | $0.02 / actionable review alert |
 
 ## Telling the siblings apart
 
@@ -37,7 +37,7 @@ Each platform Actor is scoped to exactly one source — pick the one matching wh
 
 ## Recommended starting point
 
-[**Google Maps Reviews Scraper**](https://apify.com/om_kh/vigia-google-review-monitor) — the broadest-coverage source (any business with a Google Maps listing). Try it: [live example](https://apify.com/om_kh/vigia-google-review-monitor/examples/vigia-google-review-monitor-quickstart).
+[**Google Maps Reviews Scraper**](https://apify.com/om_kh/google-maps-reviews-scraper) — the broadest-coverage source (any business with a Google Maps listing). Try it: [live example](https://apify.com/om_kh/google-maps-reviews-scraper/examples/vigia-google-review-monitor-quickstart).
 
 ## Workflow example
 

@@ -8,8 +8,8 @@ You want to know when a business gets a new review — not re-download the same 
 
 ## Actors used
 
-1. A source Actor from [Reviews & Reputation](../reviews-reputation.md) — e.g. [Google Maps Reviews Scraper](https://apify.com/om_kh/vigia-google-review-monitor)
-2. [Review Cleaner & Deduplicator](https://apify.com/om_kh/vigia-reviews-delta) — if you're combining review data from more than one source or need explicit dedup + delta
+1. A source Actor from [Reviews & Reputation](../reviews-reputation.md) — e.g. [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper)
+2. [Review Cleaner & Deduplicator](https://apify.com/om_kh/reviews-cleaner-deduplicator) — if you're combining review data from more than one source or need explicit dedup + delta
 
 ## Inputs
 
@@ -42,7 +42,7 @@ You want to know when a business gets a new review — not re-download the same 
 
 ## Try it live
 
-[Public Task example](https://apify.com/om_kh/vigia-google-review-monitor/examples/vigia-google-review-monitor-quickstart)
+[Public Task example](https://apify.com/om_kh/google-maps-reviews-scraper/examples/vigia-google-review-monitor-quickstart)
 
 ## Code
 

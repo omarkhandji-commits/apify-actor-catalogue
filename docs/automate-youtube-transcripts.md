@@ -18,7 +18,7 @@ curl "https://api.apify.com/v2/actor-tasks/om_kh~youtube-transcript-single-video
   -d '{"videos": ["https://www.youtube.com/watch?v=aircAruvnKk"], "maxTotalChargeUsd": 0}'
 ```
 
-Need a raw caption/subtitle track instead of prose text? Same free tier, different output shape: [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-subtitles-scraper).
+Need a raw caption/subtitle track instead of prose text? Same free tier, different output shape: [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-transcript-scraper).
 
 ## 2. Feed transcripts into AI/RAG
 
@@ -40,9 +40,9 @@ Natural next step from job #1: start with a single video on **YouTube Transcript
 
 Not transcripts — the upload signal itself, and everything downstream of a new video existing.
 
-- **Actor**: [YouTube Channel Videos Scraper](https://apify.com/om_kh/vigia-youtube-video-watch) — get notified when a channel uploads (title, URL, publish date; no transcript).
+- **Actor**: [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) — get notified when a channel uploads (title, URL, publish date; no transcript).
 - **Actor**: [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) — discover videos by topic when you don't have a specific channel in mind yet.
-- **Actor**: [YouTube Comments Scraper](https://apify.com/om_kh/vigia-youtube-comments-monitor) — the audience reaction to a specific video, a separate signal from the video's own content.
+- **Actor**: [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) — the audience reaction to a specific video, a separate signal from the video's own content.
 
 Chain it: **YouTube Channel Videos Scraper** flags a new upload → feed that video URL into **YouTube Transcript Scraper** (job #1) → you have searchable text the moment a channel publishes, with no manual step in between.
 

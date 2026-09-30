@@ -8,8 +8,8 @@ You don't just want a snapshot of a competitor's ads today — you want to know 
 
 ## Actors used
 
-1. [Facebook Ads Library Scraper](https://apify.com/om_kh/vigia-ads-library-monitor) (or [Google Ads Transparency Scraper](https://apify.com/om_kh/vigia-google-ads-transparency-monitor)) — pulls current ads
-2. [Ad Creative Change Detector](https://apify.com/om_kh/vigia-ad-creative-delta) — diffs two snapshots
+1. [Facebook Ads Library Scraper](https://apify.com/om_kh/facebook-ads-library-scraper) (or [Google Ads Transparency Scraper](https://apify.com/om_kh/google-ads-transparency-scraper)) — pulls current ads
+2. [Ad Creative Change Detector](https://apify.com/om_kh/facebook-ad-creative-tracker) — diffs two snapshots
 
 ## Inputs
 
@@ -40,7 +40,7 @@ You don't just want a snapshot of a competitor's ads today — you want to know 
 
 ## Try it live
 
-[Public Task example](https://apify.com/om_kh/vigia-ads-library-monitor/examples/vigia-ads-library-monitor-quickstart)
+[Public Task example](https://apify.com/om_kh/facebook-ads-library-scraper/examples/vigia-ads-library-monitor-quickstart)
 
 ## Code
 

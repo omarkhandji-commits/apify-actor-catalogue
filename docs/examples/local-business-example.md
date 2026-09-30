@@ -8,8 +8,8 @@ You want new leads in a category and area — not a static one-time list, but bu
 
 ## Actors used
 
-1. [Google Maps Business Scraper](https://apify.com/om_kh/vigia-local-business-monitor) — optional, for the full current picture
-2. [Google Maps New Business Scraper](https://apify.com/om_kh/vigia-maps-new-business-monitor) — required, for ongoing new-listing detection
+1. [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) — optional, for the full current picture
+2. [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) — required, for ongoing new-listing detection
 3. [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) — required, to qualify a contact
 
 ## Inputs
@@ -47,7 +47,7 @@ You want new leads in a category and area — not a static one-time list, but bu
 
 ## Try it live
 
-[Public Task example (coffee shops, Austin TX)](https://apify.com/om_kh/vigia-maps-new-business-monitor/examples/vigia-maps-new-business-monitor-quickstart)
+[Public Task example (coffee shops, Austin TX)](https://apify.com/om_kh/google-maps-new-business-scraper/examples/vigia-maps-new-business-monitor-quickstart)
 
 ## Code
 

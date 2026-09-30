@@ -8,14 +8,14 @@ Finding local businesses, watching for newly-opened ones, catching a listing's u
 
 | Actor | Job | Public Task |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/vigia-local-business-monitor) | Discover the current full set of businesses for a category+area | [single search](https://apify.com/om_kh/vigia-local-business-monitor/examples/vigia-local-business-monitor-quickstart) · [multi-location](https://apify.com/om_kh/vigia-local-business-monitor/examples/vigia-local-business-monitor-multi-location) |
-| [Google Maps New Business Scraper](https://apify.com/om_kh/vigia-maps-new-business-monitor) | Report only businesses newly detected since your last check | [quickstart](https://apify.com/om_kh/vigia-maps-new-business-monitor/examples/vigia-maps-new-business-monitor-quickstart) |
-| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/vigia-gbp-qa-monitor) | Catch new unanswered public questions on a listing | [quickstart](https://apify.com/om_kh/vigia-gbp-qa-monitor/examples/vigia-gbp-qa-monitor-quickstart) |
-| [Zillow Listings Scraper](https://apify.com/om_kh/vigia-zillow-realestate-monitor) | Home listings, price/status delta | [quickstart](https://apify.com/om_kh/vigia-zillow-realestate-monitor/examples/vigia-zillow-realestate-monitor-quickstart) |
+| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Discover the current full set of businesses for a category+area | [single search](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-quickstart) · [multi-location](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location) |
+| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Report only businesses newly detected since your last check | [quickstart](https://apify.com/om_kh/google-maps-new-business-scraper/examples/vigia-maps-new-business-monitor-quickstart) |
+| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Catch new unanswered public questions on a listing | [quickstart](https://apify.com/om_kh/google-business-profile-qa-scraper/examples/vigia-gbp-qa-monitor-quickstart) |
+| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status delta | [quickstart](https://apify.com/om_kh/zillow-listings-scraper/examples/vigia-zillow-realestate-monitor-quickstart) |
 
 ## 1. Discover businesses
 
-Start with **Google Maps Business Scraper** for the full current picture of a category+area. Two Task shapes exist depending on scope: a single search, or [multiple locations in one run](https://apify.com/om_kh/vigia-local-business-monitor/examples/vigia-local-business-monitor-multi-location) for teams tracking a franchise or several competitors at once.
+Start with **Google Maps Business Scraper** for the full current picture of a category+area. Two Task shapes exist depending on scope: a single search, or [multiple locations in one run](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location) for teams tracking a franchise or several competitors at once.
 
 ## 2. Track newly-detected businesses
 

@@ -8,7 +8,7 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 ## When to use it
 
-- You need the **transcript of one video** (free, no API key).
+- You need the **transcript of one video** (no API key).
 - You need transcripts for **every recent video on a channel**, not just one.
 - You want to **watch a channel** and get notified only of new uploads.
 - You want to **search YouTube** by topic rather than watch a known channel.
@@ -18,13 +18,15 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | One video, free, fastest way to get text out | Free |
-| [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same free transcript, structured for RAG/agent pipelines | Free |
-| [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-subtitles-scraper) | Raw caption/subtitle track instead of prose text | Free |
-| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $1/1K, 1 free |
-| [YouTube Channel Videos Scraper](https://apify.com/om_kh/vigia-youtube-video-watch) | Get notified when a channel uploads (no transcripts) | $0.05 + $0.01 |
-| [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search by topic instead of watching a known channel | $0.10 + $0.01 |
-| [YouTube Comments Scraper](https://apify.com/om_kh/vigia-youtube-comments-monitor) | Bulk-export the comments on a video | $0.08 + $0.01 |
+| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | One video, fastest way to get text out | Free (see Store page) |
+| [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same transcript, structured for RAG/agent pipelines | $0.005 / transcript |
+| [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-transcript-scraper) | Raw caption/subtitle track instead of prose text | $0.005 / transcript |
+| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $0.001 / transcript |
+| [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) | Get notified when a channel uploads (no transcripts) | $0.0005 / video |
+| [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search by topic instead of watching a known channel | $0.0005 / video |
+| [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) | Bulk-export the comments on a video | $0.0004 / comment |
+| [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) | Find channels by keyword, filter by subscribers, optional country, links and business email | $0.0005 / channel + $0.002 / enriched channel |
+| [YouTube Creator Lead Finder](https://apify.com/om_kh/youtube-creator-lead-finder) | Qualified creators in a niche with views, engagement and verified contact | $0.004 / qualified creator + $0.002 / verified contact |
 
 ## Telling the siblings apart
 
@@ -32,7 +34,7 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 ## Recommended starting point
 
-[**YouTube Transcript Scraper**](https://apify.com/om_kh/youtube-transcript-api) — free, single video, the simplest way to try this family. Try it: [live example](https://apify.com/om_kh/youtube-transcript-api/examples/youtube-transcript-single-video). Once you need more than one video, [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) is the natural next step — same underlying data, scaled to a whole channel in one run.
+[**YouTube Transcript Scraper**](https://apify.com/om_kh/youtube-transcript-api) — single video, the simplest way to try this family. Try it: [live example](https://apify.com/om_kh/youtube-transcript-api/examples/youtube-transcript-single-video). Once you need more than one video, [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) is the natural next step — same underlying data, scaled to a whole channel in one run.
 
 ## Workflow example
 

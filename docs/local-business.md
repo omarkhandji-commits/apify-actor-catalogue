@@ -17,10 +17,10 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/vigia-local-business-monitor) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/vigia-local-business-monitor/examples/vigia-local-business-monitor-multi-location)) | $0.10 + $9/1K, 10 free |
-| [Google Maps New Business Scraper](https://apify.com/om_kh/vigia-maps-new-business-monitor) | Only businesses newly detected since your last check | $0.08 + $0.01 |
-| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/vigia-gbp-qa-monitor) | Public questions asked on a listing | $0.03 + $0.015 |
-| [Zillow Listings Scraper](https://apify.com/om_kh/vigia-zillow-realestate-monitor) | Home listings, price/status changes | $0.18 + $0.01 |
+| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location)) | $0.009 / place change + $0.1 / source check |
+| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Only businesses newly detected since your last check | $0.01 / new business alert + $0.08 / monitored subject re-checked |
+| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Public questions asked on a listing | $0.015 / unanswered question alert + $0.03 / monitored subject re-checked |
+| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status changes | $0.01 / listing change + $0.18 / monitored subject re-checked |
 
 ## Telling the siblings apart
 
@@ -28,7 +28,7 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 
 ## Recommended starting point
 
-[**Google Maps Business Scraper**](https://apify.com/om_kh/vigia-local-business-monitor) for discovery, or go straight to [**Google Maps New Business Scraper**](https://apify.com/om_kh/vigia-maps-new-business-monitor) if you specifically want new-listing alerts. Try it: [live example (coffee shops, Austin TX)](https://apify.com/om_kh/vigia-maps-new-business-monitor/examples/vigia-maps-new-business-monitor-quickstart).
+[**Google Maps Business Scraper**](https://apify.com/om_kh/google-maps-business-scraper) for discovery, or go straight to [**Google Maps New Business Scraper**](https://apify.com/om_kh/google-maps-new-business-scraper) if you specifically want new-listing alerts. Try it: [live example (coffee shops, Austin TX)](https://apify.com/om_kh/google-maps-new-business-scraper/examples/vigia-maps-new-business-monitor-quickstart).
 
 ## Workflow example
 

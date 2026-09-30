@@ -17,15 +17,15 @@ Getting current job openings — or knowing when a company's hiring activity cha
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain | 3 free, then per listing |
-| [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying multiple ATS providers (Greenhouse + Lever, etc.) in one call | $2/1K |
-| [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board | $2/1K |
-| [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board | $2/1K |
-| [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board | $2/1K |
-| [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $2/1K |
-| [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.02/company |
-| [LinkedIn Jobs Scraper](https://apify.com/om_kh/vigia-linkedin-jobs-monitor) | LinkedIn's own postings, a second source | $0.06 + $0.01 |
-| [Indeed Jobs Scraper](https://apify.com/om_kh/vigia-indeed-hiring-monitor) | Indeed's own postings, a second source | $0.05 + $8/1K |
+| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain | $0.0015 / job listing |
+| [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying multiple ATS providers (Greenhouse + Lever, etc.) in one call | $0.0015 / job listing |
+| [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board | $0.0015 / job listing |
+| [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board | $0.0015 / job listing |
+| [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board | $0.0015 / job listing |
+| [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $0.0015 / job listing |
+| [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.02 / company profile |
+| [LinkedIn Jobs Scraper](https://apify.com/om_kh/linkedin-jobs-scraper) | LinkedIn's own postings, a second source | $0.01 / new job alert + $0.06 / monitored subject re-checked |
+| [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | $0.008 / new job + $0.05 / monitored subject re-checked |
 
 ## Telling the siblings apart
 
