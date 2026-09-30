@@ -1,0 +1,113 @@
+{
+  "name": "Kalshi and Polymarket odds to Slack every hour",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Kalshi and Polymarket odds to Slack every hour\n\nEvery hour, fetch the prediction markets matching your topics (Fed rate, bitcoin, elections...) on Kalshi and Polymarket - implied probability, 24h change, volume - and post them to Slack.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get prediction markets** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Slack** node - connect your Slack workspace and pick the channel (default `#markets`).\n3. Edit the JSON body of **Get prediction markets** with your own inputs, then activate the workflow.\n\n**Cost:** $0.001 per market ($1 per 1,000). `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/kalshi-polymarket-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "a6e67b23-1ccc-4a4e-a25d-fcd6e9be01f3"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 1
+            }
+          ]
+        }
+      },
+      "name": "Every hour",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "696bdcd1-66de-43ea-bfb6-6e0601cb4d12"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~kalshi-polymarket-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"searchTerms\": [\n    \"fed rate\",\n    \"bitcoin\"\n  ],\n  \"platforms\": [\n    \"kalshi\",\n    \"polymarket\"\n  ],\n  \"maxMarkets\": 10,\n  \"minVolume\": 10000,\n  \"sortBy\": \"volume24h\",\n  \"maxTotalChargeUsd\": 0.1\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get prediction markets",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "5343c00c-6d69-4329-b959-fd2eff12adc0"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "mode": "name",
+          "value": "#markets"
+        },
+        "text": "=*{{ $json.question }}* - {{ $json.outcome }}: *{{ $json.impliedProbabilityPct }}%* (24h: {{ $json.change24h }}) - {{ $json.platform }}\n{{ $json.url }}",
+        "otherOptions": {}
+      },
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        520,
+        0
+      ],
+      "id": "f457583c-732b-428f-b01c-7c8cf43db844"
+    }
+  ],
+  "connections": {
+    "Every hour": {
+      "main": [
+        [
+          {
+            "node": "Get prediction markets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get prediction markets": {
+      "main": [
+        [
+          {
+            "node": "Post to Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

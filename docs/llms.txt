@@ -99,3 +99,6 @@
 
 - [All Actors with prices](https://omarkhandji-commits.github.io/apify-actor-catalogue/all-actors.html)
 - [Apify MCP server](https://mcp.apify.com)
+
+## Automation templates
+- [n8n workflow templates](https://omarkhandji-commits.github.io/apify-actor-catalogue/workflows/): ready-to-import n8n workflows (Google Sheets, Slack) for these Actors

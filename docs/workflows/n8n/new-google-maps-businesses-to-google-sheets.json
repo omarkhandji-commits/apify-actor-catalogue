@@ -1,0 +1,126 @@
+{
+  "name": "New local businesses from Google Maps to Google Sheets (lead gen)",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## New local businesses from Google Maps to Google Sheets (lead gen)\n\nEvery Monday, find businesses that newly appeared on Google Maps for your searches (e.g. 'dentists in Miami') and add them - name, phone, website, address, rating - to a Google Sheet. Built for agencies that sell to new businesses.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Find new Google Maps businesses** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Find new Google Maps businesses** with your own inputs, then activate the workflow.\n\n**Cost:** pay per new business found; the first monitored run stores a free baseline. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/google-maps-new-business-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "f180bafd-5a2f-4483-b763-d28ab219fba1"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ],
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every Monday",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "ab2370a3-c3e4-4c6c-8490-1a4874dd3516"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~google-maps-new-business-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"searches\": [\n    \"coffee shops in Austin, TX\"\n  ],\n  \"maxPlacesPerSearch\": 50,\n  \"monitorEnabled\": true,\n  \"maxTotalChargeUsd\": 2\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Find new Google Maps businesses",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "3cfabdf0-11db-4ef9-96e6-f1ec31cbb3ea"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append leads to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "2743fe66-405b-4be6-bd12-4122eba11511"
+    }
+  ],
+  "connections": {
+    "Every Monday": {
+      "main": [
+        [
+          {
+            "node": "Find new Google Maps businesses",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find new Google Maps businesses": {
+      "main": [
+        [
+          {
+            "node": "Append leads to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

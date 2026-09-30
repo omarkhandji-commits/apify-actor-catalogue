@@ -53,7 +53,7 @@ Chain it: **YouTube Channel Videos Scraper** flags a new upload → feed that vi
 | Apify Actors (all 7 in this family) | **PUBLIC** — live on the Apify Store, linked above |
 | Public Task examples | **PUBLIC** — 4 live Tasks across this family (see links above) |
 | n8n workflows (internal) | Real-tested against live Apify data this project's own n8n instance — not a schema-only design |
-| n8n workflow template files (downloadable/importable) | **BLOCKED_WITH_REASON** — exporting them from the local n8n instance requires the n8n CLI, which could not complete an export in this environment this session (a locked/running local instance prevented `n8n list:workflow`/export from finishing). **Smallest manual action to unblock**: open the local n8n app once, select each YouTube-family workflow, use **Workflow menu → Download** to save its JSON, and drop the files into `docs/workflows/n8n/` in this repo the same way the Local/Maps family's workflows are published — no rebuild needed, just an export click per workflow. |
+| n8n workflow template files (downloadable/importable) | Available: [YouTube transcripts → Google Sheets](workflows/n8n/youtube-transcripts-to-google-sheets.json) — see [all n8n templates](workflows/index.md) |
 | Make scenarios | `PAUSED_NO_USER_ACCESS` — see the private tracker; not part of this public catalogue regardless |
 
 ## Agent / MCP

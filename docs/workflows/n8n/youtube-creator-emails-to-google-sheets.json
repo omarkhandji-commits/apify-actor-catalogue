@@ -1,0 +1,126 @@
+{
+  "name": "Find YouTube creators with business emails to Google Sheets",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Find YouTube creators with business emails to Google Sheets\n\nSearch YouTube channels by keyword, keep those with a public business email (bio or creator website, MX-checked) and store them with subscribers and country in a Google Sheet. Influencer outreach on autopilot.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Find YouTube channels with email** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Find YouTube channels with email** with your own inputs, then activate the workflow.\n\n**Cost:** $0.0005 per channel checked + $0.004 per email found. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/youtube-channel-email-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "55279ae6-aca0-44a6-afc6-bf3a1f3aae9e"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ],
+              "triggerAtHour": 9
+            }
+          ]
+        }
+      },
+      "name": "Every Monday",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "74828615-00b7-49e7-97ec-3fde3bac4075"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~youtube-channel-email-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"searchTerms\": [\n    \"home workout\"\n  ],\n  \"maxChannelsPerSearch\": 50,\n  \"minSubscribers\": 10000,\n  \"onlyWithEmail\": true,\n  \"maxTotalChargeUsd\": 1\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Find YouTube channels with email",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "1038d039-7671-428f-9503-fe0bde1cee57"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append creators to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "fb973d26-8286-42fb-b968-4f223c20cfdb"
+    }
+  ],
+  "connections": {
+    "Every Monday": {
+      "main": [
+        [
+          {
+            "node": "Find YouTube channels with email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find YouTube channels with email": {
+      "main": [
+        [
+          {
+            "node": "Append creators to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

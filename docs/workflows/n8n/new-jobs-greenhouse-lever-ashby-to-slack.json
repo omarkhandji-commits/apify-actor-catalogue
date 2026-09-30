@@ -1,0 +1,114 @@
+{
+  "name": "New jobs from Greenhouse, Lever, Ashby and Workday to Slack",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## New jobs from Greenhouse, Lever, Ashby and Workday to Slack\n\nEvery morning, get only the NEW job openings of the companies you watch, straight from their ATS (Greenhouse, Lever, Ashby, Workday, SmartRecruiters...), filtered by keyword, posted to Slack. For job seekers, recruiters and sales teams tracking hiring signals.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get new ATS jobs** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Slack** node - connect your Slack workspace and pick the channel (default `#new-jobs`). One message per new job.\n3. Edit the JSON body of **Get new ATS jobs** with your own inputs, then activate the workflow.\n\n**Cost:** pay per job delivered; with monitoring on, only new jobs are delivered and charged. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/ats-jobs-api",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "2a78b6b4-de51-4834-ac56-e81329b5c8e6"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1,
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "2995f6b2-0a24-4a46-b82c-5c44056e1af7"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~ats-jobs-api/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"greenhouseBoards\": [\n    \"stripe\",\n    \"airbnb\"\n  ],\n  \"leverCompanies\": [\n    \"spotify\"\n  ],\n  \"ashbyBoards\": [\n    \"ramp\"\n  ],\n  \"keywords\": [\n    \"engineer\"\n  ],\n  \"monitorEnabled\": true,\n  \"maxTotalChargeUsd\": 1\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get new ATS jobs",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "4c92d999-ab45-41d8-a29e-2e8cfd9a9864"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "mode": "name",
+          "value": "#new-jobs"
+        },
+        "text": "=:new: *{{ $json.title }}* at {{ $json.company }} ({{ $json.location }})\n{{ $json.source_url }}",
+        "otherOptions": {}
+      },
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        520,
+        0
+      ],
+      "id": "b0556f2f-abb1-4860-b267-117592a9fe7c"
+    }
+  ],
+  "connections": {
+    "Every morning": {
+      "main": [
+        [
+          {
+            "node": "Get new ATS jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get new ATS jobs": {
+      "main": [
+        [
+          {
+            "node": "Post to Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}
