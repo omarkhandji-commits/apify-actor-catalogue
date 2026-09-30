@@ -33,6 +33,10 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 
 **See every Actor with its current price: [All Actors](docs/all-actors.md).**
 
+## Guides
+
+Answer-first guides with code: [YouTube transcript API](docs/guides/youtube-transcript-api-python.md) · [Google Trends API](docs/guides/google-trends-api.md) · [Find YouTube channels with email](docs/guides/find-youtube-channels-with-email.md) · [Greenhouse / Lever / Workday jobs API](docs/guides/greenhouse-lever-workday-jobs-api.md) · [Google News API](docs/guides/google-news-api.md) · [Export YouTube comments](docs/guides/export-youtube-comments.md) · [Export an Instagram following list](docs/guides/export-instagram-following-list.md) · [New businesses on Google Maps](docs/guides/new-businesses-google-maps.md) — [all guides](docs/guides/index.md)
+
 ## Try a workflow, not just an Actor
 
 These walk through a real multi-step problem, start to finish:
