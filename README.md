@@ -28,6 +28,11 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 
 ## New this month
 
+- [Telegram Channel Scraper](https://apify.com/om_kh/telegram-channel-scraper) — public Telegram channel posts with text, date, views, reactions, photos, links and forwards, plus channel title and subscriber count. No login, no phone. $0.0005 per post.
+- [Snapchat Profile Scraper](https://apify.com/om_kh/snapchat-profile-scraper) — public Snapchat profiles: subscriber count, bio, website, emails in bio, verified badge, related accounts, plus every Spotlight video with views. $0.0015 per profile, $0.001 per Spotlight video.
+- [Google Play Store Scraper](https://apify.com/om_kh/google-play-store-scraper) — Google Play apps by ID, URL or keyword: exact installs, rating histogram, reviews count, **developer email**, website, price, ads and in-app purchases. $0.0015 per app.
+- [Truth Social Scraper](https://apify.com/om_kh/truth-social-scraper) — every post of public Truth Social accounts with text, date, replies, ReTruths, likes, media, hashtags and mentions, plus followers. $0.001 per post.
+- [LinkedIn Ad Library Scraper](https://apify.com/om_kh/linkedin-ad-library-scraper) — ads from LinkedIn's public Ad Library by keyword, advertiser or country: full ad text, landing page, media, run dates, **impressions by country** and targeting. $0.001 per ad.
 - [YouTube Channel Email Scraper](https://apify.com/om_kh/youtube-channel-email-scraper) — public business emails of YouTube channels from the bio or the creator's website, MX-checked, with socials and country. $0.004 per email found.
 - [SEEK & JobStreet Jobs Scraper](https://apify.com/om_kh/seek-jobstreet-jobs-scraper) — jobs from SEEK (AU, NZ), JobStreet (MY, SG, ID, PH) and JobsDB (HK, TH) with parsed salary and company profile. $0.001 per job.
 - [Kalshi & Polymarket Scraper](https://apify.com/om_kh/kalshi-polymarket-scraper) — live prediction-market odds from both exchanges in one table. $0.001 per market.
