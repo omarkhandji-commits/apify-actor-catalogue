@@ -28,6 +28,11 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 
 ## New this month
 
+- [Google Jobs Scraper](https://apify.com/om_kh/google-jobs-scraper) — Google Jobs postings for any keyword and city (LinkedIn, Indeed, Glassdoor, career sites): title, company, location, **salary min/max**, posted date, full description and every apply link. $0.003 per job.
+- [Google Hotels Scraper](https://apify.com/om_kh/google-hotels-scraper) — Google Hotels for any city and dates: nightly and total price, star class, rating, reviews, GPS, photos, plus optional **prices from every booking site** (Booking.com, Expedia, Agoda). $0.002 per property, $0.004 with every site's prices.
+- [EU Tenders Scraper (TED)](https://apify.com/om_kh/eu-tenders-scraper) — EU public tenders from TED, the official procurement journal: open calls with deadline, value, buyer email and documents, plus contract awards with **winning companies**. Filter by keyword, country, CPV, date. $0.0015 per notice.
+- [Craigslist Scraper](https://apify.com/om_kh/craigslist-scraper) — Craigslist listings from any city, category or search link: title, price, date, neighborhood, GPS, photos, optional description and attributes. Goes beyond the 360-result limit. $0.001 per listing, $0.0015 with details.
+- [Substack Scraper](https://apify.com/om_kh/substack-scraper) — Substack newsletters and posts: subscriber count, paid prices, author socials, plus posts with likes, comments, restacks and optional full text. $0.002 per newsletter, $0.0005 per post, $0.001 per post with full text.
 - [Telegram Channel Scraper](https://apify.com/om_kh/telegram-channel-scraper) — public Telegram channel posts with text, date, views, reactions, photos, links and forwards, plus channel title and subscriber count. No login, no phone. $0.0005 per post.
 - [Snapchat Profile Scraper](https://apify.com/om_kh/snapchat-profile-scraper) — public Snapchat profiles: subscriber count, bio, website, emails in bio, verified badge, related accounts, plus every Spotlight video with views. $0.0015 per profile, $0.001 per Spotlight video.
 - [Google Play Store Scraper](https://apify.com/om_kh/google-play-store-scraper) — Google Play apps by ID, URL or keyword: exact installs, rating histogram, reviews count, **developer email**, website, price, ads and in-app purchases. $0.0015 per app.
