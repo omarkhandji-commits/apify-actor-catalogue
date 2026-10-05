@@ -32,6 +32,7 @@ In Make: new scenario → **⋮** menu (top right) → **Import blueprint** → 
 | Scenario | File |
 |---|---|
 | [New Google Jobs postings (Apify + Make)](make/google-jobs.make-blueprint.json) | `google-jobs.make-blueprint.json` |
+| [New replies on a Threads post (Apify + Make)](make/threads-replies.make-blueprint.json) | `threads-replies.make-blueprint.json` |
 | [Google Trends interest (Apify + Make)](make/google-trends.make-blueprint.json) | `google-trends.make-blueprint.json` |
 | [Kalshi and Polymarket odds (Apify + Make)](make/kalshi-polymarket-odds.make-blueprint.json) | `kalshi-polymarket-odds.make-blueprint.json` |
 | [New local businesses from Google Maps (Apify + Make)](make/new-google-maps-businesses.make-blueprint.json) | `new-google-maps-businesses.make-blueprint.json` |

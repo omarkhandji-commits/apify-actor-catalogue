@@ -2,7 +2,7 @@
 
 # All om_kh Apify Actors
 
-The complete list of **86 public Actors**, with what each one returns and its current price. Every Actor runs on [Apify](https://apify.com) with no infrastructure to manage: from the browser, the API, n8n / Make / Zapier, or an AI agent through MCP (`https://mcp.apify.com`).
+The complete list of **87 public Actors**, with what each one returns and its current price. Every Actor runs on [Apify](https://apify.com) with no infrastructure to manage: from the browser, the API, n8n / Make / Zapier, or an AI agent through MCP (`https://mcp.apify.com`).
 
 ## AI & data cleaning
 
@@ -116,6 +116,7 @@ The complete list of **86 public Actors**, with what each one returns and its cu
 | [Reddit User Scraper - Posts, Comments, Karma History](https://apify.com/om_kh/reddit-user-scraper) | Scrape any Reddit user's posts and comments: title, body, URL, subreddit, score, comment count and date. Paste usernames or profile URLs, export to JSON, CSV or Excel, or call it as an API. No login or Reddit API key... | $0.15 / monitored subject re-checked |
 | [Snapchat Profile Scraper - Subscribers, Bio, Spotlight](https://apify.com/om_kh/snapchat-profile-scraper) | Scrape public Snapchat profiles: display name, subscriber count, bio, website, emails in bio, verified badge, related accounts, public story and Spotlight views. Optional: every Spotlight video with views and date. No... | $0.0015 / profile + $0.001 / spotlight video |
 | [Substack Scraper - Newsletters, Subscribers, Posts](https://apify.com/om_kh/substack-scraper) | Scrape Substack newsletters and posts: subscriber count, paid prices, author followers and socials, plus posts with likes, comments, restacks and full text. Find top newsletters by category. No login. From $0.50 per... | $0.002 / newsletter + $0.0005 / post + $0.001 / post with full text |
+| [Threads Replies Scraper - Comments, Likes, Authors](https://apify.com/om_kh/threads-replies-scraper) | Scrape every reply under any public Threads post: text, author, verified badge, likes, reply and repost counts, date, links, mentions, images and videos. Top, most recent or all, up to 10,000 per post, optional sub-replies. No login, no cookies. $2 per 1,000 replies. | $0.002 / reply (first 20 free per run) |
 | [Telegram Channel Scraper - Posts, Views, Reactions](https://apify.com/om_kh/telegram-channel-scraper) | Scrape public Telegram channels: post text, date, views, reactions, photos, links and forwards, plus channel title and subscriber count. Keyword search inside a channel and date filter. No login, no phone. $0.50 per... | $0.0005 / post |
 | [TikTok Creator Search Scraper](https://apify.com/om_kh/tiktok-creator-search-scraper) | Find TikTok creators by keyword or niche: follower band, median recent views, engagement, language and public contact. One failed handle never stops your batch. Export to JSON, CSV or Excel, or call it as an API. No... | $0.03 / qualified creator + $0.002 / verified contact |
 | [TikTok Hashtag Posts Scraper - Views, Author, Date](https://apify.com/om_kh/vigia-tiktok-hashtag-monitor) | Scrape TikTok videos for any hashtag: caption, video URL, author, views, likes, comments, shares and date, with a flag for hashtags taking off. Export to JSON, CSV or Excel, or call it as an API. No login needed. For... | $0.1 / monitored subject re-checked + $0.01 / new post |
