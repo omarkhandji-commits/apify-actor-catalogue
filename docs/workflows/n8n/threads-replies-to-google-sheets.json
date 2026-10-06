@@ -1,0 +1,123 @@
+{
+  "name": "New replies on a Threads post to Google Sheets every hour",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## New replies on a Threads post to Google Sheets\n\nOn a schedule, pull the most recent replies under the Threads posts you follow and append them to a Google Sheet: author, verified badge, text, likes, date and the reply link. No Threads login.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get Threads replies** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the first run.\n3. Put your own post links in the **Get Threads replies** node (`postUrls`).\n\nActor: https://apify.com/om_kh/threads-replies-scraper - $2 per 1,000 replies, first 20 free per run. `maxTotalChargeUsd` caps each run.",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "5cc9d0cb-ea19-4054-9f28-dd78680527f5"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 1
+            }
+          ]
+        }
+      },
+      "name": "Every hour",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a86eeac1-10f5-4cdd-882f-926cf5f2e998"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~threads-replies-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"postUrls\": [\n    \"https://www.threads.com/@zuck/post/Dd1MqfcG0aH\"\n  ],\n  \"maxRepliesPerPost\": 100,\n  \"sortOrder\": \"recent\",\n  \"includePost\": false,\n  \"maxTotalChargeUsd\": 0.5\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get Threads replies",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "376600df-fe4e-456b-b81d-175740d6297d"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "62b2bfa5-5c09-43f6-bf1f-55a1dc1b5739"
+    }
+  ],
+  "connections": {
+    "Every hour": {
+      "main": [
+        [
+          {
+            "node": "Get Threads replies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Threads replies": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

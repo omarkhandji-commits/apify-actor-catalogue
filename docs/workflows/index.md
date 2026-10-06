@@ -23,6 +23,7 @@ Slack, edit the input, activate. No token is stored in the files. `maxTotalCharg
 | [Save YouTube transcripts to Google Sheets](n8n/youtube-transcripts-to-google-sheets.json) | `youtube-transcripts-to-google-sheets.json` |
 | [Zillow price/status change -> Slack alert](n8n/zillow-price-change-alert.json) | `zillow-price-change-alert.json` |
 | [New Google Jobs postings to Google Sheets every morning](n8n/google-jobs-to-google-sheets.json) | `google-jobs-to-google-sheets.json` |
+| [New replies on a Threads post to Google Sheets every hour](n8n/threads-replies-to-google-sheets.json) | `threads-replies-to-google-sheets.json` |
 | [TikTok videos for a keyword to Google Sheets every day](n8n/tiktok-keyword-videos-to-google-sheets.json) | `tiktok-keyword-videos-to-google-sheets.json` |
 
 ## Make.com blueprints (import a file)
