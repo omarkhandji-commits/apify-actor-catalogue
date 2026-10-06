@@ -1,4 +1,4 @@
-﻿[← Catalogue home](index.md)
+[← Catalogue home](index.md)
 
 # Jobs & Hiring data
 
