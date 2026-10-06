@@ -1,15 +1,15 @@
 ---
-title: "Export YouTube Comments to CSV or JSON — Up to 5,000 per Video"
+title: "Export YouTube Comments to CSV or JSON — Up to 50,000 per Video, With Replies"
 description: "Download the comments of any YouTube video or Short with likes, reply count, author, date and hearted flag. No API key, no quota."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
 
-# Export YouTube Comments to CSV or JSON — Up to 5,000 per Video
+# Export YouTube Comments to CSV or JSON — Up to 50,000 per Video, With Replies
 
 ## How do I export all comments from a YouTube video?
 
-Use the **YouTube Comments Scraper** with one or more video URLs. It returns up to 5,000 comments per video, sorted by newest or top, with text, author, like count, reply count, date and whether the creator hearted it. Export as CSV, Excel or JSON. No YouTube API key and no quota. $0.40 per 1,000 comments.
+Use the **YouTube Comments Scraper** with one or more video URLs. It returns up to 50,000 comments per video, with their replies on request (`includeReplies`), sorted by newest or top, with an optional date limit, with text, author, like count, reply count, date and whether the creator hearted it. Export as CSV, Excel or JSON. No YouTube API key and no quota. $0.40 per 1,000 comments.
 
 **Try it:** [YouTube Comments Scraper on Apify](https://apify.com/om_kh/youtube-comments-scraper) — click *Try for free*, the input is prefilled.
 
@@ -100,5 +100,5 @@ No YouTube API quota applies.
 - [YouTube Search Scraper API - Videos, Views, $0.50/1K](https://apify.com/om_kh/vigia-youtube-search-monitor)
 
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I export all comments from a YouTube video?", "acceptedAnswer": {"@type": "Answer", "text": "Use the YouTube Comments Scraper with one or more video URLs. It returns up to 5,000 comments per video, sorted by newest or top, with text, author, like count, reply count, date and whether the creator hearted it. Export as CSV, Excel or JSON. No YouTube API key and no quota. $0.40 per 1,000 comments."}}, {"@type": "Question", "name": "Does it work on Shorts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, pass a Shorts URL or an 11-character video ID."}}, {"@type": "Question", "name": "Is there a quota?", "acceptedAnswer": {"@type": "Answer", "text": "No YouTube API quota applies."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I export all comments from a YouTube video?", "acceptedAnswer": {"@type": "Answer", "text": "Use the YouTube Comments Scraper with one or more video URLs. It returns up to 50,000 comments per video, with their replies on request (`includeReplies`), sorted by newest or top, with an optional date limit, with text, author, like count, reply count, date and whether the creator hearted it. Export as CSV, Excel or JSON. No YouTube API key and no quota. $0.40 per 1,000 comments."}}, {"@type": "Question", "name": "Does it work on Shorts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, pass a Shorts URL or an 11-character video ID."}}, {"@type": "Question", "name": "Is there a quota?", "acceptedAnswer": {"@type": "Answer", "text": "No YouTube API quota applies."}}]}
 </script>

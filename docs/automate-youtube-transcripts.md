@@ -40,9 +40,9 @@ Natural next step from job #1: start with a single video on **YouTube Transcript
 
 Not transcripts — the upload signal itself, and everything downstream of a new video existing.
 
-- **Actor**: [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) — get notified when a channel uploads (title, URL, publish date; no transcript).
-- **Actor**: [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) — discover videos by topic when you don't have a specific channel in mind yet.
-- **Actor**: [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) — the audience reaction to a specific video, a separate signal from the video's own content.
+- **Actor**: [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) — a channel's videos, Shorts and live streams, newest, most popular or oldest first, with exact views and likes, plus the channel's profile (no transcript).
+- **Actor**: [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) — discover videos, Shorts and live streams by topic, sorted by relevance, views or date, with YouTube's own filters and optional likes and subscriber counts.
+- **Actor**: [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) — the audience reaction to a specific video: up to 50,000 comments with their replies, newest or top first, with a date limit.
 
 Chain it: **YouTube Channel Videos Scraper** flags a new upload → feed that video URL into **YouTube Transcript Scraper** (job #1) → you have searchable text the moment a channel publishes, with no manual step in between.
 
