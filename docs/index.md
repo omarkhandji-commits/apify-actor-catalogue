@@ -43,7 +43,7 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 - [SEEK & JobStreet Jobs Scraper](https://apify.com/om_kh/seek-jobstreet-jobs-scraper) — jobs from SEEK (AU, NZ), JobStreet (MY, SG, ID, PH) and JobsDB (HK, TH) with parsed salary and company profile. $0.001 per job.
 - [Kalshi & Polymarket Scraper](https://apify.com/om_kh/kalshi-polymarket-scraper) — live prediction-market odds from both exchanges in one table. $0.001 per market.
 - [Google Trends Scraper](https://apify.com/om_kh/google-trends-scraper) — interest over time, average / peak / % change, interest by **country, region, city and metro**, rising and **Breakout** queries, compare mode, **custom dates**, YouTube / News / Images / Shopping trends, and every **Trending now** search of any country (4 hours to 7 days) with volume, growth and category. $0.002 per keyword.
-- [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) — find YouTube channels by keyword with subscriber filters; optional country, total views, social links and public business email. $0.0005 per channel.
+- [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) — find YouTube channels by keyword or through the videos that rank, up to 1,000 per search, with subscriber, video-count and verified filters; optional country, total views, social links and public business email. $0.0005 per channel.
 
 **See every Actor with its current price: [All Actors](all-actors.md).**
 
