@@ -18,7 +18,7 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | One video, fastest way to get text out | Free (see Store page) |
+| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | Single videos or whole channels (up to 500 videos each, date range), with views, likes, upload date and channel subscribers | Free until 12 Oct 2026, then $5 / 1,000 |
 | [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same transcript, structured for RAG/agent pipelines | $0.005 / transcript |
 | [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-transcript-scraper) | Raw caption/subtitle track instead of prose text | $0.005 / transcript |
 | [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $0.001 / transcript |
