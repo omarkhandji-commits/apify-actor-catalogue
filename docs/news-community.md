@@ -23,7 +23,7 @@ Tracking mentions of a keyword or brand across Reddit, Hacker News, Stack Overfl
 | [Hacker News Scraper](https://apify.com/om_kh/hacker-news-scraper) | Developer-community link/comment threads by keyword | $0.001 / hacker news story + $0.002 / monitored subject re-checked |
 | [Stack Overflow Scraper](https://apify.com/om_kh/stack-overflow-scraper) | Q&A-style developer discussion by tag | $0.002 / stack overflow question + $0.002 / monitored subject re-checked |
 | [Product Hunt Scraper](https://apify.com/om_kh/product-hunt-scraper) | New launches matching a topic | $0.01 / new launch alert + $0.2 / monitored subject re-checked |
-| [Google News API](https://apify.com/om_kh/google-news-scraper) | General news coverage, no API key | Free (see Store page) |
+| [Google News API](https://apify.com/om_kh/google-news-scraper) | Searches, topic sections, local news; up to 5,000 articles per search, publisher's own link, picture and summary; no API key | Free until 12 Oct 2026, then $0.002 per article |
 
 ## Telling the siblings apart
 
