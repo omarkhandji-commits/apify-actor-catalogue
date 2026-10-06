@@ -1,4 +1,4 @@
-[← Catalogue home](index.md)
+﻿[← Catalogue home](index.md)
 
 # Jobs & Hiring data
 
@@ -17,7 +17,7 @@ Getting current job openings — or knowing when a company's hiring activity cha
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain or a job-board link (20 systems), with full job description, salary and apply link | $0.0015 / job listing |
+| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain or a job-board link (24 systems), with full job description, salary and apply link | $0.0015 / job listing |
 | [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying multiple ATS providers (Greenhouse + Lever, etc.) in one call | $0.0015 / job listing |
 | [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board | $0.0015 / job listing |
 | [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board | $0.0015 / job listing |
