@@ -96,7 +96,7 @@ The complete list of **87 public Actors**, with what each one returns and its cu
 | Actor | What you get | Price |
 |---|---|---|
 | [Google Search Results Scraper - Rankings, SERP, Position](https://apify.com/om_kh/google-search-results-scraper) | Scrape Google search results for any keyword: position, title, URL, domain and snippet, and where your own site ranks. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login or Google API key... | $0.02 / source check |
-| [Google Trends Scraper - Interest, Regions, Rising Queries](https://apify.com/om_kh/google-trends-scraper) | Google Trends API for any keyword: interest over time, average, peak and % change, rising and breakout queries, top regions, compare up to 5 keywords, plus daily Trending now searches by country. $2 per 1,000... | $0.002 / keyword trend + $0.001 / trending search |
+| [Google Trends Scraper - Interest, Regions, Rising Queries](https://apify.com/om_kh/google-trends-scraper) | Google Trends for any keyword: interest over time, % change, breakout queries, interest by country, region, city and metro, custom dates, YouTube and News trends, plus every Trending now search with volume and category. $2 per 1,000 keywords. | $0.002 / keyword trend + $0.001 / trending search |
 
 ## Social media
 
@@ -133,7 +133,7 @@ The complete list of **87 public Actors**, with what each one returns and its cu
 | Actor | What you get | Price |
 |---|---|---|
 | [Booking.com Reviews Scraper - Score, Text, Guest Name](https://apify.com/om_kh/booking-com-reviews-scraper) | Booking.com reviews scraper for any hotel or stay. Give a hotel page URL and get its guest reviews back: score, review text, guest name and stay date for each, plus a fake-review velocity signal that flags sudden,... | $0.02 / actionable review alert + $0.18 / monitored subject re-checked |
-| [Google Hotels Scraper - Prices, OTA Rates, Ratings](https://apify.com/om_kh/google-hotels-scraper) | Scrape Google Hotels for any city and dates: nightly and total price, star class, rating, reviews, GPS, photos, and prices from every booking site (Booking.com, Expedia, Agoda, hotel website). Hotels and vacation... | $0.002 / property + $0.004 / property with every site's prices |
+| [Google Hotels Scraper - Prices, OTA Rates, Ratings](https://apify.com/om_kh/google-hotels-scraper) | Scrape Google Hotels for any city and dates: nightly and total price, stars, rating, review themes, amenities, nearby places, photos, plus prices from every booking site with room rates and free cancellation. Google's own sort and filters. From $2 per 1,000. | $0.002 / property + $0.004 / property with every site's prices |
 | [TripAdvisor Reviews Scraper - Rating, Text, Traveler Name](https://apify.com/om_kh/tripadvisor-reviews-scraper) | Bulk-download TripAdvisor reviews for any hotel, restaurant or attraction: rating, title, text, trip type, reviewer and date. Export to JSON, CSV or Excel, or call it as an API. No login needed. For hospitality... | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
 
 ## YouTube & Video
