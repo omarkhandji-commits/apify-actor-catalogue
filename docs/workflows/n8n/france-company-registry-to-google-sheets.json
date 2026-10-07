@@ -1,0 +1,126 @@
+{
+  "name": "French companies from the official registry to Google Sheets every tuesday",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## French companies from the official registry to Google Sheets every tuesday\n\nEvery Tuesday, search the official French registry by activity and area and get SIREN, address, officers and VAT number, and append the rows to a Google Sheet.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Search the French registry** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Search the French registry** with your own inputs, then activate the workflow.\n\n**Cost:** $4 per 1,000 companies. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/france-company-registry-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "9a2942d7-8b68-4d3e-a589-827b84b87faa"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                2
+              ],
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every Tuesday",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "64d253b1-e0bd-4814-8cea-4f75be54bde7"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~france-company-registry-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"searchQuery\": \"boulangerie\",\n  \"department\": \"69\",\n  \"maxResults\": 40,\n  \"maxTotalChargeUsd\": 0.5\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Search the French registry",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "1f07f418-f175-4db5-b3fe-3ba71e50ea93"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "2c4a8425-f4e9-4034-8382-596c1498884f"
+    }
+  ],
+  "connections": {
+    "Every Tuesday": {
+      "main": [
+        [
+          {
+            "node": "Search the French registry",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search the French registry": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

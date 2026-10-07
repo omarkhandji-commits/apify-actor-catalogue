@@ -25,6 +25,16 @@ Slack, edit the input, activate. No token is stored in the files. `maxTotalCharg
 | [New Google Jobs postings to Google Sheets every morning](n8n/google-jobs-to-google-sheets.json) | `google-jobs-to-google-sheets.json` |
 | [New replies on a Threads post to Google Sheets every hour](n8n/threads-replies-to-google-sheets.json) | `threads-replies-to-google-sheets.json` |
 | [TikTok videos for a keyword to Google Sheets every day](n8n/tiktok-keyword-videos-to-google-sheets.json) | `tiktok-keyword-videos-to-google-sheets.json` |
+| [Google Hotels prices to Google Sheets every morning](n8n/google-hotels-prices-to-google-sheets.json) | `google-hotels-prices-to-google-sheets.json` |
+| [Google Play app reviews to Google Sheets every morning](n8n/google-play-reviews-to-google-sheets.json) | `google-play-reviews-to-google-sheets.json` |
+| [LinkedIn company data to Google Sheets every tuesday](n8n/linkedin-company-data-to-google-sheets.json) | `linkedin-company-data-to-google-sheets.json` |
+| [YouTube comments to Google Sheets every morning](n8n/youtube-comments-to-google-sheets.json) | `youtube-comments-to-google-sheets.json` |
+| [YouTube search results to Google Sheets every morning](n8n/youtube-search-videos-to-google-sheets.json) | `youtube-search-videos-to-google-sheets.json` |
+| [Google News headlines to Google Sheets every morning](n8n/google-news-headlines-to-google-sheets.json) | `google-news-headlines-to-google-sheets.json` |
+| [LinkedIn ads of a competitor to Google Sheets every tuesday](n8n/linkedin-ads-of-a-competitor-to-google-sheets.json) | `linkedin-ads-of-a-competitor-to-google-sheets.json` |
+| [New Truth Social posts to Google Sheets every hour](n8n/truth-social-posts-to-google-sheets.json) | `truth-social-posts-to-google-sheets.json` |
+| [Jobs from company career sites to Google Sheets every morning](n8n/company-careers-page-jobs-to-google-sheets.json) | `company-careers-page-jobs-to-google-sheets.json` |
+| [French companies from the official registry to Google Sheets every tuesday](n8n/france-company-registry-to-google-sheets.json) | `france-company-registry-to-google-sheets.json` |
 
 ## Make.com blueprints (import a file)
 
@@ -41,5 +51,15 @@ In Make: new scenario → **⋮** menu (top right) → **Import blueprint** → 
 | [TikTok videos for a keyword (Apify + Make)](make/tiktok-keyword-videos.make-blueprint.json) | `tiktok-keyword-videos.make-blueprint.json` |
 | [Find YouTube creators with business emails (Apify + Make)](make/youtube-creator-emails.make-blueprint.json) | `youtube-creator-emails.make-blueprint.json` |
 | [Save YouTube transcripts (Apify + Make)](make/youtube-transcripts.make-blueprint.json) | `youtube-transcripts.make-blueprint.json` |
+| [Google Hotels prices (Apify + Make)](make/google-hotels-prices.make-blueprint.json) | `google-hotels-prices.make-blueprint.json` |
+| [Google Play app reviews (Apify + Make)](make/google-play-reviews.make-blueprint.json) | `google-play-reviews.make-blueprint.json` |
+| [LinkedIn company data (Apify + Make)](make/linkedin-company-data.make-blueprint.json) | `linkedin-company-data.make-blueprint.json` |
+| [YouTube comments (Apify + Make)](make/youtube-comments.make-blueprint.json) | `youtube-comments.make-blueprint.json` |
+| [YouTube search results (Apify + Make)](make/youtube-search-videos.make-blueprint.json) | `youtube-search-videos.make-blueprint.json` |
+| [Google News headlines (Apify + Make)](make/google-news-headlines.make-blueprint.json) | `google-news-headlines.make-blueprint.json` |
+| [LinkedIn ads of a competitor (Apify + Make)](make/linkedin-ads-of-a-competitor.make-blueprint.json) | `linkedin-ads-of-a-competitor.make-blueprint.json` |
+| [New Truth Social posts (Apify + Make)](make/truth-social-posts.make-blueprint.json) | `truth-social-posts.make-blueprint.json` |
+| [Jobs from company career sites (Apify + Make)](make/company-careers-page-jobs.make-blueprint.json) | `company-careers-page-jobs.make-blueprint.json` |
+| [French companies from the official registry (Apify + Make)](make/france-company-registry.make-blueprint.json) | `france-company-registry.make-blueprint.json` |
 
 Make.com scenario specs: [workflows/make](make/README.md) · Postman: [collection](postman/local-maps-collection.json) · [All Actors](../all-actors.md)

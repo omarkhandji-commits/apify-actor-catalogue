@@ -1,0 +1,124 @@
+{
+  "name": "Google News headlines to Google Sheets every morning",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Google News headlines to Google Sheets every morning\n\nEvery morning, fetch Google News headlines for your topics, with source, date, link and summary, and append the rows to a Google Sheet.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get Google News** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Get Google News** with your own inputs, then activate the workflow.\n\n**Cost:** $2 per 1,000 articles (see the Actor page). `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/google-news-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "462cecd7-ad28-4aca-9641-3dae51babf2d"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1,
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "3e9eb75b-b12a-47cb-991d-4045d6a99042"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~google-news-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"queries\": [\n    \"openai\"\n  ],\n  \"maxArticlesPerQuery\": 100,\n  \"maxTotalChargeUsd\": 0.5\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get Google News",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "377552db-bdec-47f4-af18-d232450694f5"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "4339bf16-5f21-40f9-b07d-af36a6af4f30"
+    }
+  ],
+  "connections": {
+    "Every morning": {
+      "main": [
+        [
+          {
+            "node": "Get Google News",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Google News": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

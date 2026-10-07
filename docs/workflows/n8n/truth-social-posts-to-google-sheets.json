@@ -1,0 +1,123 @@
+{
+  "name": "New Truth Social posts to Google Sheets every hour",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## New Truth Social posts to Google Sheets every hour\n\nEvery hour, fetch only the posts published since the last run on the Truth Social accounts you follow, and append the rows to a Google Sheet.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get Truth Social posts** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Get Truth Social posts** with your own inputs, then activate the workflow.\n\n**Cost:** $1 per 1,000 posts; with the option on, only new posts are charged. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/truth-social-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "e5d64039-f99b-4592-b32a-2ad69338ff03"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 1
+            }
+          ]
+        }
+      },
+      "name": "Every hour",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c561eb6f-d96c-4059-928d-d5c1d8e4678e"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~truth-social-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"accounts\": [\n    \"realDonaldTrump\"\n  ],\n  \"maxPostsPerAccount\": 60,\n  \"onlyNewPosts\": true,\n  \"maxTotalChargeUsd\": 0.5\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get Truth Social posts",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "f9f0e4bd-cf3f-4c1f-8142-ec3465d76fb2"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "b4c68e49-9ee1-4747-8035-66c7f446bddd"
+    }
+  ],
+  "connections": {
+    "Every hour": {
+      "main": [
+        [
+          {
+            "node": "Get Truth Social posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Truth Social posts": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

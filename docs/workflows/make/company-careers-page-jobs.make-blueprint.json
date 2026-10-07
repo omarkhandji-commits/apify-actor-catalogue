@@ -1,0 +1,186 @@
+{
+  "name": "Jobs from company career sites (Apify + Make)",
+  "flow": [
+    {
+      "id": 1,
+      "module": "apify:runActorNew",
+      "version": 1,
+      "mapper": {
+        "actorId": "S0Qz8dIU7aEK9dASB",
+        "runSync": true,
+        "actor_search_type": "store",
+        "maxTotalChargeUsd": "1",
+        "inputBodyS0Qz8dIU7aEK9dASB": "{\n    \"companyDomains\": [\n        \"stripe.com\",\n        \"figma.com\"\n    ]\n}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 0,
+          "y": 0
+        },
+        "restore": {
+          "expect": {
+            "actorId": {
+              "mode": "chose",
+              "label": "Company Careers Page Scraper - Jobs from Any Career Site (om_kh/careers-page-scraper)"
+            },
+            "runSync": {
+              "mode": "chose"
+            },
+            "actor_search_type": {
+              "label": "Apify Store Actors"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "__IMTCONN__",
+            "type": "account:apify2,apify",
+            "label": "Connection",
+            "required": true
+          }
+        ],
+        "expect": [
+          {
+            "name": "actor_search_type",
+            "type": "select",
+            "label": "Search Actors from",
+            "required": true,
+            "validate": {
+              "enum": [
+                "user",
+                "store"
+              ]
+            }
+          },
+          {
+            "name": "runSync",
+            "type": "boolean",
+            "label": "Run synchronously",
+            "required": true
+          },
+          {
+            "name": "actorId",
+            "type": "select",
+            "label": "Actor",
+            "required": true
+          },
+          {
+            "name": "inputBodyS0Qz8dIU7aEK9dASB",
+            "type": "text",
+            "label": "Input JSON",
+            "required": true
+          },
+          {
+            "name": "maxTotalChargeUsd",
+            "type": "number",
+            "label": "Maximum cost per run"
+          }
+        ]
+      },
+      "parameters": {}
+    },
+    {
+      "id": 2,
+      "module": "apify:fetchDatasetItems",
+      "version": 1,
+      "mapper": {
+        "type": "clean",
+        "limit": "100",
+        "format": "json",
+        "datasetId": "{{1.defaultDatasetId}}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 300,
+          "y": 0
+        },
+        "restore": {
+          "expect": {
+            "type": {
+              "mode": "chose",
+              "label": "Clean"
+            },
+            "format": {
+              "mode": "chose",
+              "label": "JSON"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "__IMTCONN__",
+            "type": "account:apify2,apify",
+            "label": "Connection",
+            "required": true
+          }
+        ],
+        "expect": [
+          {
+            "name": "datasetId",
+            "type": "text",
+            "label": "Dataset ID",
+            "required": true
+          },
+          {
+            "name": "type",
+            "type": "select",
+            "label": "Data transformation",
+            "required": true,
+            "validate": {
+              "enum": [
+                "clean",
+                "simplified",
+                "none"
+              ]
+            }
+          },
+          {
+            "name": "format",
+            "type": "select",
+            "label": "Format",
+            "required": true,
+            "validate": {
+              "enum": [
+                "json",
+                "csv",
+                "html",
+                "xml",
+                "rss",
+                "xlsx"
+              ]
+            }
+          },
+          {
+            "name": "limit",
+            "type": "uinteger",
+            "label": "Limit",
+            "validate": {
+              "max": 100000,
+              "min": 1
+            }
+          }
+        ]
+      },
+      "parameters": {}
+    }
+  ],
+  "metadata": {
+    "instant": false,
+    "version": 1,
+    "designer": {
+      "orphans": []
+    },
+    "scenario": {
+      "dlq": false,
+      "slots": null,
+      "dataloss": false,
+      "maxErrors": 3,
+      "autoCommit": true,
+      "roundtrips": 1,
+      "sequential": false,
+      "confidential": false,
+      "freshVariables": false,
+      "autoCommitTriggerLast": true
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "LinkedIn ads of a competitor to Google Sheets every tuesday",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## LinkedIn ads of a competitor to Google Sheets every tuesday\n\nEvery Tuesday, fetch the ads an advertiser runs on LinkedIn, with text, format, dates and targeting, and append the rows to a Google Sheet.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get LinkedIn ads** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Get LinkedIn ads** with your own inputs, then activate the workflow.\n\n**Cost:** $1 per 1,000 ads. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/linkedin-ad-library-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "1fa5a8fd-2345-49e6-a4e2-ccbfbdc7411e"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                2
+              ],
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every Tuesday",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "1b9562bb-a708-414a-a750-ab6aa98d6af2"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~linkedin-ad-library-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"advertisers\": [\n    \"hubspot\"\n  ],\n  \"maxAdsPerSearch\": 25,\n  \"maxTotalChargeUsd\": 0.5\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get LinkedIn ads",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "7ee0691e-3bee-4e5e-8ec9-f47ef9eb09e1"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "64cb9cb1-c0f7-491e-aa58-444f8edd9b72"
+    }
+  ],
+  "connections": {
+    "Every Tuesday": {
+      "main": [
+        [
+          {
+            "node": "Get LinkedIn ads",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get LinkedIn ads": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}
