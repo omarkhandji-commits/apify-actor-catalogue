@@ -17,8 +17,8 @@ Getting current job openings — or knowing when a company's hiring activity cha
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain or a job-board link (25 systems), with full job description, salary and apply link | $0.0015 / job listing |
-| [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying 25 ATS providers (Greenhouse, Lever, Ashby, Workday, Recruitee, Workable...) in one call, with full job description, salary and skills | $0.0015 / job listing |
+| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain or a job-board link (29 systems), with full job description, salary and apply link | $0.0015 / job listing |
+| [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying 29 ATS providers (Greenhouse, Lever, Ashby, Workday, Recruitee, Workable...) in one call, with full job description, salary and skills | $0.0015 / job listing |
 | [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board; full description, salary and skills included | $0.0015 / job listing |
 | [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board; full description, salary and skills included | $0.0015 / job listing |
 | [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board; full description, salary and skills included | $0.0015 / job listing |
