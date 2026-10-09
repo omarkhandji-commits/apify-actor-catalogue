@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Coles Australia Scraper - Prices, Specials, Barcodes](https://apify.com/om_kh/coles-australia-scraper): Scrape Coles supermarket (Australia): shelf price, was-price, specials, unit price, availability and aisle from any search, aisle, link or the specials page. Per-store prices, brand and dietary filters, sort by unit price, optional barcode, ingredients and nutrition. No login. $1 per 1,000 products, no start fee.
 - [How do I get the transcript of a YouTube video with an API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/youtube-transcript-api-python.html): Get the transcript of any YouTube video as text, timestamped segments, SRT, VTT or RAG chunks from Python, JavaScript or cURL. No YouTube API key.
 - [Is there a Google Trends API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/google-trends-api.html): Unofficial Google Trends API: interest over time, average, peak, % change, top regions, rising and breakout queries, and daily trending searches, as JSON or CSV.
 - [How do I find YouTube influencers in a niche with their email?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/find-youtube-channels-with-email.html): Search YouTube channels by keyword, filter by subscriber count and country, and get social links and public business emails for influencer outreach.
