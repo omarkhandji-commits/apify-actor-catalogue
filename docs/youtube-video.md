@@ -18,10 +18,10 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | Single videos or whole channels (up to 500 videos each, date range), with views, likes, upload date and channel subscribers | Free until 12 Oct 2026, then $5 / 1,000 |
+| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | Single videos or whole channels (up to 500 videos each, date range), with views, likes, upload date and channel subscribers | $5 / 1,000 |
 | [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same transcript, structured for RAG/agent pipelines | $0.005 / transcript |
 | [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-transcript-scraper) | Raw caption/subtitle track instead of prose text | $0.005 / transcript |
-| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $0.001 / transcript |
+| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $0.005 / transcript |
 | [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) | A channel's videos, Shorts and live streams, by date or popularity, with channel info | $0.0005 / video |
 | [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search videos, Shorts and live streams by topic, with filters and sort | $0.0005 / video |
 | [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) | Bulk-export a video's comments and replies (up to 50,000) | $0.0004 / comment |
