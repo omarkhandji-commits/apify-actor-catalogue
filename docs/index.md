@@ -20,9 +20,9 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 | [Reviews & Reputation](reviews-reputation.md) | Monitor reviews across review platforms, catch what's new | [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) |
 | [YouTube & Video](youtube-video.md) | Turn videos into transcripts and text for AI/RAG pipelines | [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) |
 | [Social Monitoring](social-monitoring.md) | Track accounts, keywords, and hashtags across social platforms | $0.001 / post (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
-| [Local Business](local-business.md) | Discover and monitor local businesses on Google Maps | [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) |
+| [Local Business](local-business.md) | Discover and monitor local businesses on Google Maps | $0.009 / place (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
 | [Ecommerce & Pricing](ecommerce-pricing.md) | Track prices, stock, and marketplace listings | [Amazon Price & Stock Scraper](https://apify.com/om_kh/amazon-price-stock-tracker) |
-| [Ads & Competitive Intel](ads-competitive-intelligence.md) | See what competitors are advertising, and what changed | [Facebook Ads Library Scraper](https://apify.com/om_kh/facebook-ads-library-scraper) |
+| [Ads & Competitive Intel](ads-competitive-intelligence.md) | See what competitors are advertising, and what changed | $0.013 / ad (+ $0.45 / scheduled monitoring check, only when monitoring is on) |
 | [News & Community](news-community.md) | Monitor Reddit, Hacker News, Stack Overflow, Product Hunt, Google News | [Reddit Posts & Comments Scraper](https://apify.com/om_kh/reddit-posts-comments-scraper) |
 | [Leads & Verification](leads-verification.md) | Turn discovered businesses/companies into verified contacts | [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) |
 

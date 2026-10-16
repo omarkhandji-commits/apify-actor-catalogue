@@ -17,10 +17,10 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location)) | $0.009 / place change + $0.1 / source check |
-| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Only businesses newly detected since your last check | $0.01 / new business alert + $0.08 / monitored subject re-checked |
-| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Public questions asked on a listing | $0.015 / unanswered question alert + $0.03 / monitored subject re-checked |
-| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status changes | $0.01 / listing change + $0.18 / monitored subject re-checked |
+| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location)) | $0.009 / place (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
+| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Only businesses newly detected since your last check | $0.01 / new business (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
+| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Public questions asked on a listing | $0.0075 / unanswered question (+ $0.03 / scheduled monitoring check, only when monitoring is on) |
+| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status changes | $0.005 / listing (+ $0.18 / scheduled monitoring check, only when monitoring is on) |
 
 ## Telling the siblings apart
 

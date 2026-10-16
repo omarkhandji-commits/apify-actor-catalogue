@@ -8,10 +8,10 @@ Finding local businesses, watching for newly-opened ones, catching a listing's u
 
 | Actor | Job | Public Task |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Discover the current full set of businesses for a category+area | [single search](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-quickstart) · [multi-location](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location) |
-| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Report only businesses newly detected since your last check | [quickstart](https://apify.com/om_kh/google-maps-new-business-scraper/examples/vigia-maps-new-business-monitor-quickstart) |
-| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Catch new unanswered public questions on a listing | [quickstart](https://apify.com/om_kh/google-business-profile-qa-scraper/examples/vigia-gbp-qa-monitor-quickstart) |
-| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status delta | [quickstart](https://apify.com/om_kh/zillow-listings-scraper/examples/vigia-zillow-realestate-monitor-quickstart) |
+| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Discover the current full set of businesses for a category+area | $0.009 / place (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
+| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Report only businesses newly detected since your last check | $0.01 / new business (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
+| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Catch new unanswered public questions on a listing | $0.0075 / unanswered question (+ $0.03 / scheduled monitoring check, only when monitoring is on) |
+| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status delta | $0.005 / listing (+ $0.18 / scheduled monitoring check, only when monitoring is on) |
 
 ## 1. Discover businesses
 

@@ -15,9 +15,9 @@ Seeing what a competitor is currently advertising — and, more usefully, what c
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Facebook Ads Library Scraper](https://apify.com/om_kh/facebook-ads-library-scraper) | Current Facebook/Instagram ad creatives for a Page | $0.02 / actionable ad change + $0.45 / monitored subject re-checked |
-| [Google Ads Transparency Scraper](https://apify.com/om_kh/google-ads-transparency-scraper) | Current Google ad creatives for an advertiser | $0.02 / actionable ad change + $0.1 / monitored subject re-checked |
-| [Ad Creative Change Detector](https://apify.com/om_kh/facebook-ad-creative-tracker) | Diff two ad-data snapshots — new/removed/changed | $0.02 / actionable ad change |
+| [Facebook Ads Library Scraper](https://apify.com/om_kh/facebook-ads-library-scraper) | Current Facebook/Instagram ad creatives for a Page | $0.0125 / ad (+ $0.45 / scheduled monitoring check, only when monitoring is on) |
+| [Google Ads Transparency Scraper](https://apify.com/om_kh/google-ads-transparency-scraper) | Current Google ad creatives for an advertiser | $0.0025 / ad (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
+| [Ad Creative Change Detector](https://apify.com/om_kh/facebook-ad-creative-tracker) | Diff two ad-data snapshots — new/removed/changed | $0.002 / ad |
 
 ## Telling the siblings apart
 
