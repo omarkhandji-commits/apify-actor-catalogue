@@ -16,17 +16,17 @@ Tracking a specific account, or searching a platform for a keyword or hashtag, a
 
 | Actor | Platform | Tracks | Pricing |
 |---|---|---|---|
-| [Instagram Profile Scraper](https://apify.com/om_kh/instagram-profile-scraper) | Instagram | Account | $0.01 / new post alert + $0.08 / monitored subject re-checked |
-| [Instagram Hashtag Monitor](https://apify.com/om_kh/instagram-hashtag-scraper) | Instagram | Hashtag | $0.01 / new post alert + $0.1 / monitored subject re-checked |
-| [TikTok Profile Scraper](https://apify.com/om_kh/tiktok-profile-scraper) | TikTok | Account | $0.01 / new video alert + $0.08 / monitored subject re-checked |
-| [TikTok Keyword Search & Monitor](https://apify.com/om_kh/tiktok-search-scraper) | TikTok | Keyword | $0.1 / source check + $0.01 / new video |
-| [TikTok Hashtag Posts Scraper](https://apify.com/om_kh/vigia-tiktok-hashtag-monitor) | TikTok | Hashtag/campaign | $0.1 / monitored subject re-checked + $0.01 / new post |
+| [Instagram Profile Scraper](https://apify.com/om_kh/instagram-profile-scraper) | Instagram | Account | $0.006 / post (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
+| [Instagram Hashtag Monitor](https://apify.com/om_kh/instagram-hashtag-scraper) | Instagram | Hashtag | $0.006 / post (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
+| [TikTok Profile Scraper](https://apify.com/om_kh/tiktok-profile-scraper) | TikTok | Account | $0.005 / video (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
+| [TikTok Keyword Search & Monitor](https://apify.com/om_kh/tiktok-search-scraper) | TikTok | Keyword | $0.005 / video (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
+| [TikTok Hashtag Posts Scraper](https://apify.com/om_kh/vigia-tiktok-hashtag-monitor) | TikTok | Hashtag/campaign | $0.005 / video (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
 | [X (Twitter) Profile Scraper](https://apify.com/om_kh/twitter-x-profile-scraper) | X | Account | $0.05 / monitored subject re-checked |
-| [X (Twitter) Search Scraper](https://apify.com/om_kh/twitter-x-search-scraper) | X | Keyword | $0.01 / new mention alert + $0.05 / source check |
+| [X (Twitter) Search Scraper](https://apify.com/om_kh/twitter-x-search-scraper) | X | Keyword | $0.001 / post (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
 | [Facebook Page Scraper](https://apify.com/om_kh/facebook-page-scraper) | Facebook | Page profile/followers | $0.01 / profile change + $0.35 / monitored subject re-checked |
-| [Facebook Page Posts Scraper](https://apify.com/om_kh/facebook-page-posts-scraper) | Facebook | Page posts | $0.01 / new post alert + $0.12 / source check |
+| [Facebook Page Posts Scraper](https://apify.com/om_kh/facebook-page-posts-scraper) | Facebook | Page posts | $0.01 / post (+ $0.12 / scheduled monitoring check, only when monitoring is on) |
 | [LinkedIn Company Scraper](https://apify.com/om_kh/linkedin-company-scraper) | LinkedIn | Company page | $0.02 / company change + $0.1 / monitored subject re-checked |
-| [Twitch Clips Scraper](https://apify.com/om_kh/twitch-clips-scraper) | Twitch | Channel/game clips | $0.01 / new clip alert + $0.12 / monitored subject re-checked |
+| [Twitch Clips Scraper](https://apify.com/om_kh/twitch-clips-scraper) | Twitch | Channel/game clips | $0.005 / clip (+ $0.12 / scheduled monitoring check, only when monitoring is on) |
 | [Instagram & TikTok Profile Scraper](https://apify.com/om_kh/instagram-tiktok-profile-scraper) | Instagram/TikTok | Growth delta (follower/engagement trend) | $0.01 / profile change + $0.12 / monitored subject re-checked |
 
 ## Telling the siblings apart

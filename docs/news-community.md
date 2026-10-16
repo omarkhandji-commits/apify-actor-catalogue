@@ -20,9 +20,9 @@ Tracking mentions of a keyword or brand across Reddit, Hacker News, Stack Overfl
 | [Reddit Posts & Comments Scraper](https://apify.com/om_kh/reddit-posts-comments-scraper) | Keyword search across all of Reddit | $0.15 / monitored subject re-checked |
 | [Reddit Subreddit Posts & Comments Scraper](https://apify.com/om_kh/reddit-subreddit-scraper) | One specific subreddit you already follow | $0.15 / monitored subject re-checked |
 | [Reddit User Posts & Comments Scraper](https://apify.com/om_kh/reddit-user-scraper) | One specific Reddit account's history | $0.15 / monitored subject re-checked |
-| [Hacker News Scraper](https://apify.com/om_kh/hacker-news-scraper) | Developer-community link/comment threads by keyword | $0.001 / hacker news story + $0.002 / monitored subject re-checked |
-| [Stack Overflow Scraper](https://apify.com/om_kh/stack-overflow-scraper) | Q&A-style developer discussion by tag | $0.002 / stack overflow question + $0.002 / monitored subject re-checked |
-| [Product Hunt Scraper](https://apify.com/om_kh/product-hunt-scraper) | New launches matching a topic | $0.01 / new launch alert + $0.2 / monitored subject re-checked |
+| [Hacker News Scraper](https://apify.com/om_kh/hacker-news-scraper) | Developer-community link/comment threads by keyword | $0.001 / story or comment (+ $0.002 / scheduled monitoring check, only when monitoring is on) |
+| [Stack Overflow Scraper](https://apify.com/om_kh/stack-overflow-scraper) | Q&A-style developer discussion by tag | $0.002 / question (+ $0.002 / scheduled monitoring check, only when monitoring is on) |
+| [Product Hunt Scraper](https://apify.com/om_kh/product-hunt-scraper) | New launches matching a topic | $0.0075 / launch (+ $0.2 / scheduled monitoring check, only when monitoring is on) |
 | [Google News API](https://apify.com/om_kh/google-news-scraper) | Searches, topic sections, local news; up to 5,000 articles per search, publisher's own link, picture and summary; no API key | $0.002 per article |
 
 ## Telling the siblings apart

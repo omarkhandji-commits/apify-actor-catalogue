@@ -19,7 +19,7 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 | [Jobs & Hiring](jobs.md) | Get current job listings or hiring signals for any company, across any ATS | [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) |
 | [Reviews & Reputation](reviews-reputation.md) | Monitor reviews across review platforms, catch what's new | [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) |
 | [YouTube & Video](youtube-video.md) | Turn videos into transcripts and text for AI/RAG pipelines | [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) |
-| [Social Monitoring](social-monitoring.md) | Track accounts, keywords, and hashtags across social platforms | [X (Twitter) Search Scraper](https://apify.com/om_kh/twitter-x-search-scraper) |
+| [Social Monitoring](social-monitoring.md) | Track accounts, keywords, and hashtags across social platforms | $0.001 / post (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
 | [Local Business](local-business.md) | Discover and monitor local businesses on Google Maps | [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) |
 | [Ecommerce & Pricing](ecommerce-pricing.md) | Track prices, stock, and marketplace listings | [Amazon Price & Stock Scraper](https://apify.com/om_kh/amazon-price-stock-tracker) |
 | [Ads & Competitive Intel](ads-competitive-intelligence.md) | See what competitors are advertising, and what changed | [Facebook Ads Library Scraper](https://apify.com/om_kh/facebook-ads-library-scraper) |
