@@ -1,9 +1,10 @@
 # om_kh Apify Actors
 
-> 89 ready-to-run data Actors on Apify by om_kh: YouTube transcripts, comments and channel search, Google Trends, Google News, company job listings from ATS (Greenhouse, Lever, Ashby, Workday), reviews, social profiles, Google Maps, e-commerce and ad libraries. Pay per result. Callable from the Apify API, n8n/Make/Zapier, or any MCP client via https://mcp.apify.com.
+> 90 ready-to-run data Actors on Apify by om_kh: YouTube transcripts, comments and channel search, Google Trends, Google News, company job listings from ATS (Greenhouse, Lever, Ashby, Workday), reviews, social profiles, Google Maps, e-commerce and ad libraries. Pay per result. Callable from the Apify API, n8n/Make/Zapier, or any MCP client via https://mcp.apify.com.
 
 ## Guides
 
+- [How do I scrape AliExpress search results with real prices?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/aliexpress-search-api.html): Get AliExpress products for any keyword with the seller's real price, units sold, rating, Choice flag and delivery estimate, as JSON or CSV. No login.
 - [How do I get 11st (11번가) Korea product prices with an API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/11st-korea-product-api.html): Get product prices, sellers, sales counts and ratings from 11st, a top South Korean marketplace, as JSON or CSV for any search. No login.
 - [How do I get the transcript of a YouTube video with an API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/youtube-transcript-api-python.html): Get the transcript of any YouTube video as text, timestamped segments, SRT, VTT or RAG chunks from Python, JavaScript or cURL. No YouTube API key.
 - [Is there a Google Trends API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/google-trends-api.html): Unofficial Google Trends API: interest over time, average, peak, % change, top regions, rising and breakout queries, and daily trending searches, as JSON or CSV.
@@ -19,6 +20,7 @@
 
 ## Actors
 
+- [AliExpress (速卖通) Search Scraper - Real Prices, Units Sold](https://apify.com/om_kh/aliexpress-search-scraper): Scrape AliExpress search results for any keyword: the seller's real price (not the new-shopper teaser shown to logged-out visitors), list price, discount, rating, units sold, Choice flag, delivery estimate and badges, ads flagged. Filters on price, rating and units sold; up to 3,000 products per search. No login. $3 per 1,000 products, first 10 per run free.
 - [11st (11번가) Korea Product Scraper - Prices, Sales](https://apify.com/om_kh/11st-korea-product-scraper): Scrape 11st (11번가), one of South Korea's largest marketplaces: price in won, list price, discount, brand, seller, sales count, rating, review count, delivery, sold-out and lowest-price flags for any search, in Korean or English. 7 sort orders, price filter, ads flagged. No login. $4 per 1,000 products, first 10 per run free.
 - [Coles Australia Scraper - Prices, Specials, Barcodes](https://apify.com/om_kh/coles-australia-scraper): Scrape Coles supermarket (Australia): shelf price, was-price, specials, unit price, availability and aisle from any search, aisle, link or the specials page. Per-store prices, brand and dietary filters, sort by unit price, optional barcode, ingredients and nutrition. No login. $1 per 1,000 products, no start fee.
 - [YouTube Transcript Scraper - Full Text, Timestamps, Language](https://apify.com/om_kh/youtube-transcript-api): YouTube transcript API for single videos and whole channels: full text, timestamped segments, views, likes, comments, upload date and channel subscribers. Optional SRT/VTT and RAG chunks. Up to 1,000 videos per run. $5 per 1,000 videos; failed videos never charged.
