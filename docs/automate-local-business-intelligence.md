@@ -2,7 +2,7 @@
 
 # Automate local business intelligence with Apify
 
-Finding local businesses, watching for newly-opened ones, catching a listing's unanswered public questions, and tracking home-listing price changes — then turning any of that into a qualified contact — usually means stitching together several manual checks. This guide covers the whole Local/Maps family as one connected workflow, not four separate tools.
+Finding local businesses, watching for newly listed ones, catching a listing's unanswered public questions, and tracking home-listing price changes — then turning any of that into a qualified contact — usually means stitching together several manual checks. This guide covers the whole Local/Maps family as one connected workflow, not four separate tools.
 
 ## The Actors
 

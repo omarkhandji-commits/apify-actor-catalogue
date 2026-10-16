@@ -1,15 +1,17 @@
 ---
-title: "Find Newly Opened Businesses on Google Maps by City"
+title: "Find New Businesses on Google Maps by City"
 description: "Get businesses that newly appeared on Google Maps for any category and city — name, address, rating, categories — for local B2B lead generation."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
 
-# Find Newly Opened Businesses on Google Maps by City
+# Find New Businesses on Google Maps by City
 
 ## How do I find new businesses that just opened in my city?
 
 Use **New Business Leads — New Google Maps Listings**. Give it searches like 'coffee shops in Austin, TX'. The first run returns the full current list; with monitoring on and a schedule, later runs return **only businesses that newly appeared**. That is the moment new owners buy POS systems, insurance, marketing and supplies.
+
+"New" means a listing that was not there at your previous check: usually a recent opening, sometimes an older business that just created or renamed its listing. Google Maps gives no opening date, so none is invented.
 
 **Try it:** [New Business Leads — Google Maps on Apify](https://apify.com/om_kh/google-maps-new-business-scraper) — click *Try for free*, the input is prefilled.
 
