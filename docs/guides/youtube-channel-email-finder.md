@@ -1,6 +1,6 @@
 ---
 title: "YouTube Channel Email Finder — Business Emails of Creators"
-description: "Get the public business email of YouTube channels from the channel bio or the creator's website, MX-checked, with socials, country and subscribers."
+description: "Get the public business email of YouTube channels from the bio, the creator's website and link page, or their latest video descriptions, MX-checked, with socials, country and subscribers."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
@@ -9,7 +9,9 @@ description: "Get the public business email of YouTube channels from the channel
 
 ## How do I find the email address of a YouTube channel?
 
-Use the **YouTube Channel Email Scraper** with channel URLs, @handles or keywords. For each channel it reads the business email written in the channel description; if there is none, it opens the creator's own website (home and /contact page). Every email is checked against its domain's mail server. It also flags channels whose email is hidden behind YouTube's "View email address" button (never bypassed). $0.004 per email found + $0.0005 per channel checked.
+Use the **YouTube Channel Email Scraper** with channel URLs, @handles or keywords. For each channel it reads the business email written in the channel description; if there is none, it opens the creator's own website (contact, about and legal pages) and link-in-bio page, then the descriptions of the 5 latest videos. Every email is checked against its domain's mail server. Sponsor and affiliate links are skipped. It also flags channels whose email is hidden behind YouTube's "View email address" button (never bypassed). $0.004 per email found + $0.0005 per channel checked.
+
+**Measured on 2026-10-17:** 59 channels (home workout, personal finance, indie game dev, vegan cooking; 10k-500k subscribers): an email for **33 (56%)**, all with a working mail server, in 2 min 58 s for $0.15. The best rival we tested found 29, 21 of its 44 emails flagged risky or invalid. Same input: [youtube-email-59-channels-2026-10-17.json](../benchmarks/youtube-email-59-channels-2026-10-17.json).
 
 **Try it:** [YouTube Channel Email Scraper on Apify](https://apify.com/om_kh/youtube-channel-email-scraper) — click *Try for free*, the input is prefilled.
 
@@ -68,7 +70,7 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~youtube-channel-email-scraper/
 - `title`
 - `handle`
 - `email`
-- `emailFoundIn` (channel_bio / website)
+- `emailFoundIn` (channel_bio / website / video_description)
 - `emailVerification` (mx_valid / published)
 - `hasHiddenEmail`
 - `subscribers`
@@ -95,7 +97,7 @@ The agent sends the same JSON input and gets the rows back.
 ## FAQ
 
 **Are emails guessed?**  
-No. Only emails the creator publishes in the bio or on their own website.
+No. Only emails the creator publishes in the bio, on their own website or link page, or under their videos.
 
 **What does hasHiddenEmail mean?**  
 The channel shares an email only through YouTube's protected button, which needs a signed-in human.
@@ -107,5 +109,5 @@ The channel shares an email only through YouTube's protected button, which needs
 - [Business Email Finder API - Verify, Score, Confidence](https://apify.com/om_kh/vigia-lead-quality-api)
 
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I find the email address of a YouTube channel?", "acceptedAnswer": {"@type": "Answer", "text": "Use the YouTube Channel Email Scraper with channel URLs, @handles or keywords. For each channel it reads the business email written in the channel description; if there is none, it opens the creator's own website (home and /contact page). Every email is checked against its domain's mail server. It also flags channels whose email is hidden behind YouTube's \"View email address\" button (never bypassed). $0.004 per email found + $0.0005 per channel checked."}}, {"@type": "Question", "name": "Are emails guessed?", "acceptedAnswer": {"@type": "Answer", "text": "No. Only emails the creator publishes in the bio or on their own website."}}, {"@type": "Question", "name": "What does hasHiddenEmail mean?", "acceptedAnswer": {"@type": "Answer", "text": "The channel shares an email only through YouTube's protected button, which needs a signed-in human."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I find the email address of a YouTube channel?", "acceptedAnswer": {"@type": "Answer", "text": "Use the YouTube Channel Email Scraper with channel URLs, @handles or keywords. For each channel it reads the business email written in the channel description; if there is none, it opens the creator's own website (contact, about and legal pages) and link-in-bio page, then the descriptions of the 5 latest videos. Every email is checked against its domain's mail server. Sponsor and affiliate links are skipped. It also flags channels whose email is hidden behind YouTube's \"View email address\" button (never bypassed). $0.004 per email found + $0.0005 per channel checked."}}, {"@type": "Question", "name": "Are emails guessed?", "acceptedAnswer": {"@type": "Answer", "text": "No. Only emails the creator publishes in the bio, on their own website or link page, or under their videos."}}, {"@type": "Question", "name": "What does hasHiddenEmail mean?", "acceptedAnswer": {"@type": "Answer", "text": "The channel shares an email only through YouTube's protected button, which needs a signed-in human."}}]}
 </script>
