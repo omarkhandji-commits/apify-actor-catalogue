@@ -11,7 +11,7 @@ description: "Get the public business email of YouTube channels from the bio, th
 
 Use the **YouTube Channel Email Scraper** with channel URLs, @handles or keywords. For each channel it reads the business email written in the channel description; if there is none, it opens the creator's own website (contact, about and legal pages) and link-in-bio page, then the descriptions of the 5 latest videos. Every email is checked against its domain's mail server. Sponsor and affiliate links are skipped. It also flags channels whose email is hidden behind YouTube's "View email address" button (never bypassed). $0.004 per email found + $0.0005 per channel checked.
 
-**Measured on 2026-10-17:** 59 channels (home workout, personal finance, indie game dev, vegan cooking; 10k-500k subscribers): an email for **33 (56%)**, all with a working mail server, in 2 min 58 s for $0.15. The best rival we tested found 29, 21 of its 44 emails flagged risky or invalid. Same input: [youtube-email-59-channels-2026-10-17.json](../benchmarks/youtube-email-59-channels-2026-10-17.json).
+**Measured on 2026-10-17:** 59 channels (home workout, personal finance, indie game dev, vegan cooking; 10k-500k subscribers): an email for **33 (56%)**, all with a working mail server, in 2 min 58 s for $0.15. The best rival we tested found 29, 21 of its 44 emails flagged risky or invalid. Same input: [youtube-email-59-channels-2026-10-17.json](../benchmarks/youtube-email-59-channels-2026-10-17.json). Full comparison: [Best YouTube email scraper, tested](best-youtube-email-scraper.md).
 
 **Try it:** [YouTube Channel Email Scraper on Apify](https://apify.com/om_kh/youtube-channel-email-scraper) — click *Try for free*, the input is prefilled.
 
