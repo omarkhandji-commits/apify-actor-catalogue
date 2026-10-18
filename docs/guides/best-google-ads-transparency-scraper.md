@@ -37,7 +37,7 @@ Store figures read on 2026-10-17.
 |---|---|---|---|
 | scrapesage / Google Ads Transparency Scraper | 1,091 | 5.0 (1 review) | $2 per 1,000 ads + $3 per 1,000 details |
 | solidcode / Ads Transparency Scraper | 581 | 1.9 (4 reviews) | $1.50 per 1,000 ads + $0.001 per run |
-| **om_kh / Google Ads Transparency Scraper** | new | — | **$2.50 per 1,000 ads, details and text included** |
+| **om_kh / Google Ads Transparency Scraper** | new | — | **$2.50 per 1,000 ads, $1.40 from 2026-11-17, details and text included** |
 
 ## Which one should I pick?
 

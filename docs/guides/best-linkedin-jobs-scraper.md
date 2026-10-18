@@ -35,12 +35,12 @@ Store figures read on 2026-10-17. Free-plan prices.
 | curious_coder / LinkedIn Jobs Scraper | 16,490 | 4.5 (142 reviews) | $2 per 1,000 jobs |
 | valig / LinkedIn Jobs Scraper | 5,570 | 4.7 (26 reviews) | $0.40 per 1,000 jobs + $0.001 per run |
 | bebity / LinkedIn Jobs Scraper | 5,537 | 4.3 (72 reviews) | $1.50 per 1,000 jobs, company data extra |
-| **om_kh / LinkedIn Jobs Scraper** | new | — | $2.50 per 1,000 jobs, details included |
+| **om_kh / LinkedIn Jobs Scraper** | new | — | $2.50 per 1,000 jobs, **$0.35 from 2026-11-17**, details included |
 
 ## Which one should I pick?
 
 - **Salary research, job boards, recruiting dashboards:** you need pay as numbers. In this test only the [LinkedIn Jobs Scraper (om_kh)](https://apify.com/om_kh/linkedin-jobs-scraper) returned it.
-- **The lowest price per job:** valig was the cheapest on the Store that day.
+- **The lowest price per job:** valig was the cheapest on the Store that day; from 2026-11-17 the om_kh scraper costs $0.35 per 1,000 jobs, under valig's $0.40.
 
 ## Does it work with n8n, Make or an AI agent?
 
