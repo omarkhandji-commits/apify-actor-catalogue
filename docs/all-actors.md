@@ -99,7 +99,7 @@ The complete list of **90 public Actors**, with what each one returns and its cu
 | Actor | What you get | Price |
 |---|---|---|
 | [Google Search Results Scraper - Rankings, SERP, Position](https://apify.com/om_kh/google-search-results-scraper) | Scrape Google search results for any keyword: position, title, URL, domain and snippet, and where your own site ranks. No login or Google API key needed. For SEO rank checks, keyword research and competitor analysis. $7 per 1,000 keywords from 31 Oct 2026. | $0.007 / keyword checked from 31 Oct 2026 (+ $0.02 / scheduled monitoring check, only when monitoring is on) |
-| [Google Trends Scraper - Interest, Regions, Queries, $2/1K](https://apify.com/om_kh/google-trends-scraper) | Google Trends scraper: interest over time, % change, breakout queries, interest by country, region, city and metro, YouTube and News trends, Trending now with volume. Up to 1,000 keywords per run, from a list or a Google Sheet. $2 per 1,000 keywords, no start fee, failed keywords never charged. | $0.002 / keyword trend + $0.001 / trending search |
+| [Google Trends Scraper - Interest, Regions, Queries, $2/1K](https://apify.com/om_kh/google-trends-scraper) | Google Trends scraper that does not time out: 100% of runs succeeded in the last 30 days. Interest over time, % change, breakout queries, interest by country, region, city and metro, YouTube and News, Trending now. Up to 1,000 keywords per run. $2 per 1,000 keywords, no start fee. | $0.002 / keyword trend + $0.001 / trending search |
 
 ## Social media
 
