@@ -24,7 +24,7 @@ Use the **[Website Screenshot API (om_kh)](https://apify.com/om_kh/website-scree
 |---|---|
 | Viewport or element screenshot | $2.50 |
 | Full-page screenshot or PDF | $4.00 |
-| Run start | $0.001 per run |
+| Run start | $0.001 per GB of run memory ($0.004 at the default 4 GB) |
 
 Other paid screenshot Actors in the Store on 2026-10-18: moonweil/url-screenshot-api $4 per 1,000 plus $0.001 per run, i-scraper/website-screenshot $6 per 1,000. apify/screenshot-url is a free Actor where you pay the platform usage.
 
