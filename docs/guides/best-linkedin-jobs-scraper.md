@@ -35,6 +35,9 @@ Store figures read on 2026-10-17. Free-plan prices.
 | curious_coder / LinkedIn Jobs Scraper | 16,490 | 4.5 (142 reviews) | $2 per 1,000 jobs |
 | valig / LinkedIn Jobs Scraper | 5,570 | 4.7 (26 reviews) | $0.40 per 1,000 jobs + $0.001 per run |
 | bebity / LinkedIn Jobs Scraper | 5,537 | 4.3 (72 reviews) | $1.50 per 1,000 jobs, company data extra |
+| fantastic-jobs / Advanced LinkedIn Job Search API | 1,911 | 2.9 (20 reviews) | $5 per 1,000 jobs + $0.01 per run |
+| worldunboxer / Rapid LinkedIn Jobs Scraper | 571 | 3.8 (28 reviews) | $0.35 per 1,000 detailed jobs |
+| apimaestro / Jobs Scraper for LinkedIn | 222 | 3.7 (8 reviews) | $5 per 1,000 jobs |
 | **om_kh / LinkedIn Jobs Scraper** | new | — | $2.50 per 1,000 jobs, **$0.35 from 2026-11-17**, details included |
 
 ## Which one should I pick?
