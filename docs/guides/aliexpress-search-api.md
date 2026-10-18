@@ -1,6 +1,6 @@
 ---
 title: "AliExpress Search API — Real Seller Prices, Units Sold, Ratings"
-description: "Get AliExpress products for any keyword with the seller's real price, units sold, rating, Choice flag and delivery estimate, as JSON or CSV. No login."
+description: "Get AliExpress products for any keyword with the seller's real price (not the new-shopper teaser), units sold, rating, photos, free shipping and delivery estimate, as JSON or CSV. Tested against the most-used scraper."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
@@ -20,6 +20,22 @@ Why "real price": AliExpress shows logged-out visitors a one-time new-shopper de
 `price` and the teaser apart in `newShopperPrice`.
 
 **Try it:** [AliExpress Search Scraper on Apify](https://apify.com/om_kh/aliexpress-search-scraper) — click *Try for free*, the input is prefilled.
+
+## Do AliExpress scrapers return the real price?
+
+Not always. Logged-out visitors are shown a one-time "new shopper" teaser on many products, and a scraper that reads
+the shown price returns that teaser. Measured on 2026-10-17 on "wireless earbuds" (48 products):
+
+| | AliExpress Search Scraper (om_kh) | kawsar AliExpress Search Scraper (most used, 1,677 users) |
+|---|---|---|
+| Prices that are new-shopper teasers | **0** (teaser kept in `newShopperPrice`) | **19 of 48**, 16 under $2 |
+| Median price | **$13.25** | $4.43 |
+| Units sold | 47 of 48 | 44 of 48 |
+| Photo gallery | 48 of 48 | 48 of 48 |
+| Runs that succeed (30 days) | 100% | 84% |
+| Price per 1,000 products | **$3** | $8 |
+
+For dropshipping or resale research, a teaser price makes margins look about 3 times better than they are.
 
 ## Step by step
 
