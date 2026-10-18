@@ -29,6 +29,18 @@ What this means for 1,000 keywords:
 - with a one-keyword-per-run tool, you pay 1,000 start fees ($25) before any result;
 - with om_kh, you pay $2 in one run.
 
+## Head to head, same 20 keywords
+
+Run on 2026-10-17 with both tools, same evening, cost capped at $0.30 for the rival.
+
+| | om_kh | apify/google-trends-scraper |
+|---|---|---|
+| Keywords delivered | **20 of 20** in 89 s | 1 of 20 after 7 min, stopped at the $0.30 cap |
+| Cost | **$0.04** | $0.33 (browser compute billed to the user) |
+| Related topics | empty | empty |
+
+data_xplorer/google-trends-fast-scraper, given "matcha", "n8n" or "pickleball", returned the day's 50 Trending-now searches and no data for the keyword ($0.026 per run).
+
 ## The 20-keyword test
 
 United States, past 12 months, regions and related queries on. Keywords included "chatgpt", "air fryer", "ozempic", "mortgage rates" and "n8n".

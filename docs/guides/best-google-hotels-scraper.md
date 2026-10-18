@@ -37,6 +37,18 @@ Paris, New York and Tokyo, 30 hotels each, 2 adults, 20 to 22 November 2026, pri
 | Rating, review count, nearby places | 89 or 90 of 90 |
 | Time | 92 s |
 
+## Head to head, same input
+
+Run on 2026-10-17 with both tools, same evening.
+
+| | om_kh | zerobreak/google-hotels-scraper |
+|---|---|---|
+| Hotels | 90 of 90 | 90 of 90 |
+| Prices per hotel | **about 20, one per booking site** | 1 |
+| Hotel's own website price | **54 hotels** | no |
+| Time | 92 s | **24 s** |
+| Cost | **$0.36** with every site's prices | $0.39 |
+
 ## Which one should I pick?
 
 - **Rate shopping, price parity or travel apps:** you need every site's price and runs that do not fail. In these figures that is the [Google Hotels Scraper (om_kh)](https://apify.com/om_kh/google-hotels-scraper).
