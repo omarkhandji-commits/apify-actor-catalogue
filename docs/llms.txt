@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [How do I get Redfin listings for a whole city as data?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/redfin-api.html): Every Redfin home for sale in a city, county or neighborhood, with price per sq ft compared with the area median. Dated run: 632 homes in 43 seconds.
 - [How do I scrape AliExpress search results with real prices?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/aliexpress-search-api.html): Get AliExpress products for any keyword with the seller's real price (not the new-shopper teaser), units sold, rating, photos, free shipping and delivery estimate, as JSON or CSV. Tested against the most-used scraper.
 - [How do I get 11st (11번가) Korea product prices with an API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/11st-korea-product-api.html): Get product prices, sellers, sales counts and ratings from 11st, a top South Korean marketplace, as JSON or CSV for any search. No login.
 - [How do I get the transcript of a YouTube video with an API?](https://omarkhandji-commits.github.io/apify-actor-catalogue/guides/youtube-transcript-api-python.html): Get the transcript of any YouTube video as text, timestamped segments, SRT, VTT or RAG chunks from Python, JavaScript or cURL. No YouTube API key.
