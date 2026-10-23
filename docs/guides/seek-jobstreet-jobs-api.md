@@ -112,7 +112,7 @@ Yes, turn on monitoring and schedule the Actor.
 ## Related
 
 - [ATS Jobs API - Greenhouse, Lever, Ashby, Workday Jobs](https://apify.com/om_kh/ats-jobs-api)
-- [Indeed Jobs Scraper - Listings, Companies, Salary Data](https://apify.com/om_kh/indeed-jobs-scraper)
+- [Indeed Jobs Scraper - Titles, Descriptions, Post Dates](https://apify.com/om_kh/indeed-jobs-scraper)
 - [Hiring Signals API - Companies Hiring Now by Role](https://apify.com/om_kh/company-hiring-signals)
 
 <script type="application/ld+json">
