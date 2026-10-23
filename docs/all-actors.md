@@ -94,6 +94,7 @@ The complete list of **90 public Actors**, with what each one returns and its cu
 
 | Actor | What you get | Price |
 |---|---|---|
+| [Redfin Scraper - Homes for Sale, Prices, Photos $0.40/1K](https://apify.com/om_kh/redfin-scraper) | Scrape every Redfin home for sale in a city, county or neighborhood: price, beds, baths, sq ft, price per sq ft vs the area median, HOA, days on market, open houses, features, agent, GPS and photos. Price, size, ZIP and keyword filters. No login. $0.40 per 1,000 homes. | $0.40 / 1,000 homes |
 | [Zillow Listings Scraper - Homes, Prices, Full Details](https://apify.com/om_kh/zillow-listings-scraper) | Scrape Zillow search results for any area: address, price, beds, baths, square footage, status, days on market, photos and listing URL. Export to JSON, CSV or Excel, or call it as an API. No login needed. For investors, agents and real-estate market research. $5 per 1,000 listings. | $0.005 / listing (+ $0.18 / scheduled monitoring check, only when monitoring is on) |
 
 ## SEO & trends

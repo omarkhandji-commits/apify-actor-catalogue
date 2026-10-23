@@ -32,6 +32,7 @@ Short, answer-first guides. Each one shows the input, Python and cURL code, the 
 - [Which Bilibili scraper is best? (240 videos, 20 creators, 2,500 danmaku)](best-bilibili-scraper.md) — Which Bilibili (哔哩哔哩) scraper gives the most data for the price? Store figures, price per 1,000 rows, and a dated run without login.
 - [Which Medium scraper is best? (51 articles in 6 seconds)](best-medium-scraper.md) — Which Medium scraper gives the most for the price? Store figures, what Medium allows without login, and a dated run on writers, publications and tags.
 - [How do I get Civitai models, LoRAs and download counts as data?](civitai-api.md) — Civitai models by keyword, creator or tag with downloads, base model, trigger words, download link and licence.
+- [How do I get Redfin listings for a whole city as data?](redfin-api.md) — Every Redfin home for sale in a city, county or neighborhood, with price per sq ft compared with the area median.
 - [How do I get FlixBus prices and schedules for a route as data?](flixbus-api.md) — FlixBus and FlixTrain prices, seats and times for any route, as a 90-day price calendar.
 - [How do I get HelloFresh recipes with ingredients and nutrition as data?](hellofresh-recipes-api.md) — HelloFresh recipes in 18 countries with ingredient quantities, calories, allergens and steps.
 - [Does FlixBus have a public API?](does-flixbus-have-an-api.md) — FlixBus has no public developer API for prices. How to get FlixBus prices, seats and schedules as JSON anyway, with a dated test.
