@@ -133,3 +133,7 @@
 
 ## Automation templates
 - [n8n workflow templates](https://omarkhandji-commits.github.io/apify-actor-catalogue/workflows/): ready-to-import n8n workflows (Google Sheets, Slack) for these Actors
+
+## MCP servers
+
+- [om_kh remote MCP servers](https://github.com/omarkhandji-commits/apify-data-mcp): five remote MCP servers in the official MCP Registry (io.github.omarkhandji-commits/jobs-data, travel-data, content-data, youtube-data, asia-shopping-data) exposing 20 om_kh Apify Actors as agent tools through https://mcp.apify.com.

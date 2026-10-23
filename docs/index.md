@@ -26,6 +26,11 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 | [News & Community](news-community.md) | Monitor Reddit, Hacker News, Stack Overflow, Product Hunt, Google News | [Reddit Posts & Comments Scraper](https://apify.com/om_kh/reddit-posts-comments-scraper) |
 | [Leads & Verification](leads-verification.md) | Turn discovered businesses/companies into verified contacts | [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) |
 
+
+## Use these Actors from an AI agent (MCP)
+
+Five ready-made remote MCP servers, listed in the official MCP Registry (`io.github.omarkhandji-commits/*`): jobs, travel and events, articles and AI models, YouTube, Asia shopping. Endpoints and client configs: [github.com/omarkhandji-commits/apify-data-mcp](https://github.com/omarkhandji-commits/apify-data-mcp). Example, travel: `https://mcp.apify.com/?tools=om_kh/flixbus-scraper,om_kh/google-hotels-scraper,om_kh/eventbrite-scraper`
+
 ## New this month
 
 - [Civitai Scraper](https://apify.com/om_kh/civitai-scraper) — Civitai AI image models by **keyword, creator or tag**, filtered by type and **base model** (SDXL, Flux, Pony): downloads, likes, tips, **trigger words**, file size, download link and **licence**. First Civitai Actor on the Store, **$2 per 1,000 models**.
