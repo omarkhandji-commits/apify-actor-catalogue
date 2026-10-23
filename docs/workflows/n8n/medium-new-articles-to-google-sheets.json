@@ -1,0 +1,124 @@
+{
+  "name": "New Medium articles to Google Sheets every morning",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## New Medium articles to Google Sheets every morning\n\nEvery morning, fetch only the Medium stories published since the last run by the writers, publications and tags you follow, and append the rows to a Google Sheet.\n\n### Setup (3 minutes)\n1. **Apify token** - create a free account at apify.com and copy your API token (Settings > API & Integrations).\n   In the **Get new Medium articles** node, create a *Header Auth* credential: name `Authorization`, value `Bearer YOUR_TOKEN`.\n2. **Google Sheets** node - connect your Google account and paste the URL of an empty sheet. Columns are created from the data automatically.\n3. Edit the JSON body of **Get new Medium articles** with your own inputs, then activate the workflow.\n\n**Cost:** $2 per 1,000 articles; only new ones are delivered. `maxTotalChargeUsd` in the body is a hard cap per run.\nActor: https://apify.com/om_kh/medium-scraper",
+        "height": 460,
+        "width": 460
+      },
+      "name": "Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -160
+      ],
+      "id": "1fb07c05-a99c-444d-a5a8-4b9c44fc667f"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1,
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "32196472-23c7-4fea-a919-6e13506155c7"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/om_kh~medium-scraper/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"publications\": [\n    \"better-programming\"\n  ],\n  \"tags\": [\n    \"artificial-intelligence\"\n  ],\n  \"onlyNewArticles\": true,\n  \"maxTotalChargeUsd\": 0.5\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get new Medium articles",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "e05dd1f7-a429-43cf-a85c-a0a3b37cebe7"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "url",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "id": "0a4adb57-f274-4864-b890-02ba468f1ca4"
+    }
+  ],
+  "connections": {
+    "Every morning": {
+      "main": [
+        [
+          {
+            "node": "Get new Medium articles",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get new Medium articles": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

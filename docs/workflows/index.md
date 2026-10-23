@@ -35,6 +35,10 @@ Slack, edit the input, activate. No token is stored in the files. `maxTotalCharg
 | [New Truth Social posts to Google Sheets every hour](n8n/truth-social-posts-to-google-sheets.json) | `truth-social-posts-to-google-sheets.json` |
 | [Jobs from company career sites to Google Sheets every morning](n8n/company-careers-page-jobs-to-google-sheets.json) | `company-careers-page-jobs-to-google-sheets.json` |
 | [French companies from the official registry to Google Sheets every tuesday](n8n/france-company-registry-to-google-sheets.json) | `france-company-registry-to-google-sheets.json` |
+| [FlixBus prices for the next 30 days to Google Sheets every morning](n8n/flixbus-cheapest-trips-to-google-sheets.json) | `flixbus-cheapest-trips-to-google-sheets.json` |
+| [Top Civitai models of the week to Google Sheets every tuesday](n8n/civitai-top-models-to-google-sheets.json) | `civitai-top-models-to-google-sheets.json` |
+| [HelloFresh recipes under 700 kcal to Google Sheets every tuesday](n8n/hellofresh-recipes-to-google-sheets.json) | `hellofresh-recipes-to-google-sheets.json` |
+| [New Medium articles to Google Sheets every morning](n8n/medium-new-articles-to-google-sheets.json) | `medium-new-articles-to-google-sheets.json` |
 
 ## Make.com blueprints (import a file)
 
@@ -61,5 +65,9 @@ In Make: new scenario → **⋮** menu (top right) → **Import blueprint** → 
 | [New Truth Social posts (Apify + Make)](make/truth-social-posts.make-blueprint.json) | `truth-social-posts.make-blueprint.json` |
 | [Jobs from company career sites (Apify + Make)](make/company-careers-page-jobs.make-blueprint.json) | `company-careers-page-jobs.make-blueprint.json` |
 | [French companies from the official registry (Apify + Make)](make/france-company-registry.make-blueprint.json) | `france-company-registry.make-blueprint.json` |
+| [FlixBus prices for the next 30 days (Apify + Make)](make/flixbus-cheapest-trips.make-blueprint.json) | `flixbus-cheapest-trips.make-blueprint.json` |
+| [Top Civitai models of the week (Apify + Make)](make/civitai-top-models.make-blueprint.json) | `civitai-top-models.make-blueprint.json` |
+| [HelloFresh recipes under 700 kcal (Apify + Make)](make/hellofresh-recipes.make-blueprint.json) | `hellofresh-recipes.make-blueprint.json` |
+| [New Medium articles (Apify + Make)](make/medium-new-articles.make-blueprint.json) | `medium-new-articles.make-blueprint.json` |
 
 Make.com scenario specs: [workflows/make](make/README.md) · Postman: [collection](postman/local-maps-collection.json) · [All Actors](../all-actors.md)
