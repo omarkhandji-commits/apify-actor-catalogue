@@ -21,7 +21,7 @@
           "expect": {
             "actorId": {
               "mode": "chose",
-              "label": "Civitai Scraper - AI Models, Downloads, LoRAs $2/1K (om_kh/civitai-scraper)"
+              "label": "Civitai Scraper - AI Models, Downloads, LoRAs $0.35/1K (om_kh/civitai-scraper)"
             },
             "runSync": {
               "mode": "chose"

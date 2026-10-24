@@ -11,7 +11,7 @@ description: "How to get Civitai models, LoRAs and checkpoints as JSON or CSV: d
 
 ## Short answer
 
-Use the **[Civitai Scraper (om_kh)](https://apify.com/om_kh/civitai-scraper)**: search by keyword, creator or tag, filter by model type and base model (SDXL, Flux, Pony, SD 1.5...), sort by rating, downloads or newest, and get downloads, likes, comments, tips, trigger words, file size, download link and licence for each model. **$2 per 1,000 models**, no key. It was the first Civitai Actor in the Apify Store on 2026-10-22.
+Use the **[Civitai Scraper (om_kh)](https://apify.com/om_kh/civitai-scraper)**: search by keyword, creator or tag, filter by model type and base model (SDXL, Flux, Pony, SD 1.5...), sort by rating, downloads or newest, and get downloads, likes, comments, tips, trigger words, file size, download link and licence for each model. **$0.35 per 1,000 models**, no key. It was the first Civitai Actor in the Apify Store on 2026-10-22.
 
 ## Dated run on Apify
 
