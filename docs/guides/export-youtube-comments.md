@@ -97,7 +97,7 @@ No YouTube API quota applies.
 
 - [YouTube Transcript Scraper - Full Text, Timestamps, Language](https://apify.com/om_kh/youtube-transcript-api)
 - [YouTube Channel Videos Scraper - Exact Views, $0.50/1K](https://apify.com/om_kh/youtube-channel-videos-scraper)
-- [YouTube Search Scraper API - Videos, Views, $0.50/1K](https://apify.com/om_kh/vigia-youtube-search-monitor)
+- [YouTube Search Scraper - Videos, Views, $0.50/1K](https://apify.com/om_kh/vigia-youtube-search-monitor)
 
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I export all comments from a YouTube video?", "acceptedAnswer": {"@type": "Answer", "text": "Use the YouTube Comments Scraper with one or more video URLs. It returns up to 50,000 comments per video, with their replies on request (`includeReplies`), sorted by newest or top, with an optional date limit, with text, author, like count, reply count, date and whether the creator hearted it. Export as CSV, Excel or JSON. No YouTube API key and no quota. $0.40 per 1,000 comments."}}, {"@type": "Question", "name": "Does it work on Shorts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, pass a Shorts URL or an 11-character video ID."}}, {"@type": "Question", "name": "Is there a quota?", "acceptedAnswer": {"@type": "Answer", "text": "No YouTube API quota applies."}}]}

@@ -102,7 +102,7 @@ Yes, use [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-t
 
 - [YouTube Channel Transcripts Scraper - Every Video to Text](https://apify.com/om_kh/youtube-channel-transcripts)
 - [YouTube Comments Scraper - Likes, Replies, Date, $0.40/1K](https://apify.com/om_kh/youtube-comments-scraper)
-- [Video Transcript API - YouTube to Text, Timestamps, JSON](https://apify.com/om_kh/video-transcript-api)
+- [YouTube Video Transcript API - Text, Timestamps, JSON](https://apify.com/om_kh/video-transcript-api)
 
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get the transcript of a YouTube video with an API?", "acceptedAnswer": {"@type": "Answer", "text": "Call the YouTube Transcript API Actor on Apify with a list of video URLs. It returns, for each video, the full text, timestamped segments, the caption language and, on request, SRT, VTT or ~250-word RAG chunks with start and end seconds. No YouTube API key, no OAuth, no cookies. Videos without captions are never charged."}}, {"@type": "Question", "name": "Do I need a YouTube Data API key?", "acceptedAnswer": {"@type": "Answer", "text": "No. The official YouTube Data API does not return transcripts of other people's videos anyway; this Actor reads the public captions."}}, {"@type": "Question", "name": "What if the video has no captions?", "acceptedAnswer": {"@type": "Answer", "text": "It is reported as unavailable and not charged."}}, {"@type": "Question", "name": "Can I get a whole channel?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, use [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) with an @handle."}}]}

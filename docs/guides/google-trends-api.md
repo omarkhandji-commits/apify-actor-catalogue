@@ -111,8 +111,8 @@ No.
 
 ## Related
 
-- [Google News API - Headlines, Source, Date, No Login](https://apify.com/om_kh/google-news-scraper)
-- [YouTube Search Scraper API - Videos, Views, $0.50/1K](https://apify.com/om_kh/vigia-youtube-search-monitor)
+- [Google News Scraper - Headlines, Source, Date, API](https://apify.com/om_kh/google-news-scraper)
+- [YouTube Search Scraper - Videos, Views, $0.50/1K](https://apify.com/om_kh/vigia-youtube-search-monitor)
 - [Google Search Results Scraper - Rankings, SERP, Position](https://apify.com/om_kh/google-search-results-scraper)
 
 <script type="application/ld+json">

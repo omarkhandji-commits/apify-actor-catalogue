@@ -107,7 +107,7 @@ No. It only reads market data and places no trades.
 ## Related
 
 - [Google Trends Scraper - Interest, Regions, Rising Queries](https://apify.com/om_kh/google-trends-scraper)
-- [Google News API - Headlines, Source, Date, No Login](https://apify.com/om_kh/google-news-scraper)
+- [Google News Scraper - Headlines, Source, Date, API](https://apify.com/om_kh/google-news-scraper)
 - [X (Twitter) Search Scraper - Posts, Likes, Replies](https://apify.com/om_kh/twitter-x-search-scraper)
 
 <script type="application/ld+json">

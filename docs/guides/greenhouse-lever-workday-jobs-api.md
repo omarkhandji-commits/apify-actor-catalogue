@@ -103,7 +103,7 @@ Yes, turn on monitoring to receive only jobs that appeared since the last run.
 
 - [Company Careers Page Scraper - Jobs from Any Career Site](https://apify.com/om_kh/careers-page-scraper)
 - [Hiring Signals API - Companies Hiring Now by Role](https://apify.com/om_kh/company-hiring-signals)
-- [Greenhouse Job Listings API - Title, Location, Salary](https://apify.com/om_kh/greenhouse-jobs-api)
+- [Greenhouse Job Scraper - Title, Location, Salary API](https://apify.com/om_kh/greenhouse-jobs-api)
 
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get all open jobs from a company's Greenhouse, Lever or Workday career page?", "acceptedAnswer": {"@type": "Answer", "text": "Use the ATS Jobs API Actor. Give it company domains (it finds the ATS for you) or board names per provider. It reads the ATS's official public job-board endpoints and returns one clean row per job: title, company, location, department, salary when published, posting date and link. Filter by keywords, locations, remote-only or posting date. $1.50 per 1,000 jobs."}}, {"@type": "Question", "name": "Do I need to know which ATS a company uses?", "acceptedAnswer": {"@type": "Answer", "text": "No, pass the company domain and the Actor detects it."}}, {"@type": "Question", "name": "Is this LinkedIn or Indeed?", "acceptedAnswer": {"@type": "Answer", "text": "No, it reads the company's own career board, which is usually fresher and complete. For LinkedIn and Indeed there are separate Actors."}}, {"@type": "Question", "name": "Can I get only new jobs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, turn on monitoring to receive only jobs that appeared since the last run."}}]}
