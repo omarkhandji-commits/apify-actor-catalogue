@@ -2,7 +2,7 @@
 
 # All om_kh Apify Actors
 
-The complete list of **90 public Actors**, with what each one returns and its current price. Every Actor runs on [Apify](https://apify.com) with no infrastructure to manage: from the browser, the API, n8n / Make / Zapier, or an AI agent through MCP (`https://mcp.apify.com`).
+The complete list of **102 public Actors**, with what each one returns and its current price. Every Actor runs on [Apify](https://apify.com) with no infrastructure to manage: from the browser, the API, n8n / Make / Zapier, or an AI agent through MCP (`https://mcp.apify.com`).
 
 ## AI & data cleaning
 
@@ -41,6 +41,10 @@ The complete list of **90 public Actors**, with what each one returns and its cu
 | [Google Play Store Scraper - Reviews, Apps, Developer Email](https://apify.com/om_kh/google-play-store-scraper) | Google Play scraper: app details (exact installs, rating histogram, developer email, website, price) and reviews with filters by rating, date, language, device, version and keyword. Any country. $1.50 per 1,000 apps, $0.10 per 1,000 reviews, no start fee. | $0.0015 / app |
 | [Trustpilot Reviews Scraper - Ratings, Text, Reviewer Name](https://apify.com/om_kh/trustpilot-reviews-scraper) | Bulk-download Trustpilot reviews for any company: rating, title, text, reviewer, country and date, plus the company's review count and average score. Export to JSON, CSV or Excel, or call it as an API. No login needed. For competitor analysis and reputation research. $0.0006 per review. | $0.02 / actionable review alert + $0.06 / monitored subject re-checked |
 | [eBay Sold Listings Scraper - Sold Price, Date, Title](https://apify.com/om_kh/ebay-sold-listings-scraper) | Scrape completed eBay sales for any search: sold price, shipping, condition, sale date, listing type and URL. Real transaction prices, not asking prices. Export to JSON, CSV or Excel, or call it as an API. No login needed. For resellers, pricing research and market valuation. $10 per 1,000 listings. | $0.01 / listing (+ $0.3 / scheduled monitoring check, only when monitoring is on) |
+| [Taobao 淘宝 & Tmall 天猫 Product Scraper - Real Price, SKUs](https://apify.com/om_kh/taobao-tmall-product-scraper) | Taobao and Tmall product detail with verified post-coupon price, exact SKU variants, stock and seller — every price carries a price_verified flag and its source URL. | $0.023 / product detail |
+| [Shopee Product Detail Scraper](https://apify.com/om_kh/shopee-product-detail-scraper) | Shopee product detail with the exact variant price included — not charged as an extra. SKU, stock, seller and a price_verified flag with the source URL behind every value. | $0.008 / product detail |
+| [TikTok Shop Product Detail Scraper](https://apify.com/om_kh/tiktok-shop-product-detail-scraper) | TikTok Shop product detail with verified price, exact SKU variants, stock and seller — every value carries its source URL and a verification flag. | $0.125 / product detail |
+| [TikTok Shop Creator Finder](https://apify.com/om_kh/tiktok-shop-creator-finder) | Find TikTok Shop creators worth an affiliate invite: shop activity, engagement, category fit and public contact — with the source URL behind every field. | $0.03 / qualified creator |
 
 ## Jobs & Hiring
 
