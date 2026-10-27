@@ -64,7 +64,7 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~instagram-following-scraper/ru
 
 ## Price
 
-$0.002 per account listed. Profile enrichment (`enrichProfiles`) is available from 26 October 2026 at $0.004 per enriched profile, up to 25 profiles per run; before that date the switch is ignored and only the account list is returned. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
+$0.002 per account listed and $0.004 per enriched profile (`enrichProfiles`, up to 25 profiles per run) until 24 November 2026; from 25 November 2026, $0.00005 per account listed and $0.00115 per enriched profile. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
 
 ## Use cases
 
