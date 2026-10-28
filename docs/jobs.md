@@ -6,6 +6,16 @@
 
 Getting current job openings — or knowing when a company's hiring activity changes — usually means either scraping a career page yourself or paying for an expensive HR-tech data feed. This family pulls live job listings straight from a company's career page or its underlying applicant tracking system (ATS: Greenhouse, Lever, Ashby, Workday), and layers hiring-signal intelligence on top.
 
+## New on 2026-10-28: more facts than the market leader, at a fraction of its price
+
+ATS Jobs API, Company Careers Page Scraper and Google Jobs Scraper now return on every job, read by rules at no extra cost: contract type (full-time, part-time, contract, internship...), remote / hybrid / on-site with office days, city, region and country as separate fields, salary as numbers with its pay period and a yearly equivalent, benefits, the posting's language, contact emails written in the posting, a staffing-agency flag, and (ATS and careers) the company's website, logo and number of open roles.
+
+New filters, applied before you pay: contract type, work arrangement, countries, title words, companies, places and departments to exclude, staffing agencies, only jobs with a salary, minimum yearly salary. And an **only new jobs since my last run** switch for daily or hourly schedules: jobs already delivered are never charged again.
+
+| Per job | ATS Jobs API / Careers | Google Jobs Scraper | Career-site leader | Google Jobs leader |
+| --- | --- | --- | --- | --- |
+| Price | $0.0015 | $0.003 | $0.012 | up to $0.009 |
+
 ## When to use it
 
 - You have a **list of companies** (by domain) and want their current openings.
