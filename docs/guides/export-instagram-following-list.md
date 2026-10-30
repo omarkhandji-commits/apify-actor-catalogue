@@ -87,7 +87,7 @@ No login or cookies from you are needed.
 
 ## Related
 
-- [Instagram Lookalike Scraper - Similar Accounts, Followers, Bio](https://apify.com/om_kh/instagram-profile-lookalike-scraper)
+- [Instagram Lookalike Scraper - Similar Accounts & Followers](https://apify.com/om_kh/instagram-profile-lookalike-scraper)
 - [Instagram Profile Scraper - Posts, Reels, Captions, Likes](https://apify.com/om_kh/instagram-profile-scraper)
 - [YouTube Channel Search Scraper - Subscribers, Emails](https://apify.com/om_kh/youtube-channel-search-scraper)
 
