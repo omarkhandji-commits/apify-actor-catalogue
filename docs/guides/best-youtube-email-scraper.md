@@ -11,7 +11,7 @@ description: "Which YouTube email scraper finds the most creator emails? A dated
 
 ## Which YouTube email scraper finds the most emails?
 
-On 2026-10-17 we ran the same 59 YouTube channels through two scrapers that read only public pages. The **[YouTube Email Scraper](https://apify.com/om_kh/youtube-channel-email-scraper)** found an email for **33 channels (56%)**, all on domains that receive mail, in 2 min 58 s for $0.15. **lurkapi's YouTube Channel Email Scraper** found 29 channels (49%) in 4 min 02 s for $0.25. Of its 44 emails, 5 came from behind YouTube's sign-in button and 21 were flagged risky or invalid by its own check.
+On 2026-10-17 we ran the same 59 YouTube channels through two scrapers that read only public pages. The **[YouTube Email Scraper](https://apify.com/om_kh/youtube-channel-email-scraper)** found an email for **33 channels (56%)**, all on domains that receive mail, in 2 min 58 s for $0.15. Re-run on 2026-11-03 after adding Steam game pages and same-name podcast feeds: **36 channels (61%)**, all on domains that receive mail, in 4 min 18 s for $0.14. **lurkapi's YouTube Channel Email Scraper** found 29 channels (49%) in 4 min 02 s for $0.25. Of its 44 emails, 5 came from behind YouTube's sign-in button and 21 were flagged risky or invalid by its own check.
 
 ## The test
 
@@ -21,7 +21,7 @@ On 2026-10-17 we ran the same 59 YouTube channels through two scrapers that read
 
 | | YouTube Email Scraper (om_kh) | lurkapi YouTube Channel Email Scraper |
 |---|---|---|
-| Channels with an email | **33 of 59 (56%)** | 29 of 59 (49%) |
+| Channels with an email | **33 of 59 (56%)**; 36 on the 2026-11-03 re-run | 29 of 59 (49%) |
 | Emails on a domain that receives mail | **33 of 33** | 23 of 44 rated valid |
 | Taken from behind YouTube's sign-in button | 0 | 5 |
 | Time | **2 min 58 s** | 4 min 02 s |
@@ -55,5 +55,5 @@ Store figures read on 2026-10-17. "Runs that succeed" is the Store's own 30-day 
 Yes. Every Actor here runs through the Apify API. The YouTube Email Scraper also works as an MCP tool: add `om_kh/youtube-channel-email-scraper` at `https://mcp.apify.com`. Ready-made [n8n](../workflows/n8n/youtube-creator-emails-to-google-sheets.json) and [Make](../workflows/make/youtube-creator-emails.make-blueprint.json) flows send the emails to Google Sheets.
 
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which YouTube email scraper finds the most emails?", "acceptedAnswer": {"@type": "Answer", "text": "In a test of 59 channels on 2026-10-17, the YouTube Email Scraper (om_kh) found an email for 33 channels (56%), all deliverable, in 2 min 58 s for $0.15. lurkapi's scraper found 29 (49%) in 4 min 02 s for $0.25."}}, {"@type": "Question", "name": "Can a scraper get the email behind YouTube's View email address button?", "acceptedAnswer": {"@type": "Answer", "text": "Only by signing in to YouTube accounts and solving CAPTCHAs, which YouTube's terms forbid. In the test, 17 of 59 channels kept their email only behind that button."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which YouTube email scraper finds the most emails?", "acceptedAnswer": {"@type": "Answer", "text": "In a test of 59 channels on 2026-10-17, the YouTube Email Scraper (om_kh) found an email for 33 channels (56%), all deliverable, in 2 min 58 s for $0.15 (36 channels, 61%, on a re-run on 2026-11-03). lurkapi's scraper found 29 (49%) in 4 min 02 s for $0.25."}}, {"@type": "Question", "name": "Can a scraper get the email behind YouTube's View email address button?", "acceptedAnswer": {"@type": "Answer", "text": "Only by signing in to YouTube accounts and solving CAPTCHAs, which YouTube's terms forbid. In the test, 17 of 59 channels kept their email only behind that button."}}]}
 </script>
