@@ -25,7 +25,7 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 | [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) | A channel's videos, Shorts and live streams, by date or popularity, with channel info | $0.0005 / video |
 | [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search videos, Shorts and live streams by topic, with filters and sort | $0.0005 / video |
 | [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) | Bulk-export a video's comments and replies (up to 50,000) | $0.0004 / comment |
-| [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) | Find channels by keyword, filter by subscribers, optional country, links and business email | $0.0005 / channel + $0.002 / enriched channel |
+| [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) | Find channels by keyword, filter by subscribers, optional country, links, business email and latest uploads | $0.0005 / channel + $0.002 / enriched channel |
 | [YouTube Creator Lead Finder](https://apify.com/om_kh/youtube-creator-lead-finder) | Qualified creators in a niche with views, engagement and verified contact | $0.004 / qualified creator + $0.002 / verified contact |
 
 ## Telling the siblings apart
