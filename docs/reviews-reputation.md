@@ -19,11 +19,11 @@ Reviews live scattered across a dozen platforms — Google, Yelp, Trustpilot, G2
 | [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) | Google Maps listings | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
 | [Yelp Reviews Scraper](https://apify.com/om_kh/yelp-reviews-scraper) | Yelp business pages | $0.02 / actionable review alert + $0.15 / monitored subject re-checked |
 | [Trustpilot Reviews Scraper](https://apify.com/om_kh/trustpilot-reviews-scraper) | Trustpilot company pages | $0.02 / actionable review alert + $0.06 / monitored subject re-checked |
-| [G2 Software Reviews Scraper](https://apify.com/om_kh/g2-reviews-scraper) | G2 product pages (B2B software) | $0.15 / monitored subject re-checked |
+| [G2 Software Reviews Scraper](https://apify.com/om_kh/g2-reviews-scraper) | G2 product pages (B2B software) | $0.02 / review, $0.001 from 7 Dec 2026 (+ $0.15 / scheduled monitoring check, $0.005 from 7 Dec, only when monitoring is on) |
 | [TripAdvisor Reviews Scraper](https://apify.com/om_kh/tripadvisor-reviews-scraper) | Hotels/restaurants/attractions | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
 | [Glassdoor Reviews Scraper](https://apify.com/om_kh/glassdoor-reviews-scraper) | Employer/workplace reviews | $0.2 / monitored subject re-checked |
-| [Amazon Reviews Scraper](https://apify.com/om_kh/amazon-reviews-scraper) | Amazon product reviews, with a review-velocity flag | $0.02 / actionable review alert + $0.45 / monitored subject re-checked |
-| [App Store & Google Play Reviews Scraper](https://apify.com/om_kh/app-store-google-play-reviews-scraper) | Mobile app reviews, both stores in one run | $0.02 / actionable review alert + $0.03 / monitored subject re-checked |
+| [Amazon Reviews Scraper](https://apify.com/om_kh/amazon-reviews-scraper) | Amazon product reviews, with a review-velocity flag | $0.02 / actionable review, $0.00045 from 2 Dec 2026 (+ $0.45 / scheduled monitoring check, $0.008 from 2 Dec, only when monitoring is on) |
+| [App Store & Google Play Reviews Scraper](https://apify.com/om_kh/app-store-google-play-reviews-scraper) | Mobile app reviews, both stores in one run | $0.02 / actionable review, $0.00019 from 2 Dec 2026, other reviews free (+ $0.03 / scheduled monitoring check, only when monitoring is on) |
 
 Plus one companion utility, not a source:
 
