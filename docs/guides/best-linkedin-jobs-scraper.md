@@ -38,12 +38,12 @@ Store figures read on 2026-10-17. Free-plan prices.
 | fantastic-jobs / Advanced LinkedIn Job Search API | 1,911 | 2.9 (20 reviews) | $5 per 1,000 jobs + $0.01 per run |
 | worldunboxer / Rapid LinkedIn Jobs Scraper | 571 | 3.8 (28 reviews) | $0.35 per 1,000 detailed jobs |
 | apimaestro / Jobs Scraper for LinkedIn | 222 | 3.7 (8 reviews) | $5 per 1,000 jobs |
-| **om_kh / LinkedIn Jobs Scraper** | new | — | $2.50 per 1,000 jobs, **$0.35 from 2026-11-17**, details included |
+| **om_kh / LinkedIn Jobs Scraper** | new | — | $0.35 per 1,000 jobs, details included |
 
 ## Which one should I pick?
 
 - **Salary research, job boards, recruiting dashboards:** you need pay as numbers. In this test only the [LinkedIn Jobs Scraper (om_kh)](https://apify.com/om_kh/linkedin-jobs-scraper) returned it.
-- **The lowest price per job:** valig was the cheapest on the Store that day; from 2026-11-17 the om_kh scraper costs $0.35 per 1,000 jobs, under valig's $0.40.
+- **The lowest price per job:** valig was the cheapest on the Store that day; now the om_kh scraper costs $0.35 per 1,000 jobs, under valig's $0.40.
 
 ## Does it work with n8n, Make or an AI agent?
 
