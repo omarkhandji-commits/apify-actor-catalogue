@@ -33,7 +33,7 @@ New filters, applied before you pay: contract type, work arrangement, countries,
 | [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board; full description, salary and skills included | $0.0015 / job listing |
 | [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board; full description, salary and skills included | $0.0015 / job listing |
 | [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $0.0015 / job listing |
-| [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.02 / company profile |
+| [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.005 / company profile |
 | [LinkedIn Jobs Scraper](https://apify.com/om_kh/linkedin-jobs-scraper) | LinkedIn search by keywords and place, no login: description, applicants, apply type, salary as numbers | $0.00035 / job, details included |
 | [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | $0.0003 / job (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
 
