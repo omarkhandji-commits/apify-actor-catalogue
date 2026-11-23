@@ -92,7 +92,7 @@ The complete list of **102 public Actors**, with what each one returns and its c
 | Actor | What you get | Price |
 |---|---|---|
 | [Google News Scraper - Headlines, Source, Date, API](https://apify.com/om_kh/google-news-scraper) | Google News API: articles for any keyword, topic section, city or Google News link, in any country and language. Up to 5,000 per search, custom dates, the publisher's own link, picture and summary. No API key. $2 per 1,000 articles ($3 from Nov 12). | $0.002 / article |
-| [Kalshi & Polymarket Scraper - Odds, Probability, Volume](https://apify.com/om_kh/kalshi-polymarket-scraper) | Prediction-market data from Kalshi and Polymarket in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time, rules. Open or resolved markets, any topic. Optional AI reading with your own key. $1 per 1,000 markets. | $0.001 / market |
+| [Kalshi & Polymarket Scraper - Odds, Probability, Volume](https://apify.com/om_kh/kalshi-polymarket-scraper) | Prediction-market data from Kalshi and Polymarket in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time, rules, optional live order book. Open or resolved markets, any topic. Optional AI reading. $1 per 1,000 markets. | $0.001 / market |
 
 ## Real estate
 
