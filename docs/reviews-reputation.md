@@ -16,20 +16,20 @@ Reviews live scattered across a dozen platforms — Google, Yelp, Trustpilot, G2
 
 | Actor | Source | Pricing |
 |---|---|---|
-| [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) | Google Maps listings | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
-| [Yelp Reviews Scraper](https://apify.com/om_kh/yelp-reviews-scraper) | Yelp business pages | $0.02 / actionable review alert + $0.15 / monitored subject re-checked |
-| [Trustpilot Reviews Scraper](https://apify.com/om_kh/trustpilot-reviews-scraper) | Trustpilot company pages | $0.02 / actionable review alert + $0.06 / monitored subject re-checked |
-| [G2 Software Reviews Scraper](https://apify.com/om_kh/g2-reviews-scraper) | G2 product pages (B2B software) | $0.02 / review, $0.001 from 7 Dec 2026 (+ $0.15 / scheduled monitoring check, $0.005 from 7 Dec, only when monitoring is on) |
-| [TripAdvisor Reviews Scraper](https://apify.com/om_kh/tripadvisor-reviews-scraper) | Hotels/restaurants/attractions | $0.02 / actionable review alert + $0.05 / monitored subject re-checked |
-| [Glassdoor Reviews Scraper](https://apify.com/om_kh/glassdoor-reviews-scraper) | Employer/workplace reviews | $0.2 / monitored subject re-checked |
-| [Amazon Reviews Scraper](https://apify.com/om_kh/amazon-reviews-scraper) | Amazon product reviews, with a review-velocity flag | $0.02 / actionable review, $0.00045 from 2 Dec 2026 (+ $0.45 / scheduled monitoring check, $0.008 from 2 Dec, only when monitoring is on) |
-| [App Store & Google Play Reviews Scraper](https://apify.com/om_kh/app-store-google-play-reviews-scraper) | Mobile app reviews, both stores in one run | $0.02 / actionable review, $0.00019 from 2 Dec 2026, other reviews free (+ $0.03 / scheduled monitoring check, only when monitoring is on) |
+| [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) | Google Maps listings | $0.30 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.80) |
+| [Yelp Reviews Scraper](https://apify.com/om_kh/yelp-reviews-scraper) | Yelp business pages | $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.60) |
+| [Trustpilot Reviews Scraper](https://apify.com/om_kh/trustpilot-reviews-scraper) | Trustpilot company pages | $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.60) |
+| [G2 Software Reviews Scraper](https://apify.com/om_kh/g2-reviews-scraper) | G2 product pages (B2B software) | $20 per 1,000 reviews, $1 per 1,000 from 7 December 2026, + $0.001 per run |
+| [TripAdvisor Reviews Scraper](https://apify.com/om_kh/tripadvisor-reviews-scraper) | Hotels/restaurants/attractions | $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $2) |
+| [Glassdoor Reviews Scraper](https://apify.com/om_kh/glassdoor-reviews-scraper) | Employer/workplace reviews | $4.50 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $20) |
+| [Amazon Reviews Scraper](https://apify.com/om_kh/amazon-reviews-scraper) | Amazon product reviews, with a review-velocity flag | $20 per 1,000 reviews, $0.45 per 1,000 from 2 December 2026, + $0.001 per run |
+| [App Store & Google Play Reviews Scraper](https://apify.com/om_kh/app-store-google-play-reviews-scraper) | Mobile app reviews, both stores in one run | $0.02 per actionable review, $0.00019 ($0.19 per 1,000) from 2 December 2026, + $0.001 per run; other reviews are free |
 
 Plus one companion utility, not a source:
 
 | Actor | Purpose | Pricing |
 |---|---|---|
-| [Review Cleaner & Deduplicator](https://apify.com/om_kh/reviews-cleaner-deduplicator) | Feed it review data from anywhere; get back deduped rows + a "what's new" flag | $0.02 / actionable review alert |
+| [Review Cleaner & Deduplicator](https://apify.com/om_kh/reviews-cleaner-deduplicator) | Feed it review data from anywhere; get back deduped rows + a "what's new" flag | $0.02 per review row delivered + $0.001 per run |
 
 ## Telling the siblings apart
 

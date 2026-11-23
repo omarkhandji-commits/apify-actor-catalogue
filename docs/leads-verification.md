@@ -14,7 +14,7 @@ Once you've discovered a company or business (from Local Business, Jobs, or anyw
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) | Public, MX-validated business emails from a website | $0.01 / qualified lead |
+| [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) | Public, MX-validated business emails from a website | $0.01 per verified lead (was $0.035 until 20 November 2026) + $0.001 per run |
 
 This family is currently a single, focused Actor rather than a set of siblings — it's the qualification step other families feed into, not a source of its own.
 

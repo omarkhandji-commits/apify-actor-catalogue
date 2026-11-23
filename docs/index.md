@@ -12,19 +12,21 @@ Ready-to-run [Apify](https://apify.com) Actors for pulling and monitoring data t
 - **Agencies** doing local-business and reputation work for clients
 - **Data teams** feeding e-commerce, ad, or competitive-intelligence pipelines
 
+**[Every Actor, one page each](actors/index.md)** — inputs, a real output row, the price and Python / cURL / MCP code for all 102 Actors.
+
 ## What problems this solves
 
 | Family | Problem it solves | Start here |
 |---|---|---|
-| [Jobs & Hiring](jobs.md) | Get current job listings or hiring signals for any company, across any ATS | [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) |
+| [Jobs & Hiring](jobs.md) | Get current job listings or hiring signals for any company, across any ATS | [Company Careers Page Scraper](https://apify.com/om_kh/careers-page-scraper) |
 | [Reviews & Reputation](reviews-reputation.md) | Monitor reviews across review platforms, catch what's new | [Google Maps Reviews Scraper](https://apify.com/om_kh/google-maps-reviews-scraper) |
 | [YouTube & Video](youtube-video.md) | Turn videos into transcripts and text for AI/RAG pipelines | [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) |
-| [Social Monitoring](social-monitoring.md) | Track accounts, keywords, and hashtags across social platforms | $0.001 / post (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
-| [Local Business](local-business.md) | Discover and monitor local businesses on Google Maps | $0.009 / place (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
+| [Social Monitoring](social-monitoring.md) | Track accounts, keywords, and hashtags across social platforms | [Twitter Keyword Scraper & Monitor](https://apify.com/om_kh/twitter-x-search-scraper) |
+| [Local Business](local-business.md) | Discover and monitor local businesses on Google Maps | [Google Maps Business Scraper API](https://apify.com/om_kh/google-maps-business-scraper) |
 | [Ecommerce & Pricing](ecommerce-pricing.md) | Track prices, stock, and marketplace listings | [Amazon Price & Stock Scraper](https://apify.com/om_kh/amazon-price-stock-tracker) |
-| [Ads & Competitive Intel](ads-competitive-intelligence.md) | See what competitors are advertising, and what changed | $0.013 / ad (+ $0.45 / scheduled monitoring check, only when monitoring is on) |
-| [News & Community](news-community.md) | Monitor Reddit, Hacker News, Stack Overflow, Product Hunt, Google News | [Reddit Posts & Comments Scraper](https://apify.com/om_kh/reddit-posts-comments-scraper) |
-| [Leads & Verification](leads-verification.md) | Turn discovered businesses/companies into verified contacts | [Business Email Finder & Verifier](https://apify.com/om_kh/vigia-lead-quality-api) |
+| [Ads & Competitive Intel](ads-competitive-intelligence.md) | See what competitors are advertising, and what changed | [Facebook Ads Library Scraper API](https://apify.com/om_kh/facebook-ads-library-scraper) |
+| [News & Community](news-community.md) | Monitor Reddit, Hacker News, Stack Overflow, Product Hunt, Google News | [Reddit Keyword Search Scraper](https://apify.com/om_kh/reddit-posts-comments-scraper) |
+| [Leads & Verification](leads-verification.md) | Turn discovered businesses/companies into verified contacts | [Business Email Finder API](https://apify.com/om_kh/vigia-lead-quality-api) |
 
 
 ## Use these Actors from an AI agent (MCP)

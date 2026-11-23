@@ -27,15 +27,15 @@ New filters, applied before you pay: contract type, work arrangement, countries,
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain or a job-board link (74 systems, incl. Phenom and Radancy sites of big employers), or search all companies at once by keyword, with full job description, salary and apply link | $0.0015 / job listing |
-| [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying 74 ATS providers (Greenhouse, Lever, Ashby, Workday, Recruitee, Workable...) in one call, with full job description, salary and skills | $0.0015 / job listing |
-| [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board; full description, salary and skills included | $0.0015 / job listing |
-| [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board; full description, salary and skills included | $0.0015 / job listing |
-| [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board; full description, salary and skills included | $0.0015 / job listing |
-| [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $0.0015 / job listing |
-| [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.005 / company profile |
-| [LinkedIn Jobs Scraper](https://apify.com/om_kh/linkedin-jobs-scraper) | LinkedIn search by keywords and place, no login: description, applicants, apply type, salary as numbers | $0.00035 / job, details included |
-| [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | $0.0003 / job (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
+| [Career Site Job Listing API](https://apify.com/om_kh/careers-page-scraper) | Any company, ATS auto-detected from just the domain or a job-board link (74 systems, incl. Phenom and Radancy sites of big employers), or search all companies at once by keyword, with full job description, salary and apply link | **$2.50 per 1,000 jobs** + $0.005 per run ($2.13 to $1.38 on paid plans) |
+| [ATS Jobs Search API](https://apify.com/om_kh/ats-jobs-api) | Querying 74 ATS providers (Greenhouse, Lever, Ashby, Workday, Recruitee, Workable...) in one call, with full job description, salary and skills | $1.50 per 1,000 jobs (down to $0.90 on larger Apify plans), + $0.001 per run |
+| [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board; full description, salary and skills included | $1.50 per 1,000 jobs + $0.001 per run |
+| [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board; full description, salary and skills included | $1.50 per 1,000 jobs + $0.001 per run |
+| [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board; full description, salary and skills included | $1.50 per 1,000 jobs + $0.001 per run |
+| [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $1.50 per 1,000 jobs + $0.001 per run |
+| [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.005 per company checked (was $0.02 until 20 November 2026) + $0.001 per run, even when nothing changed (the check is the work) |
+| [LinkedIn Jobs Scraper](https://apify.com/om_kh/linkedin-jobs-scraper) | LinkedIn search by keywords and place, no login: description, applicants, apply type, salary as numbers | $0.35 per 1,000 jobs, no start fee, no monitoring fee |
+| [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | **$0.30 per 1,000 jobs** + $0.001 per run |
 
 ## Telling the siblings apart
 

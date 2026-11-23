@@ -18,15 +18,15 @@ Turning YouTube video content into text — for search, summarization, RAG pipel
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | Single videos or whole channels (up to 500 videos each, date range), with views, likes, upload date and channel subscribers | $5 / 1,000 ($1 / 1,000 from Nov 12) |
-| [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same transcript, structured for RAG/agent pipelines | $0.0025 / transcript |
-| [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-transcript-scraper) | Raw caption/subtitle track instead of prose text | $0.0025 / transcript |
-| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $0.005 / transcript |
-| [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) | A channel's videos, Shorts and live streams, by date or popularity, with channel info | $0.0005 / video |
-| [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search videos, Shorts and live streams by topic, with filters and sort | $0.0005 / video |
-| [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) | Bulk-export a video's comments and replies (up to 50,000) | $0.0004 / comment |
-| [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) | Find channels by keyword, filter by subscribers, optional country, links, business email and latest uploads | $0.0005 / channel + $0.002 / enriched channel |
-| [YouTube Creator Lead Finder](https://apify.com/om_kh/youtube-creator-lead-finder) | Qualified creators in a niche with views, engagement and verified contact | $0.004 / qualified creator + $0.002 / verified contact |
+| [YouTube Transcript Scraper](https://apify.com/om_kh/youtube-transcript-api) | Single videos or whole channels (up to 500 videos each, date range), with views, likes, upload date and channel subscribers | **$1 per 1,000 transcripts, $2 per 1,000 from 13 December 2026.** 100 videos = $0.10 today, $0.20 from 13 December |
+| [Video Transcript API](https://apify.com/om_kh/video-transcript-api) | Same transcript, structured for RAG/agent pipelines | $2.50 per 1,000 transcripts: 100 videos = **$0.25**, + $0.001 per run from Nov 24, 2026 (no start fee before) |
+| [YouTube Subtitles Scraper](https://apify.com/om_kh/youtube-transcript-scraper) | Raw caption/subtitle track instead of prose text | $2.50 per 1,000 subtitles: 100 videos = **$0.25**, + $0.001 per run from Nov 24, 2026 (no start fee before) |
+| [YouTube Channel Transcripts](https://apify.com/om_kh/youtube-channel-transcripts) | Transcripts for ~15 recent videos on a channel in one run | $5 per 1,000 transcripts: a 100-video channel = **$0.50**, + $0.001 per run |
+| [YouTube Channel Videos Scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) | A channel's videos, Shorts and live streams, by date or popularity, with channel info | **$0.50 per 1,000 videos** (from 4 December 2026: $1.50 per 1,000) + $0.001 per run |
+| [YouTube Search Scraper](https://apify.com/om_kh/vigia-youtube-search-monitor) | Search videos, Shorts and live streams by topic, with filters and sort | **$0.50 per 1,000 videos** + $0.001 per run |
+| [YouTube Comments Scraper](https://apify.com/om_kh/youtube-comments-scraper) | Bulk-export a video's comments and replies (up to 50,000) | **$0.40 per 1,000 comments** + $0.001 per run |
+| [YouTube Channel Search Scraper](https://apify.com/om_kh/youtube-channel-search-scraper) | Find channels by keyword, filter by subscribers, optional country, links, business email and latest uploads | $0.50 per 1,000 channels, + $0.002 per channel with the option on, + $0.001 per run |
+| [YouTube Creator Lead Finder](https://apify.com/om_kh/youtube-creator-lead-finder) | Qualified creators in a niche with views, engagement and verified contact | $4 per 1,000 qualified creators + $0.002 per verified contact + $0.001 per run |
 
 ## Telling the siblings apart
 

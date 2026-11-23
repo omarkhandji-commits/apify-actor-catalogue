@@ -16,18 +16,18 @@ Tracking a specific account, or searching a platform for a keyword or hashtag, a
 
 | Actor | Platform | Tracks | Pricing |
 |---|---|---|---|
-| [Instagram Profile Scraper](https://apify.com/om_kh/instagram-profile-scraper) | Instagram | Account | $0.006 / post (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
-| [Instagram Hashtag Monitor](https://apify.com/om_kh/instagram-hashtag-scraper) | Instagram | Hashtag | $0.006 / post (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
-| [TikTok Profile Scraper](https://apify.com/om_kh/tiktok-profile-scraper) | TikTok | Account | $0.005 / video (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
-| [TikTok Keyword Search & Monitor](https://apify.com/om_kh/tiktok-search-scraper) | TikTok | Keyword | $0.005 / video (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
-| [TikTok Hashtag Posts Scraper](https://apify.com/om_kh/vigia-tiktok-hashtag-monitor) | TikTok | Hashtag/campaign | $0.005 / video (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
-| [X (Twitter) Profile Scraper](https://apify.com/om_kh/twitter-x-profile-scraper) | X | Account | $0.05 / monitored subject re-checked |
-| [X (Twitter) Search Scraper](https://apify.com/om_kh/twitter-x-search-scraper) | X | Keyword | $0.001 / post (+ $0.05 / scheduled monitoring check, only when monitoring is on) |
-| [Facebook Page Scraper](https://apify.com/om_kh/facebook-page-scraper) | Facebook | Page profile/followers | $0.01 / page (+ $0.35 / scheduled monitoring check, only when monitoring is on) |
-| [Facebook Page Posts Scraper](https://apify.com/om_kh/facebook-page-posts-scraper) | Facebook | Page posts | $0.01 / post (+ $0.12 / scheduled monitoring check, only when monitoring is on) |
-| [LinkedIn Company Scraper](https://apify.com/om_kh/linkedin-company-scraper) | LinkedIn | Company page | $0.004 / company, $0.003 from 7 Dec 2026 |
-| [Twitch Clips Scraper](https://apify.com/om_kh/twitch-clips-scraper) | Twitch | Channel/game clips | $0.005 / clip (+ $0.12 / scheduled monitoring check, only when monitoring is on) |
-| [Instagram & TikTok Profile Scraper](https://apify.com/om_kh/instagram-tiktok-profile-scraper) | Instagram/TikTok | Growth delta (follower/engagement trend) | $0.006 / profile (+ $0.12 / scheduled monitoring check, only when monitoring is on) |
+| [Instagram Profile Scraper](https://apify.com/om_kh/instagram-profile-scraper) | Instagram | Account | $6 per 1,000 posts + $0.001 per run |
+| [Instagram Hashtag Monitor](https://apify.com/om_kh/instagram-hashtag-scraper) | Instagram | Hashtag | $6 per 1,000 posts + $0.001 per run |
+| [TikTok Profile Scraper](https://apify.com/om_kh/tiktok-profile-scraper) | TikTok | Account | $5 per 1,000 videos + $0.001 per run |
+| [TikTok Keyword Search & Monitor](https://apify.com/om_kh/tiktok-search-scraper) | TikTok | Keyword | $5 per 1,000 videos + $0.001 per run |
+| [TikTok Hashtag Posts Scraper](https://apify.com/om_kh/vigia-tiktok-hashtag-monitor) | TikTok | Hashtag/campaign | $5 per 1,000 videos + $0.001 per run |
+| [X (Twitter) Profile Scraper](https://apify.com/om_kh/twitter-x-profile-scraper) | X | Account | $0.29 per 1,000 posts, no start fee (lowered on 21 November 2026 from $10) |
+| [X (Twitter) Search Scraper](https://apify.com/om_kh/twitter-x-search-scraper) | X | Keyword | $1 per 1,000 posts |
+| [Facebook Page Scraper](https://apify.com/om_kh/facebook-page-scraper) | Facebook | Page profile/followers | $10 per 1,000 pages + $0.001 per run |
+| [Facebook Page Posts Scraper](https://apify.com/om_kh/facebook-page-posts-scraper) | Facebook | Page posts | $10 per 1,000 posts + $0.001 per run |
+| [LinkedIn Company Scraper](https://apify.com/om_kh/linkedin-company-scraper) | LinkedIn | Company page | $4 per 1,000 companies, $3 per 1,000 from 7 December 2026, + $0.001 per run |
+| [Twitch Clips Scraper](https://apify.com/om_kh/twitch-clips-scraper) | Twitch | Channel/game clips | $5 per 1,000 clips + $0.001 per run |
+| [Instagram & TikTok Profile Scraper](https://apify.com/om_kh/instagram-tiktok-profile-scraper) | Instagram/TikTok | Growth delta (follower/engagement trend) | $6 per 1,000 profiles + $0.001 per run |
 
 ## Telling the siblings apart
 

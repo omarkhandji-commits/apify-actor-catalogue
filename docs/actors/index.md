@@ -1,0 +1,113 @@
+---
+title: "Every om_kh Actor: inputs, outputs, price and code"
+description: "One page per om_kh Apify Actor with its input fields, a real output row, its price and Python, cURL and MCP examples."
+---
+
+[← Catalogue home](../index.md)
+
+# Every Actor, one page each
+
+Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examples for each Actor.
+
+- [11st (11번가) Korea Product Scraper - Prices, Sales $0.90/1K](11st-korea-product-scraper.md) — $0.90 per 1,000 products + $0.001 per run
+- [1688 (阿里巴巴) Wholesale Supplier Scraper - Factory or Trader](1688-wholesale-supplier-scraper.md) — $0.0028 per product (since 21 Nov 2026; was $0.012) + $0.002 per verified supplier + $0.0008 per price tier, + $0.001 per run
+- [1688 Reverse Image Search (阿里巴巴) - Find Suppliers by Photo](1688-reverse-image-product-finder.md) — $0.012 per match (**$0.0035 from 3 December 2026**) + $0.002 per image + $0.001 per supplier check, + $0.001 per run
+- [AliExpress (速卖通) Image Search - Find Products by Photo](visual-product-matcher.md) — $0.003 per match (since 21 Nov 2026; was $0.015) + $0.002 per image + $0.001 per run
+- [AliExpress Product Search Scraper - Real Prices, Units Sold](aliexpress-search-scraper.md) — $1.50 per 1,000 products (since 21 Nov 2026; was $3), + $0.001 per run
+- [Amazon Bestsellers Scraper - Best Sellers Rank, Price, Prime](amazon-best-sellers-scraper.md) — $10 per 1,000 products + $0.001 per run
+- [Amazon Price & Stock Scraper - Price, Stock, Drops](amazon-price-stock-tracker.md) — **$10 per 1,000 products** ($0.01 each) until 29 November 2026, **$0.50 per 1,000 from 30 November 2026** ($0.0005 each), no start fee
+- [Amazon Review Details Scraper - Ratings, Text, Verified](amazon-reviews-scraper.md) — $20 per 1,000 reviews, $0.45 per 1,000 from 2 December 2026, + $0.001 per run
+- [Amazon Search Results Scraper - Price, Rating, Listing](amazon-product-search-scraper.md) — $10 per 1,000 products + $0.001 per run
+- [App Store & Google Play Reviews Scraper - Ratings](app-store-google-play-reviews-scraper.md) — $0.02 per actionable review, $0.00019 ($0.19 per 1,000) from 2 December 2026, + $0.001 per run; other reviews are free
+- [App Store Reviews Scraper API - Ratings, Text, $0.10/1K](appstore-reviews-api.md) — **$0.10 per 1,000 reviews**, + $0.001 per run
+- [Ashby Jobs Scraper API - Title, Location, Department](ashby-jobs-api.md) — $1.50 per 1,000 jobs + $0.001 per run
+- [ATS Jobs API - 123 ATS: Greenhouse, Lever, Workday Jobs](ats-jobs-api.md) — $1.50 per 1,000 jobs (down to $0.90 on larger Apify plans), + $0.001 per run
+- [Bilibili Video Scraper - Search, Creators, Danmaku $4/1K](bilibili-scraper.md) — $4 per 1,000 videos or creators, $0.20 per 1,000 danmaku, + $0.001 per run
+- [Booking.com Reviews Scraper - Score, Text, Guest Name](booking-com-reviews-scraper.md) — $1 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $3)
+- [Business Email Finder API - Verify, Score, Confidence](vigia-lead-quality-api.md) — $0.01 per verified lead (was $0.035 until 20 November 2026) + $0.001 per run
+- [Civitai Scraper - AI Models, Downloads, LoRAs $0.35/1K](civitai-scraper.md) — **$0.35 per 1,000 models** + $0.001 per run
+- [Coles Australia Scraper - Prices, Specials, Barcodes](coles-australia-scraper.md) — $1 per 1,000 products, $3 per 1,000 with details, no start fee
+- [Company Careers Page Scraper - Jobs from Any Career Site](careers-page-scraper.md) — **$2.50 per 1,000 jobs** + $0.005 per run ($2.13 to $1.38 on paid plans)
+- [Craigslist Classifieds Scraper - Listings, Prices, Photos](craigslist-scraper.md) — $1 per 1,000 listings, $1.50 per 1,000 with details, + $0.001 per run from Dec 4, 2026 (no start fee before)
+- [eBay Sold Listing Prices Scraper - Sold Price, Date, Title](ebay-sold-listings-scraper.md) — $10 per 1,000 sold listings + $0.001 per run
+- [Etsy Listings Scraper - Price, Stock, Ratings](etsy-listings-scraper.md) — $7 per 1,000 listings + $0.001 per run
+- [Eventbrite Events Scraper - Prices, Organizers $2/1K](eventbrite-scraper.md) — $2 per 1,000 events (organizer details included) + $0.001 per run
+- [Facebook Ad Creative Tracker - New, Edited, Dropped Ads](facebook-ad-creative-tracker.md) — $2 per 1,000 changed ads + $0.001 per run
+- [Facebook Ads Library Scraper API - Ad Copy, CTA, Impressions](facebook-ads-library-scraper.md) — $12.50 per 1,000 ads + $0.001 per run
+- [Facebook Page Info Scraper - Followers, Contact, About](facebook-page-scraper.md) — $10 per 1,000 pages + $0.001 per run
+- [Facebook Page Posts Scraper - Likes, Comments, Date](facebook-page-posts-scraper.md) — $10 per 1,000 posts + $0.001 per run
+- [FlixBus Scraper - Bus & Train Prices, Seats $1/1K](flixbus-scraper.md) — $1 per 1,000 trips + $0.001 per run
+- [France Company Registry Scraper - Search, SIREN, VAT](france-company-registry-scraper.md) — $2.50 per 1,000 companies (since 21 Nov 2026; was $4) + $0.001 per run
+- [G2 Software Reviews Scraper - Ratings, Pros, Cons](g2-reviews-scraper.md) — $20 per 1,000 reviews, $1 per 1,000 from 7 December 2026, + $0.001 per run
+- [Glassdoor Reviews Scraper - Ratings, Pros, Cons, Job Title](glassdoor-reviews-scraper.md) — $4.50 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $20)
+- [Google Ads Transparency Scraper - Ad Text & Countries $1.40/1K](google-ads-transparency-scraper.md) — $1.40 per 1,000 ads, no start fee, no monitoring fee
+- [Google Business Profile Q&A Scraper - Questions, Answers](google-business-profile-qa-scraper.md) — $7.50 per 1,000 unanswered questions, + $0.001 per run
+- [Google Hotels Search Scraper - Prices, OTA Rates, Ratings](google-hotels-scraper.md) — $2 per 1,000 properties, $4 per 1,000 with every booking site's prices, + $0.001 per run from Dec 4, 2026 (no start fee before)
+- [Google Jobs Scraper - Salary, Apply Links, Descriptions](google-jobs-scraper.md) — $4 per 1,000 jobs on the free plan, $3.40 to $2.20 on paid plans, no start fee
+- [Google Maps Business Scraper API - Name, Rating, Phone](google-maps-business-scraper.md) — $9 per 1,000 places + $0.001 per run
+- [Google Maps Reviews Scraper API - Rating, Text, Reviewer](google-maps-reviews-scraper.md) — $0.30 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.80)
+- [Google News Scraper - Headlines, Source, Date, API](google-news-scraper.md) — **$3 per 1,000 articles**, no start fee
+- [Google Play Store Scraper - Reviews, Apps, Developer Email](google-play-store-scraper.md) — $0.14 per 1,000 apps and $0.10 per 1,000 reviews, no start fee
+- [Google Search Results Scraper - Rankings, SERP, Position](google-search-results-scraper.md) — **$7 per 1,000 keywords checked** (all ranking rows of a keyword included), + $0.001 per run from Dec 1, 2026 (no start fee before)
+- [Google Trends Data Scraper - Interest, Regions, $2/1K](google-trends-scraper.md) — $2 per 1,000 keyword rows, $1 per 1,000 Trending now searches, + $0.001 per run
+- [Greenhouse Jobs Scraper - Title, Location, Salary API](greenhouse-jobs-api.md) — $1.50 per 1,000 jobs + $0.001 per run
+- [Hacker News Data Scraper - Stories, Comments, Points](hacker-news-scraper.md) — $0.19 per 1,000 stories and comments + $0.001 per run
+- [HelloFresh Recipes Scraper - Ingredients, Calories $2/1K](hellofresh-recipes-scraper.md) — $2 per 1,000 recipes + $0.001 per run
+- [Hiring Signals API - Companies Hiring Now by Role](company-hiring-signals.md) — $0.005 per company checked (was $0.02 until 20 November 2026) + $0.001 per run, even when nothing changed (the check is the work)
+- [Indeed Jobs Scraper API - Descriptions, Post Dates](indeed-jobs-scraper.md) — **$0.30 per 1,000 jobs** + $0.001 per run
+- [Instagram & TikTok Profile Scraper - Followers, Bio](instagram-tiktok-profile-scraper.md) — $6 per 1,000 profiles + $0.001 per run
+- [Instagram Following & Related Profiles Scraper - Full List](instagram-following-scraper.md) — $0.002 per account listed and $0.004 per enriched profile until 24 November 2026; **from 25 November: $0.00005 and $0.00115**
+- [Instagram Hashtag Media Scraper - Images, Likes, Captions](instagram-hashtag-scraper.md) — $6 per 1,000 posts + $0.001 per run
+- [Instagram Lookalike Scraper - Similar Accounts & Followers](instagram-profile-lookalike-scraper.md) — $0.007 per profile + $0.0008 per recent post + $0.001 per run
+- [Instagram Profile Posts Scraper - Reels, Captions, Views](instagram-profile-scraper.md) — $6 per 1,000 posts + $0.001 per run
+- [JobStreet & SEEK Jobs Scraper - Salary, Company, Asia AU](seek-jobstreet-jobs-scraper.md) — $1 per 1,000 jobs, + $1 per 1,000 for full details, + $0.001 per run from Dec 1, 2026 (no start fee before)
+- [Kalshi & Polymarket Scraper - Odds, Probability, Volume](kalshi-polymarket-scraper.md) — $1 per 1,000 markets + $0.001 per run
+- [Lever.co Jobs API - Title, Location, Department, Salary](lever-jobs-api.md) — $1.50 per 1,000 jobs + $0.001 per run
+- [LinkedIn Ads Library Scraper - Impressions, Targeting](linkedin-ad-library-scraper.md) — $1 per 1,000 ads, no start fee
+- [LinkedIn Company Info Scraper - Employee Count, Size, HQ](linkedin-company-scraper.md) — $4 per 1,000 companies, $3 per 1,000 from 7 December 2026, + $0.001 per run
+- [LinkedIn Job Search Scraper - Salaries, Descriptions](linkedin-jobs-scraper.md) — $0.35 per 1,000 jobs, no start fee, no monitoring fee
+- [Medium Scraper - Articles, Full Text, Tags $2/1K](medium-scraper.md) — $2 per 1,000 articles + $0.001 per run
+- [Netherlands Company Registry Scraper - Name, KVK, Status](netherlands-company-registry-scraper.md) — $0.012 per company, $0.002 from 6 December 2026, + $0.001 per run
+- [New Business Leads - New Google Maps Listings by City](google-maps-new-business-scraper.md) — $10 per 1,000 new businesses + $0.001 per run
+- [Product Hunt Leaderboard Scraper - Daily Launches, Upvotes](product-hunt-scraper.md) — $7.50 per 1,000 launches + $0.001 per run
+- [Quora Search Scraper - Questions, Answers, Views by Keyword](quora-scraper.md) — $2.50 per 1,000 questions and answers + $0.001 per run
+- [Reddit Keyword Search Scraper - Posts, Comments, Upvotes](reddit-posts-comments-scraper.md) — $9 per 1,000 posts, no start fee (lowered on 21 November 2026 from $10)
+- [Reddit Subreddit Posts Scraper - Upvotes, Comments, Media](reddit-subreddit-scraper.md) — $0.75 per 1,000 posts, no start fee (lowered on 21 November 2026 from $10)
+- [Reddit User Scraper API - Posts, Comments, Upvotes, Flair](reddit-user-scraper.md) — Our fee is $0.75 per 1,000 posts; the optional scheduled monitoring adds $0.005 per check (one-off runs never pay it)
+- [Redfin Search Scraper - Homes for Sale, Prices, Photos](redfin-scraper.md) — **$0.40 per 1,000 homes**, + $0.001 per run from Nov 24, 2026 (no start fee before)
+- [Review Cleaner & Deduplicator - Fakes, Duplicates, Score](reviews-cleaner-deduplicator.md) — $0.02 per review row delivered + $0.001 per run
+- [Shopee Product Detail Scraper](shopee-product-detail-scraper.md) — $0.004 per product + $0.002 per priced SKU variant, + $0.001 per run from Nov 26, 2026 (no start fee before)
+- [Snapchat Profile Scraper - Subscribers, Bio, Spotlight](snapchat-profile-scraper.md) — $1.50 per 1,000 profiles, + $0.001 per Spotlight video if you ask for them, + $0.001 per run from Dec 2, 2026 (no start fee before)
+- [Stack Overflow Scraper - Questions, Answers, Vote Count](stack-overflow-scraper.md) — $2 per 1,000 questions + $0.001 per run
+- [Substack Posts Scraper - Newsletters, Subscribers, Likes](substack-scraper.md) — $0.50 per 1,000 posts, $1 per 1,000 with full text, $2 per 1,000 newsletters, + $0.001 per run from Dec 4, 2026 (no start fee before)
+- [Taobao 淘宝 & Tmall 天猫 Product Detail Scraper - Real Price](taobao-tmall-product-scraper.md) — $0.005 per product + $0.002 per SKU variant + $0.001 per verified coupon price, + $0.001 per run from Nov 26, 2026 (no start fee before)
+- [TED Europa Tenders Scraper - EU Public Procurement, Winners](eu-tenders-scraper.md) — $1.50 per 1,000 notices + $0.001 per run
+- [Telegram Channel Posts Scraper - Views, Reactions](telegram-channel-scraper.md) — $0.50 per 1,000 posts (lowered to $0.40 on 4 December 2026) + $0.001 per run
+- [ThomasNet Supplier Scraper - Name, Address, Verified Status](thomasnet-supplier-scraper.md) — $0.011 per verified supplier, $0.0025 from 2 December 2026, + $0.001 per run
+- [Threads Replies Scraper API - Comments, Likes $2/1K](threads-replies-scraper.md) — $2 per 1,000 replies, + $0.001 per run
+- [TikTok Creator Search Scraper](tiktok-creator-search-scraper.md) — $1.60 per 1,000 qualified creators (since 21 Nov 2026; was $4) + $0.002 per verified business contact
+- [TikTok Hashtag Posts Scraper - Views, Creator Bio, Music](vigia-tiktok-hashtag-monitor.md) — $5 per 1,000 videos + $0.001 per run
+- [TikTok Keyword Search Scraper - Views, New Videos](tiktok-search-scraper.md) — $5 per 1,000 videos + $0.001 per run
+- [TikTok Profile Videos Scraper - Views, Followers, Music](tiktok-profile-scraper.md) — $5 per 1,000 videos + $0.001 per run
+- [TikTok Shop Creator Finder](tiktok-shop-creator-finder.md) — $0.005 per qualified creator (since 21 Nov 2026; was $0.03) + $0.002 per shop activity signal, + $0.001 per run
+- [TikTok Shop Product Detail Scraper](tiktok-shop-product-detail-scraper.md) — $0.0125 per product + $0.002 per SKU variant, + $0.001 per run from Nov 26, 2026 (no start fee before)
+- [Tripadvisor Reviews Scraper API - Ratings, Owner Replies](tripadvisor-reviews-scraper.md) — $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $2)
+- [Trustpilot Company Reviews Scraper - Rating, Text, Reviewer](trustpilot-reviews-scraper.md) — $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.60)
+- [Truth Social Scraper API - Posts, Likes, ReTruths](truth-social-scraper.md) — $1 per 1,000 posts (from 4 December 2026: $3 per 1,000) + $0.001 per run
+- [Twitch Clips Scraper - Clips, View Counts, Creator Names](twitch-clips-scraper.md) — $5 per 1,000 clips + $0.001 per run
+- [Twitter Keyword Scraper & Monitor - X Posts, Likes, Replies](twitter-x-search-scraper.md) — $1 per 1,000 posts
+- [Website Screenshot Generator API - Full Page, PDF $2.50/1K](website-screenshot-api.md) — $2.50 per 1,000 screenshots, $4 per 1,000 full-page screenshots or PDFs, + $0.001 per GB of run memory per run ($0.004 at the default 4 GB)
+- [Workday Jobs API - Title, Location, Seniority, Remote](workday-jobs-api.md) — $1.50 per 1,000 jobs + $0.001 per run
+- [X Twitter User Profile Scraper - Posts, Followers, Views](twitter-x-profile-scraper.md) — $0.29 per 1,000 posts, no start fee (lowered on 21 November 2026 from $10)
+- [Yelp Reviews Scraper API - Ratings, Owner Replies, Elite](yelp-reviews-scraper.md) — $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.60)
+- [YouTube Business Email Scraper - Bio, Website, Videos $4/1K](youtube-channel-email-scraper.md) — $0.50 per 1,000 channels checked + $4 per 1,000 emails found, + $0.001 per run from Dec 1, 2026 (no start fee before)
+- [YouTube Channel Search Scraper - Subscribers, Emails](youtube-channel-search-scraper.md) — $0.50 per 1,000 channels, + $0.002 per channel with the option on, + $0.001 per run
+- [YouTube Channel Transcripts Scraper - Every Video to Text](youtube-channel-transcripts.md) — $5 per 1,000 transcripts: a 100-video channel = **$0.50**, + $0.001 per run
+- [YouTube Comments & Replies Scraper - Playlists $0.40/1K](youtube-comments-scraper.md) — **$0.40 per 1,000 comments** + $0.001 per run
+- [YouTube Creator Lead Finder - Views, Niche, Email](youtube-creator-lead-finder.md) — $4 per 1,000 qualified creators + $0.002 per verified contact + $0.001 per run
+- [YouTube Playlist & Channel Videos Scraper - Exact Views](youtube-channel-videos-scraper.md) — **$0.50 per 1,000 videos** (from 4 December 2026: $1.50 per 1,000) + $0.001 per run
+- [YouTube Search Scraper API - Videos, Views, $0.50/1K](vigia-youtube-search-monitor.md) — **$0.50 per 1,000 videos** + $0.001 per run
+- [YouTube Subtitle Scraper - Captions, SRT, Timestamps](youtube-transcript-scraper.md) — $2.50 per 1,000 subtitles: 100 videos = **$0.25**, + $0.001 per run from Nov 24, 2026 (no start fee before)
+- [YouTube Transcript Scraper - Full Text, Timestamps, Language](youtube-transcript-api.md) — **$1 per 1,000 transcripts, $2 per 1,000 from 13 December 2026.** 100 videos = $0.10 today, $0.20 from 13 December
+- [YouTube Video Transcript API - Text, Timestamps, JSON](video-transcript-api.md) — $2.50 per 1,000 transcripts: 100 videos = **$0.25**, + $0.001 per run from Nov 24, 2026 (no start fee before)
+- [Zillow Scraper API - Listings, Zestimate, Price Cuts, ZIP](zillow-listings-scraper.md) — $5 per 1,000 listings + $0.001 per run

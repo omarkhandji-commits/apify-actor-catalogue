@@ -8,10 +8,10 @@ Finding local businesses, watching for newly listed ones, catching a listing's u
 
 | Actor | Job | Public Task |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Discover the current full set of businesses for a category+area | $0.009 / place (+ $0.1 / scheduled monitoring check, only when monitoring is on) |
-| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Report only businesses newly detected since your last check | $0.01 / new business (+ $0.08 / scheduled monitoring check, only when monitoring is on) |
-| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Catch new unanswered public questions on a listing | $0.0075 / unanswered question (+ $0.03 / scheduled monitoring check, only when monitoring is on) |
-| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status delta | $0.005 / listing (+ $0.18 / scheduled monitoring check, only when monitoring is on) |
+| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Discover the current full set of businesses for a category+area | $9 per 1,000 places + $0.001 per run |
+| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Report only businesses newly detected since your last check | $10 per 1,000 new businesses + $0.001 per run |
+| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Catch new unanswered public questions on a listing | $7.50 per 1,000 unanswered questions, + $0.001 per run |
+| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status delta | $5 per 1,000 listings + $0.001 per run |
 
 ## 1. Discover businesses
 
