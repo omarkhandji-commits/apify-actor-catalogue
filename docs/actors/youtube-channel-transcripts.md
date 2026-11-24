@@ -1,13 +1,13 @@
 ---
 title: "YouTube Channel Transcripts Scraper - Every Video to Text"
-description: "Bulk YouTube channel and playlist transcripts for RAG and LLM datasets: one timestamped transcript per video from an @handle, channel URL or playlist, with optional SRT/VTT and RAG chunks. Pay per transcript; videos without captions never billed. API and MCP ready. $5 per 1,000 transcripts."
+description: "Bulk YouTube channel and playlist transcripts for RAG and LLM datasets: one timestamped transcript per video from an @handle, channel URL or playlist, with optional SRT/VTT and RAG chunks. Videos without captions never billed. API and MCP ready. $5 per 1,000 transcripts, $1 from Dec 21."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # YouTube Channel Transcripts Scraper - Every Video to Text
 
-Bulk YouTube channel and playlist transcripts for RAG and LLM datasets: one timestamped transcript per video from an @handle, channel URL or playlist, with optional SRT/VTT and RAG chunks. Pay per transcript; videos without captions never billed. API and MCP ready. $5 per 1,000 transcripts.
+Bulk YouTube channel and playlist transcripts for RAG and LLM datasets: one timestamped transcript per video from an @handle, channel URL or playlist, with optional SRT/VTT and RAG chunks. Videos without captions never billed. API and MCP ready. $5 per 1,000 transcripts, $1 from Dec 21.
 
 **Run it on Apify:** [https://apify.com/om_kh/youtube-channel-transcripts](https://apify.com/om_kh/youtube-channel-transcripts) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Bulk YouTube channel and playlist transcripts for RAG and LLM datasets: one time
 | **You give** | A channel (`@name` or link) or a playlist link |
 | **We do** | List the channel's or playlist's videos, newest first, and read YouTube's own captions for each |
 | **You get** | One row per video: the full transcript as clean text, with timestamped lines if you want them |
-| **It costs** | $5 per 1,000 transcripts: a 100-video channel = **$0.50**, + $0.001 per run. Videos without captions are never charged; the first result of every run is free. `maxVideos` (default 50) decides how far back it goes |
+| **It costs** | $5 per 1,000 transcripts until 21 December 2026, then **$1 per 1,000**: a 100-video channel = **$0.50** now, **$0.10** from 21 December, + $0.001 per run. Videos without captions are never charged; the first result of every run is free. `maxVideos` (default 50) decides how far back it goes |
 | **It does not** | Make a transcript when the video has no captions (that video is reported and costs $0), sign in, or use an API key |
 
 ## Input fields

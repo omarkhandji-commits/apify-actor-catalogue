@@ -102,7 +102,7 @@ Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examp
 - [Yelp Reviews Scraper API - Ratings, Owner Replies, Elite](yelp-reviews-scraper.md) — $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.60)
 - [YouTube Business Email Scraper - Bio, Website, Videos $4/1K](youtube-channel-email-scraper.md) — $0.50 per 1,000 channels checked + $4 per 1,000 emails found, + $0.001 per run from Dec 1, 2026 (no start fee before)
 - [YouTube Channel Search Scraper - Subscribers, Emails](youtube-channel-search-scraper.md) — $0.50 per 1,000 channels, + $0.002 per channel with the option on, + $0.001 per run
-- [YouTube Channel Transcripts Scraper - Every Video to Text](youtube-channel-transcripts.md) — $5 per 1,000 transcripts: a 100-video channel = **$0.50**, + $0.001 per run
+- [YouTube Channel Transcripts Scraper - Every Video to Text](youtube-channel-transcripts.md) — $5 per 1,000 transcripts until 21 December 2026, then **$1 per 1,000**: a 100-video channel = **$0.50** now, **$0.10** from 21 December, + $0.001 per run
 - [YouTube Comments & Replies Scraper - Playlists $0.40/1K](youtube-comments-scraper.md) — **$0.40 per 1,000 comments** + $0.001 per run
 - [YouTube Creator Lead Finder - Views, Niche, Email](youtube-creator-lead-finder.md) — $4 per 1,000 qualified creators + $0.002 per verified contact + $0.001 per run
 - [YouTube Playlist & Channel Videos Scraper - Exact Views](youtube-channel-videos-scraper.md) — **$0.50 per 1,000 videos** (from 4 December 2026: $1.50 per 1,000) + $0.001 per run
