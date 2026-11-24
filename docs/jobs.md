@@ -32,7 +32,7 @@ New filters, applied before you pay: contract type, work arrangement, countries,
 | [Greenhouse Job Listings API](https://apify.com/om_kh/greenhouse-jobs-api) | You already know it's a Greenhouse board; full description, salary and skills included | $1.50 per 1,000 jobs + $0.001 per run |
 | [Lever.co Jobs API](https://apify.com/om_kh/lever-jobs-api) | You already know it's a Lever board; full description, salary and skills included | $1.50 per 1,000 jobs + $0.001 per run |
 | [Ashby Jobs API](https://apify.com/om_kh/ashby-jobs-api) | You already know it's an Ashby board; full description, salary and skills included | $1.50 per 1,000 jobs + $0.001 per run |
-| [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $1.50 per 1,000 jobs + $0.001 per run |
+| [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $0.10 per 1,000 jobs + $0.001 per run (from Nov 24, 2026) |
 | [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.005 per company checked (was $0.02 until 20 November 2026) + $0.001 per run, even when nothing changed (the check is the work) |
 | [LinkedIn Jobs Scraper](https://apify.com/om_kh/linkedin-jobs-scraper) | LinkedIn search by keywords and place, no login: description, applicants, apply type, salary as numbers | $0.35 per 1,000 jobs, no start fee, no monitoring fee |
 | [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | **$0.30 per 1,000 jobs** + $0.001 per run |

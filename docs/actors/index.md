@@ -97,7 +97,7 @@ Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examp
 - [Twitch Clips Scraper - Clips, View Counts, Creator Names](twitch-clips-scraper.md) — $5 per 1,000 clips + $0.001 per run
 - [Twitter Keyword Scraper & Monitor - X Posts, Likes, Replies](twitter-x-search-scraper.md) — $1 per 1,000 posts
 - [Website Screenshot Generator API - Full Page, PDF $2.50/1K](website-screenshot-api.md) — $2.50 per 1,000 screenshots, $4 per 1,000 full-page screenshots or PDFs, + $0.001 per GB of run memory per run ($0.004 at the default 4 GB)
-- [Workday Jobs API - Title, Location, Seniority, Remote](workday-jobs-api.md) — $1.50 per 1,000 jobs + $0.001 per run
+- [Workday Jobs API - Title, Location, Seniority, Remote](workday-jobs-api.md) — $0.10 per 1,000 jobs + $0.001 per run, from Nov 24, 2026 (was $1.50 per 1,000)
 - [X Twitter User Profile Scraper - Posts, Followers, Views](twitter-x-profile-scraper.md) — $0.29 per 1,000 posts, no start fee (lowered on 21 November 2026 from $10)
 - [Yelp Reviews Scraper API - Ratings, Owner Replies, Elite](yelp-reviews-scraper.md) — $0.25 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $0.60)
 - [YouTube Business Email Scraper - Bio, Website, Videos $4/1K](youtube-channel-email-scraper.md) — $0.50 per 1,000 channels checked + $4 per 1,000 emails found, + $0.001 per run from Dec 1, 2026 (no start fee before)

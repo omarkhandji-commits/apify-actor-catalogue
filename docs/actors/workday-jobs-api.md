@@ -1,13 +1,13 @@
 ---
 title: "Workday Jobs API - Title, Location, Seniority, Remote"
-description: "Workday jobs API: every open job from any myworkdayjobs.com careers site as clean data, with title, location, date, apply link, job function, seniority and remote flags. $1.50 per 1,000 jobs, first 3 per run free. Filters run before billing. No login."
+description: "Workday jobs API: every open job from any myworkdayjobs.com careers site as clean data, with title, location, date, apply link, job function, seniority and remote flags. $0.10 per 1,000 jobs from Nov 24 (was $1.50), 3 free per run. Filters run before billing. No login."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Workday Jobs API - Title, Location, Seniority, Remote
 
-Workday jobs API: every open job from any myworkdayjobs.com careers site as clean data, with title, location, date, apply link, job function, seniority and remote flags. $1.50 per 1,000 jobs, first 3 per run free. Filters run before billing. No login.
+Workday jobs API: every open job from any myworkdayjobs.com careers site as clean data, with title, location, date, apply link, job function, seniority and remote flags. $0.10 per 1,000 jobs from Nov 24 (was $1.50), 3 free per run. Filters run before billing. No login.
 
 **Run it on Apify:** [https://apify.com/om_kh/workday-jobs-api](https://apify.com/om_kh/workday-jobs-api) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Workday jobs API: every open job from any myworkdayjobs.com careers site as clea
 | **You give** | Workday company handles or board links (a myworkdayjobs.com careers link), up to 100 per run, with optional keyword, location and remote filters |
 | **We do** | Read each company's official public Workday job feed; filters run before billing |
 | **You get** | One row per open job: title, location, department, posted date, apply link and description, plus job function, seniority and remote flags |
-| **It costs** | $1.50 per 1,000 jobs + $0.001 per run. A company with 35 open roles costs about **$0.05**. The first 3 jobs of every run are free. No supplier fee |
+| **It costs** | $0.10 per 1,000 jobs + $0.001 per run, from Nov 24, 2026 (was $1.50 per 1,000). A company with 35 open roles costs about **$0.004**. The first 3 jobs of every run are free. No supplier fee |
 | **It does not** | Scrape LinkedIn, Indeed or job boards, or read pages behind a login |
 
 ## Input fields
