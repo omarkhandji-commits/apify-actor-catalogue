@@ -23,7 +23,7 @@ Tracking prices, stock status, and marketplace listings — for competitive pric
 | [Etsy Listings Scraper](https://apify.com/om_kh/etsy-listings-scraper) | A specific Etsy shop's current listings | $7 per 1,000 listings + $0.001 per run |
 | [AliExpress (速卖通) Search Scraper](https://apify.com/om_kh/aliexpress-search-scraper) | Best sellers, real seller prices and units sold on AliExpress for any keyword | $1.50 per 1,000 products (since 21 Nov 2026; was $3), + $0.001 per run |
 | [11st (11번가) Korea Product Scraper](https://apify.com/om_kh/11st-korea-product-scraper) | Prices, sellers, sales counts and ratings on 11st, a top South Korean marketplace, for any search | $0.90 per 1,000 products + $0.001 per run |
-| [Coles Australia Scraper](https://apify.com/om_kh/coles-australia-scraper) | Coles supermarket prices, specials and unit prices, per store | $1 per 1,000 products, $3 per 1,000 with details, no start fee |
+| [Coles Scraper - Australia](https://apify.com/om_kh/coles-australia-scraper) | Coles supermarket prices, specials and unit prices, per store | $1 per 1,000 products, $3 per 1,000 with details, no start fee |
 
 ## Telling the siblings apart
 

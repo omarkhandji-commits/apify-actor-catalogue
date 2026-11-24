@@ -1,13 +1,13 @@
 ---
 title: "TED Europa Tenders Scraper - EU Public Procurement, Winners"
-description: "TED Europa tenders scraper: scrape EU public tenders from TED, the official EU journal: open calls with deadline, value, buyer email and documents, plus awards with winners. Filter by keyword, country, CPV, buyer, procedure, nature, value, date. Optional AI summary with your own key."
+description: "TED Europa tenders scraper: EU public tenders from TED, the official EU journal: open calls with deadline, value, buyer email and documents, plus awards with winners. Filter by keyword, country, CPV, buyer, procedure, nature, value, date. $1.50 per 1,000 notices. Optional AI summary."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # TED Europa Tenders Scraper - EU Public Procurement, Winners
 
-TED Europa tenders scraper: scrape EU public tenders from TED, the official EU journal: open calls with deadline, value, buyer email and documents, plus awards with winners. Filter by keyword, country, CPV, buyer, procedure, nature, value, date. Optional AI summary with your own key.
+TED Europa tenders scraper: EU public tenders from TED, the official EU journal: open calls with deadline, value, buyer email and documents, plus awards with winners. Filter by keyword, country, CPV, buyer, procedure, nature, value, date. $1.50 per 1,000 notices. Optional AI summary.
 
 **Run it on Apify:** [https://apify.com/om_kh/eu-tenders-scraper](https://apify.com/om_kh/eu-tenders-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 

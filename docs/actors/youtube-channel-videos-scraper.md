@@ -1,13 +1,13 @@
 ---
 title: "YouTube Playlist & Channel Videos Scraper - Exact Views"
-description: "YouTube playlist and channel videos scraper: youTube channel scraper: up to 5,000 videos, 2,000 Shorts and 1,000 live streams per channel with exact views, likes, comment counts, dates, description, hashtags and thumbnail, plus the channel's subscribers, country, links and join date. No API key."
+description: "YouTube playlist and channel videos scraper: up to 5,000 videos, 2,000 Shorts and 1,000 live streams per channel with exact views, likes, comment counts, dates, description, hashtags and thumbnail + channel stats. $0.50/1K videos ($1.50 from Dec 4). No API key."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # YouTube Playlist & Channel Videos Scraper - Exact Views
 
-YouTube playlist and channel videos scraper: youTube channel scraper: up to 5,000 videos, 2,000 Shorts and 1,000 live streams per channel with exact views, likes, comment counts, dates, description, hashtags and thumbnail, plus the channel's subscribers, country, links and join date. No API key.
+YouTube playlist and channel videos scraper: up to 5,000 videos, 2,000 Shorts and 1,000 live streams per channel with exact views, likes, comment counts, dates, description, hashtags and thumbnail + channel stats. $0.50/1K videos ($1.50 from Dec 4). No API key.
 
 **Run it on Apify:** [https://apify.com/om_kh/youtube-channel-videos-scraper](https://apify.com/om_kh/youtube-channel-videos-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 

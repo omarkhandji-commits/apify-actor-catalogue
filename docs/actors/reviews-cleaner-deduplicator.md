@@ -1,13 +1,13 @@
 ---
 title: "Review Cleaner & Deduplicator - Fakes, Duplicates, Score"
-description: "Clean review exports from any source into one schema: rating, title, text, author, date and ID, with duplicates removed and fake-looking rows scored. Compare two exports to isolate genuinely new reviews. Bring your own data; no scraping. For analysts and reputation teams."
+description: "Clean review exports from any source into one schema: rating, title, text, author, date and ID, with duplicates removed and fake-looking rows scored. Compare two exports to isolate genuinely new reviews. Bring your own data; no scraping. For analysts and reputation teams. $0.02 per review row."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Review Cleaner & Deduplicator - Fakes, Duplicates, Score
 
-Clean review exports from any source into one schema: rating, title, text, author, date and ID, with duplicates removed and fake-looking rows scored. Compare two exports to isolate genuinely new reviews. Bring your own data; no scraping. For analysts and reputation teams.
+Clean review exports from any source into one schema: rating, title, text, author, date and ID, with duplicates removed and fake-looking rows scored. Compare two exports to isolate genuinely new reviews. Bring your own data; no scraping. For analysts and reputation teams. $0.02 per review row.
 
 **Run it on Apify:** [https://apify.com/om_kh/reviews-cleaner-deduplicator](https://apify.com/om_kh/reviews-cleaner-deduplicator) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 

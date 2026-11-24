@@ -1,11 +1,11 @@
 ---
-title: "Coles Australia Scraper - Prices, Specials, Barcodes"
+title: "Coles Scraper - Australia Prices, Specials, Barcodes"
 description: "Scrape Coles supermarket (Australia): shelf price, was-price, specials, unit price, availability, aisle. Search, aisles, specials page, links, per-store prices, barcode, ingredients, nutrition. No login. $1 per 1,000 products ($3 from Dec 10), no start fee."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
-# Coles Australia Scraper - Prices, Specials, Barcodes
+# Coles Scraper - Australia Prices, Specials, Barcodes
 
 Scrape Coles supermarket (Australia): shelf price, was-price, specials, unit price, availability, aisle. Search, aisles, specials page, links, per-store prices, barcode, ingredients, nutrition. No login. $1 per 1,000 products ($3 from Dec 10), no start fee.
 
@@ -129,4 +129,4 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~coles-australia-scraper/run-sy
 
 Connect Claude, Cursor or any MCP client to `https://mcp.apify.com` and add `om_kh/coles-australia-scraper` as a tool.
 
-Full documentation, pricing and the latest changes: [Coles Australia Scraper - Prices, Specials, Barcodes](https://apify.com/om_kh/coles-australia-scraper).
+Full documentation, pricing and the latest changes: [Coles Scraper - Australia Prices, Specials, Barcodes](https://apify.com/om_kh/coles-australia-scraper).

@@ -1,13 +1,13 @@
 ---
 title: "Twitter Keyword Scraper & Monitor - X Posts, Likes, Replies"
-description: "Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed."
+description: "Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed. $1 per 1,000 posts."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Twitter Keyword Scraper & Monitor - X Posts, Likes, Replies
 
-Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed.
+Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed. $1 per 1,000 posts.
 
 **Run it on Apify:** [https://apify.com/om_kh/twitter-x-search-scraper](https://apify.com/om_kh/twitter-x-search-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 

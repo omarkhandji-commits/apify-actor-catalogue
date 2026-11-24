@@ -26,7 +26,7 @@ Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examp
 - [Booking.com Reviews Scraper - Score, Text, Guest Name](booking-com-reviews-scraper.md) — $1 per 1,000 reviews, no start fee (lowered on 21 November 2026 from $3)
 - [Business Email Finder API - Verify, Score, Confidence](vigia-lead-quality-api.md) — $0.01 per verified lead (was $0.035 until 20 November 2026) + $0.001 per run
 - [Civitai Scraper - AI Models, Downloads, LoRAs $0.35/1K](civitai-scraper.md) — **$0.35 per 1,000 models** + $0.001 per run
-- [Coles Australia Scraper - Prices, Specials, Barcodes](coles-australia-scraper.md) — $1 per 1,000 products, $3 per 1,000 with details, no start fee
+- [Coles Scraper - Australia Prices, Specials, Barcodes](coles-australia-scraper.md) — $1 per 1,000 products, $3 per 1,000 with details, no start fee
 - [Company Careers Page Scraper - Jobs from Any Career Site](careers-page-scraper.md) — **$2.50 per 1,000 jobs** + $0.005 per run ($2.13 to $1.38 on paid plans)
 - [Craigslist Classifieds Scraper - Listings, Prices, Photos](craigslist-scraper.md) — $1 per 1,000 listings, $1.50 per 1,000 with details, + $0.001 per run from Dec 4, 2026 (no start fee before)
 - [eBay Sold Listing Prices Scraper - Sold Price, Date, Title](ebay-sold-listings-scraper.md) — $10 per 1,000 sold listings + $0.001 per run
