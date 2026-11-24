@@ -18,7 +18,7 @@ LinkedIn Ads Library scraper by keyword, advertiser, company page, pasted search
 | **You give** | A keyword (`crm`), an advertiser (`HubSpot`), ad links, or countries |
 | **We do** | Search LinkedIn's public Ad Library, then open every ad's own page |
 | **You get** | One row per ad: text, headline, call to action, landing page, images and video, run dates, estimated impressions with the split by country, and the targeting the advertiser chose |
-| **It costs** | $1 per 1,000 ads, no start fee. The first 20 ads of every run are free, and an ad whose details could not be read is delivered free |
+| **It costs** | $2 per 1,000 ads on the free plan ($1.70 to $1.10 on paid plans), no start fee. The first 20 ads of every run are free, and an ad whose details could not be read is delivered free |
 | **It does not** | Sign in to LinkedIn, or give spend and clicks (LinkedIn does not publish them). Run dates, impressions and targeting exist only for ads shown in the EU: add an EU country such as `FR` or `DE` |
 
 ## Input fields

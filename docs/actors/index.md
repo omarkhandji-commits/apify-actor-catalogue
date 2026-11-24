@@ -63,7 +63,7 @@ Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examp
 - [JobStreet & SEEK Jobs Scraper - Salary, Company, Asia AU](seek-jobstreet-jobs-scraper.md) — $1 per 1,000 jobs, + $1 per 1,000 for full details, + $0.001 per run from Dec 1, 2026 (no start fee before)
 - [Kalshi & Polymarket Scraper - Odds, Probability, Volume](kalshi-polymarket-scraper.md) — $1 per 1,000 markets + $0.001 per run
 - [Lever.co Jobs API - Title, Location, Department, Salary](lever-jobs-api.md) — $1.50 per 1,000 jobs + $0.001 per run
-- [LinkedIn Ads Library Scraper - Impressions, Targeting](linkedin-ad-library-scraper.md) — $1 per 1,000 ads, no start fee
+- [LinkedIn Ads Library Scraper - Impressions, Targeting](linkedin-ad-library-scraper.md) — $2 per 1,000 ads, no start fee
 - [LinkedIn Company Info Scraper - Employee Count, Size, HQ](linkedin-company-scraper.md) — $4 per 1,000 companies, $3 per 1,000 from 7 December 2026, + $0.001 per run
 - [LinkedIn Job Search Scraper - Salaries, Descriptions](linkedin-jobs-scraper.md) — $0.35 per 1,000 jobs, no start fee, no monitoring fee
 - [Medium Scraper - Articles, Full Text, Tags $2/1K](medium-scraper.md) — $2 per 1,000 articles + $0.001 per run
