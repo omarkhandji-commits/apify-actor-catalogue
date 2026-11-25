@@ -1,13 +1,13 @@
 ---
-title: "TikTok Creator Search Scraper"
-description: "Find TikTok creators by niche or username: followers, median views, engagement rate, posting cadence and a score with reasons. $1.60 per 1,000 creators, first 3 free. Last video included, for influencer marketing and outreach lists. No login. All supplier fields included."
+title: "TikTok Influencer Search - Find Creators by Niche"
+description: "TikTok influencer search: find creators by niche or username: followers, median views, engagement rate, posting cadence and a score with reasons. $1.60 per 1,000 creators, first 3 free. Last video included, for influencer marketing and outreach lists. No login. All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
-# TikTok Creator Search Scraper
+# TikTok Influencer Search - Find Creators by Niche
 
-Find TikTok creators by niche or username: followers, median views, engagement rate, posting cadence and a score with reasons. $1.60 per 1,000 creators, first 3 free. Last video included, for influencer marketing and outreach lists. No login. All supplier fields included.
+TikTok influencer search: find creators by niche or username: followers, median views, engagement rate, posting cadence and a score with reasons. $1.60 per 1,000 creators, first 3 free. Last video included, for influencer marketing and outreach lists. No login. All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/tiktok-creator-search-scraper](https://apify.com/om_kh/tiktok-creator-search-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -98,4 +98,4 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~tiktok-creator-search-scraper/
 
 Connect Claude, Cursor or any MCP client to `https://mcp.apify.com` and add `om_kh/tiktok-creator-search-scraper` as a tool.
 
-Full documentation, pricing and the latest changes: [TikTok Creator Search Scraper](https://apify.com/om_kh/tiktok-creator-search-scraper).
+Full documentation, pricing and the latest changes: [TikTok Influencer Search - Find Creators by Niche](https://apify.com/om_kh/tiktok-creator-search-scraper).

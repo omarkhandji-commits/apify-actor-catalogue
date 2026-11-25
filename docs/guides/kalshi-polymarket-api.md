@@ -1,21 +1,21 @@
 ---
-title: "Kalshi and Polymarket API — Prediction Market Odds as JSON"
-description: "Live Kalshi and Polymarket odds in one table: implied probability, bid/ask, 24h move, volume and liquidity for any topic."
+title: "Polymarket API and Kalshi API — Prediction Market Odds as JSON"
+description: "Polymarket API and Kalshi API in one call: live odds in one table: implied probability, bid/ask, 24h move, volume and liquidity for any topic."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
 
-# Kalshi and Polymarket API — Prediction Market Odds as JSON
+# Polymarket API and Kalshi API — Prediction Market Odds as JSON
 
 ## How do I get Kalshi and Polymarket odds by API?
 
-Use the **Kalshi & Polymarket Scraper**. Type a topic (for example `fed rate`, `election`, `bitcoin`) and it searches both exchanges through their official public APIs, returning one row per market with the same fields on both venues: implied probability, yes price, bid, ask, spread, 24h move, volume, liquidity, open interest (Kalshi), close time and rules. Leave the topic empty for the most-traded markets. $1 per 1,000 markets.
+Use the **Polymarket & Kalshi API** robot. Type a topic (for example `fed rate`, `election`, `bitcoin`) and it searches both exchanges through their official public APIs, returning one row per market with the same fields on both venues: implied probability, yes price, bid, ask, spread, 24h move, volume, liquidity, open interest (Kalshi), close time and rules. Leave the topic empty for the most-traded markets. $1 per 1,000 markets.
 
-**Try it:** [Kalshi & Polymarket Scraper on Apify](https://apify.com/om_kh/kalshi-polymarket-scraper) — click *Try for free*, the input is prefilled.
+**Try it:** [Polymarket & Kalshi API on Apify](https://apify.com/om_kh/kalshi-polymarket-scraper) — click *Try for free*, the input is prefilled.
 
 ## Step by step
 
-1. Open [Kalshi & Polymarket Scraper](https://apify.com/om_kh/kalshi-polymarket-scraper) and click **Try for free** (an Apify account is free).
+1. Open [Polymarket & Kalshi API](https://apify.com/om_kh/kalshi-polymarket-scraper) and click **Try for free** (an Apify account is free).
 2. Paste this input (or fill the form):
 
 ```json
@@ -82,7 +82,7 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~kalshi-polymarket-scraper/run-
 
 ## Price
 
-$0.001 per market row, no start fee. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
+$1 per 1,000 markets + $0.001 per run. The first 20 rows of every run are free. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
 
 ## Use cases
 
@@ -111,5 +111,5 @@ No. It only reads market data and places no trades.
 - [X (Twitter) Search Scraper - Posts, Likes, Replies](https://apify.com/om_kh/twitter-x-search-scraper)
 
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get Kalshi and Polymarket odds by API?", "acceptedAnswer": {"@type": "Answer", "text": "Use the Kalshi & Polymarket Scraper. Type a topic (for example `fed rate`, `election`, `bitcoin`) and it searches both exchanges through their official public APIs, returning one row per market with the same fields on both venues: implied probability, yes price, bid, ask, spread, 24h move, volume, liquidity, open interest (Kalshi), close time and rules. Leave the topic empty for the most-traded markets. $1 per 1,000 markets."}}, {"@type": "Question", "name": "Do I need an exchange account?", "acceptedAnswer": {"@type": "Answer", "text": "No, both publish market data publicly."}}, {"@type": "Question", "name": "Is it trading advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. It only reads market data and places no trades."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get Kalshi and Polymarket odds by API?", "acceptedAnswer": {"@type": "Answer", "text": "Use the Polymarket & Kalshi API robot. Type a topic (for example `fed rate`, `election`, `bitcoin`) and it searches both exchanges through their official public APIs, returning one row per market with the same fields on both venues: implied probability, yes price, bid, ask, spread, 24h move, volume, liquidity, open interest (Kalshi), close time and rules. Leave the topic empty for the most-traded markets. $1 per 1,000 markets."}}, {"@type": "Question", "name": "Do I need an exchange account?", "acceptedAnswer": {"@type": "Answer", "text": "No, both publish market data publicly."}}, {"@type": "Question", "name": "Is it trading advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. It only reads market data and places no trades."}}]}
 </script>

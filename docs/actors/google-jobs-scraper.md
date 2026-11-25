@@ -1,13 +1,13 @@
 ---
-title: "Google Jobs Scraper - Salary, Apply Links, Descriptions"
-description: "Scrape Google Jobs for any keyword and city, or paste a Google Jobs link: salary as numbers and yearly pay, remote/hybrid/on-site, contract type, city and country, benefits, posted date, description and every apply link. Only-new-jobs mode. $4 per 1,000 jobs, less on paid plans."
+title: "Google Jobs API - Salary, Apply Links, Job Postings"
+description: "Google Jobs API: scrape Google Jobs for any keyword and city, or paste a Google Jobs link: salary as numbers and yearly pay, remote/hybrid/on-site, contract type, city and country, benefits, posted date, description and every apply link. Only-new-jobs mode. $4 per 1,000 jobs, less on paid plans."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
-# Google Jobs Scraper - Salary, Apply Links, Descriptions
+# Google Jobs API - Salary, Apply Links, Job Postings
 
-Scrape Google Jobs for any keyword and city, or paste a Google Jobs link: salary as numbers and yearly pay, remote/hybrid/on-site, contract type, city and country, benefits, posted date, description and every apply link. Only-new-jobs mode. $4 per 1,000 jobs, less on paid plans.
+Google Jobs API: scrape Google Jobs for any keyword and city, or paste a Google Jobs link: salary as numbers and yearly pay, remote/hybrid/on-site, contract type, city and country, benefits, posted date, description and every apply link. Only-new-jobs mode. $4 per 1,000 jobs, less on paid plans.
 
 **Run it on Apify:** [https://apify.com/om_kh/google-jobs-scraper](https://apify.com/om_kh/google-jobs-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -131,4 +131,4 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~google-jobs-scraper/run-sync-g
 
 Connect Claude, Cursor or any MCP client to `https://mcp.apify.com` and add `om_kh/google-jobs-scraper` as a tool.
 
-Full documentation, pricing and the latest changes: [Google Jobs Scraper - Salary, Apply Links, Descriptions](https://apify.com/om_kh/google-jobs-scraper).
+Full documentation, pricing and the latest changes: [Google Jobs API - Salary, Apply Links, Job Postings](https://apify.com/om_kh/google-jobs-scraper).

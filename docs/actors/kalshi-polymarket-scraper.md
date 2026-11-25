@@ -1,13 +1,13 @@
 ---
-title: "Kalshi & Polymarket Scraper - Odds, Probability, Volume"
-description: "Prediction-market data from Kalshi and Polymarket in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time, rules, optional live order book. Open or resolved markets, any topic. Optional AI reading. $1 per 1,000 markets."
+title: "Polymarket & Kalshi API - Prediction Market Odds"
+description: "Polymarket & Kalshi API: prediction-market odds in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time, rules, optional live order book. Open or resolved markets, any topic. Optional AI reading. $1 per 1,000 markets."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
-# Kalshi & Polymarket Scraper - Odds, Probability, Volume
+# Polymarket & Kalshi API - Prediction Market Odds
 
-Prediction-market data from Kalshi and Polymarket in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time, rules, optional live order book. Open or resolved markets, any topic. Optional AI reading. $1 per 1,000 markets.
+Polymarket & Kalshi API: prediction-market odds in one table: implied probability, yes price, bid/ask, spread, 24h move, volume, liquidity, open interest, close time, rules, optional live order book. Open or resolved markets, any topic. Optional AI reading. $1 per 1,000 markets.
 
 **Run it on Apify:** [https://apify.com/om_kh/kalshi-polymarket-scraper](https://apify.com/om_kh/kalshi-polymarket-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -111,4 +111,4 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~kalshi-polymarket-scraper/run-
 
 Connect Claude, Cursor or any MCP client to `https://mcp.apify.com` and add `om_kh/kalshi-polymarket-scraper` as a tool.
 
-Full documentation, pricing and the latest changes: [Kalshi & Polymarket Scraper - Odds, Probability, Volume](https://apify.com/om_kh/kalshi-polymarket-scraper).
+Full documentation, pricing and the latest changes: [Polymarket & Kalshi API - Prediction Market Odds](https://apify.com/om_kh/kalshi-polymarket-scraper).

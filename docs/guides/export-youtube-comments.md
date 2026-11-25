@@ -1,11 +1,11 @@
 ---
-title: "Export YouTube Comments to CSV or JSON — Up to 50,000 per Video, With Replies"
+title: "YouTube Comment Extractor — Export Comments to CSV or JSON, With Replies"
 description: "Download the comments of any YouTube video or Short with likes, reply count, author, date and hearted flag. No API key, no quota."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
 
-# Export YouTube Comments to CSV or JSON — Up to 50,000 per Video, With Replies
+# YouTube Comment Extractor — Export Comments to CSV or JSON, With Replies
 
 ## How do I export all comments from a YouTube video?
 
@@ -71,7 +71,7 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~youtube-comments-scraper/run-s
 
 ## Price
 
-$0.0004 per comment. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
+$0.40 per 1,000 comments + $0.001 per run. The first 10 results of every run are free. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
 
 ## Use cases
 

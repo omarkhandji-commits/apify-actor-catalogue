@@ -1,13 +1,13 @@
 ---
-title: "Shopee Product Detail Scraper"
-description: "Shopee product detail by URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products + supplier (~$0.70). All supplier fields included."
+title: "Shopee Price Tracker - Exact Price, Variants, Units Sold"
+description: "Shopee price tracker by product URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products + supplier (~$0.70). All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
-# Shopee Product Detail Scraper
+# Shopee Price Tracker - Exact Price, Variants, Units Sold
 
-Shopee product detail by URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products + supplier (~$0.70). All supplier fields included.
+Shopee price tracker by product URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products + supplier (~$0.70). All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/shopee-product-detail-scraper](https://apify.com/om_kh/shopee-product-detail-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -114,4 +114,4 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~shopee-product-detail-scraper/
 
 Connect Claude, Cursor or any MCP client to `https://mcp.apify.com` and add `om_kh/shopee-product-detail-scraper` as a tool.
 
-Full documentation, pricing and the latest changes: [Shopee Product Detail Scraper](https://apify.com/om_kh/shopee-product-detail-scraper).
+Full documentation, pricing and the latest changes: [Shopee Price Tracker - Exact Price, Variants, Units Sold](https://apify.com/om_kh/shopee-product-detail-scraper).

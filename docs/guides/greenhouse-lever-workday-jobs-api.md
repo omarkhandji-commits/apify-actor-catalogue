@@ -1,11 +1,11 @@
 ---
-title: "Jobs API for Greenhouse, Lever, Ashby and Workday — One Call"
+title: "Greenhouse Job Board API — Plus Lever, Ashby and Workday in One Call"
 description: "Get current job listings from any company's ATS (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Personio, Rippling) as clean JSON, filtered by keyword and location."
 ---
 
 [← All guides](index.md) · [All Actors](../all-actors.md)
 
-# Jobs API for Greenhouse, Lever, Ashby and Workday — One Call
+# Greenhouse Job Board API — Plus Lever, Ashby and Workday in One Call
 
 ## How do I get all open jobs from a company's Greenhouse, Lever or Workday career page?
 
@@ -74,7 +74,7 @@ curl -X POST "https://api.apify.com/v2/acts/om_kh~ats-jobs-api/run-sync-get-data
 
 ## Price
 
-$0.0015 per job listing. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
+$1.50 per 1,000 jobs + $0.001 per run. The first 3 jobs of every run are free. You only pay for results delivered; set `maxTotalChargeUsd` to cap a run.
 
 ## Use cases
 
