@@ -56,7 +56,7 @@ Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examp
 - [Hiring Signals API - Companies Hiring Now by Role](company-hiring-signals.md) — $0.005 per company checked (was $0.02 until 20 November 2026) + $0.001 per run, even when nothing changed (the check is the work)
 - [Indeed Jobs Scraper API - Descriptions, Post Dates](indeed-jobs-scraper.md) — **$0.30 per 1,000 jobs today, $0.25 per 1,000 from 16 December 2026** + $0.001 per run
 - [Instagram & TikTok Profile Scraper - Followers, Bio](instagram-tiktok-profile-scraper.md) — $6 per 1,000 profiles today, $2.16 per 1,000 from 16 December 2026 + $0.001 per run
-- [Instagram Following & Related Profiles Scraper - Full List](instagram-following-scraper.md) — $0.002 per account listed and $0.004 per enriched profile until 24 November 2026; **from 25 November: $0.00005 and $0.00115**
+- [Instagram Following & Related Profiles Scraper - Full List](instagram-following-scraper.md) — **$0.00005 per account listed and $0.00115 per enriched profile** (since 25 November 2026; before that $0.002 and $0.004)
 - [Instagram Hashtag Media Scraper - Images, Likes, Captions](instagram-hashtag-scraper.md) — $6 per 1,000 posts today, $1 per 1,000 from 16 December 2026 + $0.001 per run
 - [Instagram Lookalike Scraper - Similar Accounts & Followers](instagram-profile-lookalike-scraper.md) — $0.007 per profile + $0.0008 per recent post + $0.001 per run
 - [Instagram Profile Posts Scraper - Reels, Captions, Views](instagram-profile-scraper.md) — $6 per 1,000 posts today, $1 per 1,000 from 16 December 2026 + $0.001 per run
