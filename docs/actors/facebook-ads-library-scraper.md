@@ -1,13 +1,13 @@
 ---
 title: "Facebook Ads Library Scraper API - Ad Copy, CTA, Impressions"
-description: "Facebook Ads Library scraper API: scrape any advertiser's Facebook and Instagram ads from Meta's Ad Library: ad text, headline, call to action, landing page, format, platforms, impressions band, page likes and dates. Search by page name. No login. $12.50 per 1,000 ads."
+description: "Facebook Ads Library scraper API: scrape any advertiser's Facebook and Instagram ads from Meta's Ad Library: ad text, headline, call to action, landing page, format, platforms, impressions band, page likes and dates. Search by page name. No login. $12.50 per 1,000 ads, $1.95 from 16 Dec 2026."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Facebook Ads Library Scraper API - Ad Copy, CTA, Impressions
 
-Facebook Ads Library scraper API: scrape any advertiser's Facebook and Instagram ads from Meta's Ad Library: ad text, headline, call to action, landing page, format, platforms, impressions band, page likes and dates. Search by page name. No login. $12.50 per 1,000 ads.
+Facebook Ads Library scraper API: scrape any advertiser's Facebook and Instagram ads from Meta's Ad Library: ad text, headline, call to action, landing page, format, platforms, impressions band, page likes and dates. Search by page name. No login. $12.50 per 1,000 ads, $1.95 from 16 Dec 2026.
 
 **Run it on Apify:** [https://apify.com/om_kh/facebook-ads-library-scraper](https://apify.com/om_kh/facebook-ads-library-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Facebook Ads Library scraper API: scrape any advertiser's Facebook and Instagram
 | **You give** | Facebook page names |
 | **We do** | Read the advertiser's ads in Meta's public Ad Library |
 | **You get** | One row per ad: text, headline, call to action, landing page, format, platforms (Facebook, Instagram...), impressions band, page likes and dates, plus every field the supplier returns (`source_data`) |
-| **It costs** | $12.50 per 1,000 ads + $0.001 per run. Optional scheduled monitoring: +$0.45 per check (one-off runs never pay it). Apify also bills the supplier Actor `jmlp/meta-ad-library-scraper` that this robot runs for you, at its own price (about $0.15 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $12.50 per 1,000 ads today, $1.95 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.45 per check today, $0.006 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `jmlp/meta-ad-library-scraper` that this robot runs for you, at its own price (about $0.15 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Facebook |
 
 ## Input fields

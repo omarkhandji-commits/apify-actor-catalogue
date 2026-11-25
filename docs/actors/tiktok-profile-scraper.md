@@ -1,13 +1,13 @@
 ---
 title: "TikTok Profile Videos Scraper - Views, Followers, Music"
-description: "TikTok profile videos scraper: every video of any TikTok profile with caption, URL, views, likes, comments, shares, saves, duration, music and hashtags, plus the creator's followers, bio and verified badge on every row. Paste usernames or profile URLs. No login. $5 per 1,000 videos."
+description: "TikTok profile videos scraper: every video of any TikTok profile with caption, URL, views, likes, comments, shares, saves, duration, music and hashtags, plus the creator's followers, bio and verified badge on every row. Paste usernames or profile URLs. No login. $5/1K videos, $0.25/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # TikTok Profile Videos Scraper - Views, Followers, Music
 
-TikTok profile videos scraper: every video of any TikTok profile with caption, URL, views, likes, comments, shares, saves, duration, music and hashtags, plus the creator's followers, bio and verified badge on every row. Paste usernames or profile URLs. No login. $5 per 1,000 videos.
+TikTok profile videos scraper: every video of any TikTok profile with caption, URL, views, likes, comments, shares, saves, duration, music and hashtags, plus the creator's followers, bio and verified badge on every row. Paste usernames or profile URLs. No login. $5/1K videos, $0.25/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/tiktok-profile-scraper](https://apify.com/om_kh/tiktok-profile-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ TikTok profile videos scraper: every video of any TikTok profile with caption, U
 | **You give** | TikTok usernames or profile links |
 | **We do** | Read the videos of each public profile |
 | **You get** | One row per video: caption, link, views, likes, comments, shares, saves, length, music and hashtags, plus the creator's followers, bio and verified badge, plus every field the supplier returns (`source_data`) |
-| **It costs** | $5 per 1,000 videos + $0.001 per run. Optional scheduled monitoring: +$0.08 per check (one-off runs never pay it). Apify also bills the supplier Actor `apidojo/tiktok-scraper` that this robot runs for you, at its own price (about $0.30 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $5 per 1,000 videos today, $0.25 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.08 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `apidojo/tiktok-scraper` that this robot runs for you, at its own price (about $0.30 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in, use your account, or read private content |
 
 ## Input fields

@@ -1,13 +1,13 @@
 ---
 title: "Twitch Clips Scraper - Clips, View Counts, Creator Names"
-description: "Scrape Twitch clips for any channel or game: clip title, URL, creator, view count, duration, game and creation date. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login needed. Built for esports research, creator discovery and highlight curation. $5 per 1,000 clips."
+description: "Scrape Twitch clips for any channel or game: clip title, URL, creator, view count, duration, game and creation date. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login. Built for esports research, creator discovery and highlight curation. $5/1K clips, $1/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Twitch Clips Scraper - Clips, View Counts, Creator Names
 
-Scrape Twitch clips for any channel or game: clip title, URL, creator, view count, duration, game and creation date. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login needed. Built for esports research, creator discovery and highlight curation. $5 per 1,000 clips.
+Scrape Twitch clips for any channel or game: clip title, URL, creator, view count, duration, game and creation date. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login. Built for esports research, creator discovery and highlight curation. $5/1K clips, $1/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/twitch-clips-scraper](https://apify.com/om_kh/twitch-clips-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape Twitch clips for any channel or game: clip title, URL, creator, view coun
 | **You give** | Twitch channels or games |
 | **We do** | Read their clips |
 | **You get** | One row per clip: title, link, creator, game, view count, length, clipper and date, plus every field the supplier returns (`source_data`) |
-| **It costs** | $5 per 1,000 clips + $0.001 per run. Optional scheduled monitoring: +$0.12 per check (one-off runs never pay it). Apify also bills the supplier Actor `automation-lab/twitch-scraper` that this robot runs for you, at its own price (about $3.45 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $5 per 1,000 clips today, $1 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.12 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `automation-lab/twitch-scraper` that this robot runs for you, at its own price (about $3.45 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Twitch or download the videos |
 
 ## Input fields

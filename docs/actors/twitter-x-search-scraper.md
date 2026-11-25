@@ -1,13 +1,13 @@
 ---
 title: "Twitter Keyword Scraper & Monitor - X Posts, Likes, Replies"
-description: "Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed. $1 per 1,000 posts."
+description: "Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed. $1 per 1,000 posts, $0.32 from 16 Dec 2026."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Twitter Keyword Scraper & Monitor - X Posts, Likes, Replies
 
-Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed. $1 per 1,000 posts.
+Twitter keyword scraper and monitor: scrape X (Twitter) search results for any keyword, hashtag or query: post text, URL, author, likes, reposts, replies and date. Export to JSON, CSV or Excel, or call it as an API. No login or X API key needed. $1 per 1,000 posts, $0.32 from 16 Dec 2026.
 
 **Run it on Apify:** [https://apify.com/om_kh/twitter-x-search-scraper](https://apify.com/om_kh/twitter-x-search-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Twitter keyword scraper and monitor: scrape X (Twitter) search results for any k
 | **You give** | Keywords, hashtags or X search queries |
 | **We do** | Search X (Twitter), then clean and check every post |
 | **You get** | One row per post: text, link, author, likes, reposts, replies and date, as JSON, CSV or Excel, plus every field the supplier returns (`source_data`) |
-| **It costs** | $1 per 1,000 posts. Apify also bills the supplier Actor this robot runs for you, at its own price (about $0.25 per 1,000), so about **$1.25 per 1,000 in total**. The first 10 results of every run are free of this robot's fee |
+| **It costs** | $1 per 1,000 posts today, $0.32 per 1,000 from 16 December 2026. Apify also bills the supplier Actor this robot runs for you, at its own price (about $0.25 per 1,000), so about **$1.25 per 1,000 in total today ($0.57 from 16 December 2026)**. The first 10 results of every run are free of this robot's fee |
 | **It does not** | Sign in to X or need an X API key |
 
 ## Input fields

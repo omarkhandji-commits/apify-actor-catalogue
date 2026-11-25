@@ -1,13 +1,13 @@
 ---
 title: "Amazon Search Results Scraper - Price, Rating, Listing"
-description: "Scrape Amazon search results or category pages for any keyword: title, ASIN, price, rating, review count, image and product URL. No login needed. Built for price research, product discovery and competitor analysis. $10 per 1,000 products. All supplier fields included."
+description: "Scrape Amazon search results or category pages for any keyword: title, ASIN, price, rating, review count, image and product URL. No login needed. Built for price research, product discovery and competitor analysis. $10 per 1,000 products, $1.57 from 16 Dec 2026. All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Amazon Search Results Scraper - Price, Rating, Listing
 
-Scrape Amazon search results or category pages for any keyword: title, ASIN, price, rating, review count, image and product URL. No login needed. Built for price research, product discovery and competitor analysis. $10 per 1,000 products. All supplier fields included.
+Scrape Amazon search results or category pages for any keyword: title, ASIN, price, rating, review count, image and product URL. No login needed. Built for price research, product discovery and competitor analysis. $10 per 1,000 products, $1.57 from 16 Dec 2026. All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/amazon-product-search-scraper](https://apify.com/om_kh/amazon-product-search-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape Amazon search results or category pages for any keyword: title, ASIN, pri
 | **You give** | Keywords or Amazon category links |
 | **We do** | Read Amazon's search results |
 | **You get** | One row per product: title, ASIN, brand, rating, review count, monthly sales, Amazon's Choice, stock, fastest delivery, category path, features, the product's spec table as columns (`productOverview_Brand`, `attributes_Color`...), its best-seller rank in each category (`bestsellerRanks_<category>`), link and image, plus every field the supplier returns (`source_data`) |
-| **It costs** | $10 per 1,000 products + $0.001 per run. Optional scheduled monitoring: +$0.12 per check (one-off runs never pay it). Apify also bills the supplier Actor `junglee/Amazon-crawler` that this robot runs for you, at its own price (about $5 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $10 per 1,000 products today, $1.57 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.12 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `junglee/Amazon-crawler` that this robot runs for you, at its own price (about $5 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Amazon or buy anything |
 
 ## Input fields

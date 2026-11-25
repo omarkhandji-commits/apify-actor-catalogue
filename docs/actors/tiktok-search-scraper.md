@@ -1,13 +1,13 @@
 ---
 title: "TikTok Keyword Search Scraper - Views, New Videos"
-description: "TikTok keyword search scraper: scrape TikTok search results for any keyword: caption, video URL, author, views, likes, comments, shares and date, with a flag for fast-rising videos. No login needed. For trend research, UGC discovery and brand research. $5 per 1,000 videos."
+description: "TikTok keyword search scraper: scrape TikTok search results for any keyword: caption, video URL, author, views, likes, comments, shares and date, with a flag for fast-rising videos. No login needed. For trend research, UGC discovery and brand research. $5 per 1,000 videos, $0.25 from 16 Dec 2026."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # TikTok Keyword Search Scraper - Views, New Videos
 
-TikTok keyword search scraper: scrape TikTok search results for any keyword: caption, video URL, author, views, likes, comments, shares and date, with a flag for fast-rising videos. No login needed. For trend research, UGC discovery and brand research. $5 per 1,000 videos.
+TikTok keyword search scraper: scrape TikTok search results for any keyword: caption, video URL, author, views, likes, comments, shares and date, with a flag for fast-rising videos. No login needed. For trend research, UGC discovery and brand research. $5 per 1,000 videos, $0.25 from 16 Dec 2026.
 
 **Run it on Apify:** [https://apify.com/om_kh/tiktok-search-scraper](https://apify.com/om_kh/tiktok-search-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ TikTok keyword search scraper: scrape TikTok search results for any keyword: cap
 | **You give** | Keywords |
 | **We do** | Search TikTok for each keyword |
 | **You get** | One row per video: caption, link, author, followers, views, likes, comments, shares, saves, date, length, hashtags and music, with a flag for fast-rising videos, plus every field the supplier returns (`source_data`) |
-| **It costs** | $5 per 1,000 videos + $0.001 per run. Optional scheduled monitoring: +$0.10 per check (one-off runs never pay it). Apify also bills the supplier Actor `deepmine/tiktok-search-api` that this robot runs for you, at its own price (about $0.25 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $5 per 1,000 videos today, $0.25 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.10 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `deepmine/tiktok-search-api` that this robot runs for you, at its own price (about $0.25 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in, use your account, or read private content |
 
 ## Input fields

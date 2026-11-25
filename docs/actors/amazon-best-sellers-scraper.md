@@ -1,13 +1,13 @@
 ---
 title: "Amazon Bestsellers Scraper - Best Sellers Rank, Price, Prime"
-description: "Scrape any Amazon Best Sellers category: rank, title, ASIN, price, star rating, review count, Prime and Amazon's Choice flags, deal badge, category path, image and URL. No login. For product research, trend spotting, dropshipping and competitor analysis. $10 per 1,000 best-seller products."
+description: "Scrape any Amazon Best Sellers category: rank, title, ASIN, price, star rating, review count, Prime and Amazon's Choice flags, deal badge, category path, image and URL. No login. For product research, trends, dropshipping and competitor analysis. $10/1K best sellers, $0.50/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Amazon Bestsellers Scraper - Best Sellers Rank, Price, Prime
 
-Scrape any Amazon Best Sellers category: rank, title, ASIN, price, star rating, review count, Prime and Amazon's Choice flags, deal badge, category path, image and URL. No login. For product research, trend spotting, dropshipping and competitor analysis. $10 per 1,000 best-seller products.
+Scrape any Amazon Best Sellers category: rank, title, ASIN, price, star rating, review count, Prime and Amazon's Choice flags, deal badge, category path, image and URL. No login. For product research, trends, dropshipping and competitor analysis. $10/1K best sellers, $0.50/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/amazon-best-sellers-scraper](https://apify.com/om_kh/amazon-best-sellers-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape any Amazon Best Sellers category: rank, title, ASIN, price, star rating, 
 | **You give** | Amazon Best Sellers category links |
 | **We do** | Read the category's best-seller list |
 | **You get** | One row per product: rank, title, ASIN, price, stars, review count, Prime, Amazon's Choice and deal flags, category path, image and link, plus every field the supplier returns (`source_data`) |
-| **It costs** | $10 per 1,000 products + $0.001 per run. Optional scheduled monitoring: +$0.20 per check (one-off runs never pay it). Apify also bills the supplier Actor `santamaria-automations/amazon-bestsellers-scraper` that this robot runs for you, at its own price (about $1 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $10 per 1,000 products today, $0.50 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.20 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `santamaria-automations/amazon-bestsellers-scraper` that this robot runs for you, at its own price (about $1 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Amazon or give sales numbers |
 
 ## Input fields

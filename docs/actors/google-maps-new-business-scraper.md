@@ -1,13 +1,13 @@
 ---
 title: "New Business Leads - New Google Maps Listings by City"
-description: "New business leads from Google Maps: give a city and category, get the businesses newly listed since your last check, with name, address and rating. For local sales and lead generation. $10 per 1,000 new businesses."
+description: "New business leads from Google Maps: give a city and category, get the businesses newly listed since your last check, with name, address and rating. For local sales and lead generation. $10 per 1,000 new businesses, $3 from 16 Dec 2026."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # New Business Leads - New Google Maps Listings by City
 
-New business leads from Google Maps: give a city and category, get the businesses newly listed since your last check, with name, address and rating. For local sales and lead generation. $10 per 1,000 new businesses.
+New business leads from Google Maps: give a city and category, get the businesses newly listed since your last check, with name, address and rating. For local sales and lead generation. $10 per 1,000 new businesses, $3 from 16 Dec 2026.
 
 **Run it on Apify:** [https://apify.com/om_kh/google-maps-new-business-scraper](https://apify.com/om_kh/google-maps-new-business-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ New business leads from Google Maps: give a city and category, get the businesse
 | **You give** | A city and a business category |
 | **We do** | Search Google Maps and compare with your previous check |
 | **You get** | One row per business newly listed since your last check: name, category, address, phone, website, rating, review count, coordinates and link |
-| **It costs** | $10 per 1,000 new businesses + $0.001 per run. Optional scheduled monitoring: +$0.08 per check (one-off runs never pay it). The first 10 results of every run are free. |
+| **It costs** | $10 per 1,000 new businesses today, $3 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.08 per check today, $0.01 from 16 December 2026 (one-off runs never pay it). The first 10 results of every run are free. |
 | **It does not** | Prove a business just opened: "new" means it was not in the results at your previous check |
 
 ## Input fields

@@ -17,10 +17,10 @@ Finding and monitoring local businesses on Google Maps — the full current set 
 
 | Actor | Best for | Pricing |
 |---|---|---|
-| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location)) | $9 per 1,000 places + $0.001 per run |
-| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Only businesses newly detected since your last check | $10 per 1,000 new businesses + $0.001 per run |
-| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Public questions asked on a listing | $7.50 per 1,000 unanswered questions, + $0.001 per run |
-| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status changes | $5 per 1,000 listings + $0.001 per run |
+| [Google Maps Business Scraper](https://apify.com/om_kh/google-maps-business-scraper) | Current full set of businesses for a category+area (or [multiple locations at once](https://apify.com/om_kh/google-maps-business-scraper/examples/vigia-local-business-monitor-multi-location)) | $9 per 1,000 places today, $0.92 per 1,000 from 16 December 2026 + $0.001 per run |
+| [Google Maps New Business Scraper](https://apify.com/om_kh/google-maps-new-business-scraper) | Only businesses newly detected since your last check | $10 per 1,000 new businesses today, $3 per 1,000 from 16 December 2026 + $0.001 per run |
+| [Google Business Profile Q&A Scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) | Public questions asked on a listing | $7.50 per 1,000 unanswered questions today, $0.50 per 1,000 from 16 December 2026, + $0.001 per run |
+| [Zillow Listings Scraper](https://apify.com/om_kh/zillow-listings-scraper) | Home listings, price/status changes | $5 per 1,000 listings today, $0.30 per 1,000 from 16 December 2026 + $0.001 per run |
 
 ## Telling the siblings apart
 

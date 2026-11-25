@@ -1,13 +1,13 @@
 ---
 title: "Facebook Page Posts Scraper - Likes, Comments, Date"
-description: "Scrape posts from any public Facebook page: post text, URL, publish date, reactions, comments and shares. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login or cookies needed. Built for social listening, competitor research and reporting. $10 per 1,000 posts."
+description: "Scrape posts from any public Facebook page: post text, URL, publish date, reactions, comments and shares. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login. Built for social listening, competitor research and reporting. $10/1K posts, $2.33/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Facebook Page Posts Scraper - Likes, Comments, Date
 
-Scrape posts from any public Facebook page: post text, URL, publish date, reactions, comments and shares. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login or cookies needed. Built for social listening, competitor research and reporting. $10 per 1,000 posts.
+Scrape posts from any public Facebook page: post text, URL, publish date, reactions, comments and shares. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login. Built for social listening, competitor research and reporting. $10/1K posts, $2.33/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/facebook-page-posts-scraper](https://apify.com/om_kh/facebook-page-posts-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape posts from any public Facebook page: post text, URL, publish date, reacti
 | **You give** | Public Facebook page links |
 | **We do** | Read the page's posts |
 | **You get** | One row per post: text, link, date, reactions by type, comments, shares, video length, page followers and engagement rate, plus every field the supplier returns (`source_data`) |
-| **It costs** | $10 per 1,000 posts + $0.001 per run. Optional scheduled monitoring: +$0.12 per check (one-off runs never pay it). Apify also bills the supplier Actor `memo23/facebook-page-posts-scraper` that this robot runs for you, at its own price (about $0.99 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $10 per 1,000 posts today, $2.33 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.12 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `memo23/facebook-page-posts-scraper` that this robot runs for you, at its own price (about $0.99 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Facebook or read private profiles and groups |
 
 ## Input fields

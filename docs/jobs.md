@@ -35,7 +35,7 @@ New filters, applied before you pay: contract type, work arrangement, countries,
 | [Workday Jobs API](https://apify.com/om_kh/workday-jobs-api) | You already know it's a Workday tenant | $0.10 per 1,000 jobs + $0.001 per run (from Nov 24, 2026) |
 | [Hiring Signals](https://apify.com/om_kh/company-hiring-signals) | Trend/change detection instead of raw listings | $0.005 per company checked (was $0.02 until 20 November 2026) + $0.001 per run, even when nothing changed (the check is the work) |
 | [LinkedIn Jobs Scraper](https://apify.com/om_kh/linkedin-jobs-scraper) | LinkedIn search by keywords and place, no login: description, applicants, apply type, salary as numbers | $0.35 per 1,000 jobs, no start fee, no monitoring fee |
-| [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | **$0.30 per 1,000 jobs** + $0.001 per run |
+| [Indeed Jobs Scraper](https://apify.com/om_kh/indeed-jobs-scraper) | Indeed's own postings, a second source | **$0.30 per 1,000 jobs today, $0.25 per 1,000 from 16 December 2026** + $0.001 per run |
 
 ## Telling the siblings apart
 

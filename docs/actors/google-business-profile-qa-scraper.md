@@ -1,13 +1,13 @@
 ---
 title: "Google Business Profile Q&A Scraper - Questions, Answers"
-description: "Scrape questions and answers from any Google Business Profile: question, answers, author type, date and unanswered flag. Export to JSON, CSV or Excel, or call it as an API. No login needed. For local SEO, reputation management and customer-intent research. $7.50 per 1,000 unanswered questions."
+description: "Scrape questions and answers from any Google Business Profile: question, answers, author type, date and unanswered flag. Export to JSON, CSV or Excel or API. No login. For local SEO, reputation management and customer-intent research. $7.50/1K unanswered questions, $0.50/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Google Business Profile Q&A Scraper - Questions, Answers
 
-Scrape questions and answers from any Google Business Profile: question, answers, author type, date and unanswered flag. Export to JSON, CSV or Excel, or call it as an API. No login needed. For local SEO, reputation management and customer-intent research. $7.50 per 1,000 unanswered questions.
+Scrape questions and answers from any Google Business Profile: question, answers, author type, date and unanswered flag. Export to JSON, CSV or Excel or API. No login. For local SEO, reputation management and customer-intent research. $7.50/1K unanswered questions, $0.50/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/google-business-profile-qa-scraper](https://apify.com/om_kh/google-business-profile-qa-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape questions and answers from any Google Business Profile: question, answers
 | **You give** | Google Maps places (business names or links) |
 | **We do** | Read the questions and answers on each Google Business Profile |
 | **You get** | One row per question: the question, its answers, who answered (owner or public), the date and an unanswered flag, plus every field the supplier returns (`source_data`) |
-| **It costs** | $7.50 per 1,000 unanswered questions, + $0.001 per run. Optional scheduled monitoring: +$0.03 per check (one-off runs never pay it). Apify also bills the supplier Actor `compass/crawler-google-places` that this robot runs for you, at its own price (about $4 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $7.50 per 1,000 unanswered questions today, $0.50 per 1,000 from 16 December 2026, + $0.001 per run. Optional scheduled monitoring: +$0.03 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `compass/crawler-google-places` that this robot runs for you, at its own price (about $4 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Google or post answers for you |
 
 ## Input fields

@@ -1,13 +1,13 @@
 ---
 title: "Zillow Scraper API - Listings, Zestimate, Price Cuts, ZIP"
-description: "Scrape Zillow listings by search URL, ZIP code or city: address, price, beds, baths, area, lot size, status, days on Zillow, Zestimate, rent Zestimate, tax value, open house, broker and photos, with new listings and price cuts flagged. No login. $5 per 1,000 listings. All supplier fields included."
+description: "Scrape Zillow listings by search URL, ZIP code or city: address, price, beds, baths, area, lot size, status, Zestimate, rent Zestimate, tax value, open house, broker, photos, with new listings and price cuts flagged. No login. $5/1K listings, $0.30/1K from 16 Dec. All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Zillow Scraper API - Listings, Zestimate, Price Cuts, ZIP
 
-Scrape Zillow listings by search URL, ZIP code or city: address, price, beds, baths, area, lot size, status, days on Zillow, Zestimate, rent Zestimate, tax value, open house, broker and photos, with new listings and price cuts flagged. No login. $5 per 1,000 listings. All supplier fields included.
+Scrape Zillow listings by search URL, ZIP code or city: address, price, beds, baths, area, lot size, status, Zestimate, rent Zestimate, tax value, open house, broker, photos, with new listings and price cuts flagged. No login. $5/1K listings, $0.30/1K from 16 Dec. All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/zillow-listings-scraper](https://apify.com/om_kh/zillow-listings-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape Zillow listings by search URL, ZIP code or city: address, price, beds, ba
 | **You give** | Zillow search links, ZIP codes or cities |
 | **We do** | Read the listings, and compare with your last run |
 | **You get** | One row per listing: address, price, beds, baths, area, lot size, status, days on Zillow, Zestimate, rent Zestimate, tax value, open house, broker and photos, with new listings and price cuts flagged, plus every field the supplier returns (`source_data`) |
-| **It costs** | $5 per 1,000 listings + $0.001 per run. Optional scheduled monitoring: +$0.18 per check (one-off runs never pay it). Apify also bills the supplier Actor `scrapesmith/zillow-scraper` that this robot runs for you, at its own price (about $0.60 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $5 per 1,000 listings today, $0.30 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.18 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `scrapesmith/zillow-scraper` that this robot runs for you, at its own price (about $0.60 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Zillow or contact agents |
 
 ## Input fields

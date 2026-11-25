@@ -1,13 +1,13 @@
 ---
 title: "Google Maps Business Scraper API - Name, Rating, Phone"
-description: "Google Maps business scraper API: businesses for any search and location: name, address, phone, website, category, rating, review count and coordinates. No login or Google API key needed. For lead generation and local-market research. $9 per 1,000 places. All supplier fields included."
+description: "Google Maps business scraper API: businesses for any search and location: name, address, phone, website, category, rating, review count and coordinates. No login or Google API key needed. For lead generation and local-market research. $9/1K places, $0.92/1K from 16 Dec. All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Google Maps Business Scraper API - Name, Rating, Phone
 
-Google Maps business scraper API: businesses for any search and location: name, address, phone, website, category, rating, review count and coordinates. No login or Google API key needed. For lead generation and local-market research. $9 per 1,000 places. All supplier fields included.
+Google Maps business scraper API: businesses for any search and location: name, address, phone, website, category, rating, review count and coordinates. No login or Google API key needed. For lead generation and local-market research. $9/1K places, $0.92/1K from 16 Dec. All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/google-maps-business-scraper](https://apify.com/om_kh/google-maps-business-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Google Maps business scraper API: businesses for any search and location: name, 
 | **You give** | A search and a place, such as `dentist` in `Montreal` |
 | **We do** | Search Google Maps and read each business, and compare with your last run |
 | **You get** | One row per place: name, category, rating, review count, address, phone, website, opening status, coordinates, place ID and link, plus every field the supplier returns (`source_data`) |
-| **It costs** | $9 per 1,000 places + $0.001 per run. Optional scheduled monitoring: +$0.10 per check (one-off runs never pay it). Apify also bills the supplier Actor `kaix/google-maps-places-scraper` that this robot runs for you, at its own price (about $0.08 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $9 per 1,000 places today, $0.92 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.10 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `kaix/google-maps-places-scraper` that this robot runs for you, at its own price (about $0.08 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Need a Google API key or sign in to Google |
 
 ## Input fields

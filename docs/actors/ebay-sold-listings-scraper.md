@@ -1,13 +1,13 @@
 ---
 title: "eBay Sold Listing Prices Scraper - Sold Price, Date, Title"
-description: "eBay sold listing prices scraper: scrape completed eBay sales for any search: sold price, shipping, condition, sale date, listing type and URL. Real transaction prices, not asking prices. No login needed. For resellers, pricing research and market valuation. $10 per 1,000 listings."
+description: "eBay sold listing prices scraper: scrape completed eBay sales for any search: sold price, shipping, condition, sale date, listing type and URL. Real transaction prices, not asking prices. No login needed. For resellers, pricing research and market valuation. $10/1K listings, $2/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # eBay Sold Listing Prices Scraper - Sold Price, Date, Title
 
-eBay sold listing prices scraper: scrape completed eBay sales for any search: sold price, shipping, condition, sale date, listing type and URL. Real transaction prices, not asking prices. No login needed. For resellers, pricing research and market valuation. $10 per 1,000 listings.
+eBay sold listing prices scraper: scrape completed eBay sales for any search: sold price, shipping, condition, sale date, listing type and URL. Real transaction prices, not asking prices. No login needed. For resellers, pricing research and market valuation. $10/1K listings, $2/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/ebay-sold-listings-scraper](https://apify.com/om_kh/ebay-sold-listings-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ eBay sold listing prices scraper: scrape completed eBay sales for any search: so
 | **You give** | eBay searches |
 | **We do** | Read eBay's completed (sold) listings, and compare with your last run |
 | **You get** | One row per sale: title, sold price, shipping, total, sale date, condition, listing type, best offer accepted, seller and feedback, item ID and link |
-| **It costs** | $10 per 1,000 sold listings + $0.001 per run. Optional scheduled monitoring: +$0.30 per check (one-off runs never pay it). Apify also bills the supplier Actor `caffein.dev/ebay-sold-listings` that this robot runs for you, at its own price (about $4 per 1,000 results)., so about **$14 per 1,000 in total**. The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $10 per 1,000 sold listings today, $2 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.30 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `caffein.dev/ebay-sold-listings` that this robot runs for you, at its own price (about $4 per 1,000 results)., so about **$14 per 1,000 in total today ($6 from 16 December 2026)**. The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to eBay, buy or bid. These are real sale prices, not asking prices |
 
 ## Input fields

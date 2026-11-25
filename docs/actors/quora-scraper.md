@@ -1,13 +1,13 @@
 ---
 title: "Quora Search Scraper - Questions, Answers, Views by Keyword"
-description: "Quora search scraper: scrape Quora for any keyword: question, URL, answer text, author, views, shares, comments and date. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login needed. For audience research, content ideas and SEO topics. $2.50 per 1,000 questions and answers."
+description: "Quora search scraper: scrape Quora for any keyword: question, URL, answer text, author, views, shares, comments and date. Export to JSON, CSV, Excel or API. No login. For audience research, content ideas and SEO topics. $2.50/1K questions and answers, $0.50/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Quora Search Scraper - Questions, Answers, Views by Keyword
 
-Quora search scraper: scrape Quora for any keyword: question, URL, answer text, author, views, shares, comments and date. Export to JSON, CSV or Excel, or call it from the API, n8n or Make. No login needed. For audience research, content ideas and SEO topics. $2.50 per 1,000 questions and answers.
+Quora search scraper: scrape Quora for any keyword: question, URL, answer text, author, views, shares, comments and date. Export to JSON, CSV, Excel or API. No login. For audience research, content ideas and SEO topics. $2.50/1K questions and answers, $0.50/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/quora-scraper](https://apify.com/om_kh/quora-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Quora search scraper: scrape Quora for any keyword: question, URL, answer text, 
 | **You give** | Keywords |
 | **We do** | Search Quora for questions and answers |
 | **You get** | One row per question or answer: title, text, author, views, shares, comments, date and link, plus every field the supplier returns (`source_data`) |
-| **It costs** | $2.50 per 1,000 questions and answers + $0.001 per run. Optional scheduled monitoring: +$0.18 per check (one-off runs never pay it). Apify also bills the supplier Actor `fatihtahta/quora-scraper` that this robot runs for you, at its own price (about $0.99 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $2.50 per 1,000 questions and answers today, $0.50 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.18 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `fatihtahta/quora-scraper` that this robot runs for you, at its own price (about $0.99 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Quora or post answers |
 
 ## Input fields

@@ -1,13 +1,13 @@
 ---
 title: "Instagram Profile Posts Scraper - Reels, Captions, Views"
-description: "Instagram profile posts scraper: scrape the latest posts and reels of any Instagram profile: caption, post URL, comment count, video views and duration, music, mentions, location, media type and date. Paste usernames or profile URLs. No login. $6 per 1,000 posts."
+description: "Instagram profile posts scraper: scrape the latest posts and reels of any Instagram profile: caption, post URL, comment count, video views and duration, music, mentions, location, media type and date. Paste usernames or profile URLs. No login. $6 per 1,000 posts, $1 from 16 Dec 2026."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Instagram Profile Posts Scraper - Reels, Captions, Views
 
-Instagram profile posts scraper: scrape the latest posts and reels of any Instagram profile: caption, post URL, comment count, video views and duration, music, mentions, location, media type and date. Paste usernames or profile URLs. No login. $6 per 1,000 posts.
+Instagram profile posts scraper: scrape the latest posts and reels of any Instagram profile: caption, post URL, comment count, video views and duration, music, mentions, location, media type and date. Paste usernames or profile URLs. No login. $6 per 1,000 posts, $1 from 16 Dec 2026.
 
 **Run it on Apify:** [https://apify.com/om_kh/instagram-profile-scraper](https://apify.com/om_kh/instagram-profile-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Instagram profile posts scraper: scrape the latest posts and reels of any Instag
 | **You give** | Instagram usernames or profile links |
 | **We do** | Read the latest posts and reels of each public profile |
 | **You get** | One row per post: caption, link, comments, video views and length, music, mentions, place, type and date, plus every field the supplier returns (`source_data`) |
-| **It costs** | $6 per 1,000 posts + $0.001 per run. Optional scheduled monitoring: +$0.08 per check (one-off runs never pay it). Apify also bills the supplier Actor `apify/instagram-scraper` that this robot runs for you, at its own price (about $2.70 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $6 per 1,000 posts today, $1 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.08 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `apify/instagram-scraper` that this robot runs for you, at its own price (about $2.70 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in, use your account, or read private content |
 
 ## Input fields

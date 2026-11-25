@@ -22,7 +22,7 @@ Tracking mentions of a keyword or brand across Reddit, Hacker News, Stack Overfl
 | [Reddit User Posts & Comments Scraper](https://apify.com/om_kh/reddit-user-scraper) | One specific Reddit account's history | Our fee is $0.75 per 1,000 posts; the optional scheduled monitoring adds $0.005 per check (one-off runs never pay it) |
 | [Hacker News Scraper](https://apify.com/om_kh/hacker-news-scraper) | Developer-community link/comment threads by keyword | $0.19 per 1,000 stories and comments + $0.001 per run |
 | [Stack Overflow Scraper](https://apify.com/om_kh/stack-overflow-scraper) | Q&A-style developer discussion by tag | $2 per 1,000 questions + $0.001 per run |
-| [Product Hunt Scraper](https://apify.com/om_kh/product-hunt-scraper) | New launches matching a topic | $7.50 per 1,000 launches + $0.001 per run |
+| [Product Hunt Scraper](https://apify.com/om_kh/product-hunt-scraper) | New launches matching a topic | $7.50 per 1,000 launches today, $1 per 1,000 from 16 December 2026 + $0.001 per run |
 | [Google News API](https://apify.com/om_kh/google-news-scraper) | Searches, topic sections, local news; up to 5,000 articles per search, publisher's own link, picture and summary; no API key | $0.002 per article ($0.003 from Nov 12) |
 
 ## Telling the siblings apart

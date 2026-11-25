@@ -1,13 +1,13 @@
 ---
 title: "Instagram & TikTok Profile Scraper - Followers, Bio"
-description: "Get profile stats for Instagram and TikTok accounts in one run: username, followers, following, posts count, engagement and bio. Run it on a schedule to build your own follower-growth history. Export to JSON, CSV or Excel. No login needed. For influencer vetting and reporting. $6 per 1,000 profiles."
+description: "Get profile stats for Instagram and TikTok accounts in one run: username, followers, following, posts count, engagement and bio. Run it on a schedule to track follower growth. Export to JSON, CSV or Excel. No login. For influencer vetting and reporting. $6/1K profiles, $2.16/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Instagram & TikTok Profile Scraper - Followers, Bio
 
-Get profile stats for Instagram and TikTok accounts in one run: username, followers, following, posts count, engagement and bio. Run it on a schedule to build your own follower-growth history. Export to JSON, CSV or Excel. No login needed. For influencer vetting and reporting. $6 per 1,000 profiles.
+Get profile stats for Instagram and TikTok accounts in one run: username, followers, following, posts count, engagement and bio. Run it on a schedule to track follower growth. Export to JSON, CSV or Excel. No login. For influencer vetting and reporting. $6/1K profiles, $2.16/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/instagram-tiktok-profile-scraper](https://apify.com/om_kh/instagram-tiktok-profile-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Get profile stats for Instagram and TikTok accounts in one run: username, follow
 | **You give** | Instagram and TikTok usernames |
 | **We do** | Read each public profile, and compare with your last run |
 | **You get** | One row per profile: username, name, followers, following, posts, bio, website, verified and business flags, plus every field the supplier returns (`source_data`) |
-| **It costs** | $6 per 1,000 profiles + $0.001 per run. Optional scheduled monitoring: +$0.12 per check (one-off runs never pay it). Apify also bills the supplier Actor `dami_studio/instagram-profile-scraper` that this robot runs for you, at its own price (about $0.70 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $6 per 1,000 profiles today, $2.16 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.12 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `dami_studio/instagram-profile-scraper` that this robot runs for you, at its own price (about $0.70 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Read private accounts. Follower history builds up only if you run it on a schedule |
 
 ## Input fields

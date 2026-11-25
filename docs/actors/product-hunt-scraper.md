@@ -1,13 +1,13 @@
 ---
 title: "Product Hunt Leaderboard Scraper - Daily Launches, Upvotes"
-description: "Product Hunt leaderboard scraper: launches for any day or topic: name, tagline, description, URL, launch-day upvotes, daily/weekly/monthly rank, makers and launch date. Export to JSON, CSV or Excel, or use the API. No login. For market research and startup lead lists. $7.50 per 1,000 launches."
+description: "Product Hunt leaderboard scraper: launches for any day or topic: name, tagline, description, URL, launch-day upvotes, daily/weekly/monthly rank, makers and launch date. Export to JSON, CSV, Excel or API. No login. For market research and startup lead lists. $7.50/1K launches, $1/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Product Hunt Leaderboard Scraper - Daily Launches, Upvotes
 
-Product Hunt leaderboard scraper: launches for any day or topic: name, tagline, description, URL, launch-day upvotes, daily/weekly/monthly rank, makers and launch date. Export to JSON, CSV or Excel, or use the API. No login. For market research and startup lead lists. $7.50 per 1,000 launches.
+Product Hunt leaderboard scraper: launches for any day or topic: name, tagline, description, URL, launch-day upvotes, daily/weekly/monthly rank, makers and launch date. Export to JSON, CSV, Excel or API. No login. For market research and startup lead lists. $7.50/1K launches, $1/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/product-hunt-scraper](https://apify.com/om_kh/product-hunt-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Product Hunt leaderboard scraper: launches for any day or topic: name, tagline, 
 | **You give** | A day or a topic on Product Hunt |
 | **We do** | Read the launches of that day or topic |
 | **You get** | One row per launch: name, tagline, description, link, launch-day upvotes, daily / weekly / monthly rank, makers and launch date, plus every field the supplier returns (`source_data`) |
-| **It costs** | $7.50 per 1,000 launches + $0.001 per run. Optional scheduled monitoring: +$0.20 per check (one-off runs never pay it). Apify also bills the supplier Actor `logiover/product-hunt-daily-launches-scraper` that this robot runs for you, at its own price (about $3.50 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $7.50 per 1,000 launches today, $1 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.20 per check today, $0.006 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `logiover/product-hunt-daily-launches-scraper` that this robot runs for you, at its own price (about $3.50 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Product Hunt or upvote |
 
 ## Input fields

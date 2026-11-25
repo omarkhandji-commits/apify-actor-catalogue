@@ -1,13 +1,13 @@
 ---
 title: "Facebook Page Info Scraper - Followers, Contact, About"
-description: "Facebook page info scraper: any public page's name, category, followers, likes, description, website, phone and address. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login needed. For lead generation, enrichment and competitor research. $10 per 1,000 pages."
+description: "Facebook page info scraper: any public page's name, category, followers, likes, description, website, phone and address. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login needed. For lead generation, enrichment and competitor research. $10/1K pages, $1.56/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Facebook Page Info Scraper - Followers, Contact, About
 
-Facebook page info scraper: any public page's name, category, followers, likes, description, website, phone and address. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login needed. For lead generation, enrichment and competitor research. $10 per 1,000 pages.
+Facebook page info scraper: any public page's name, category, followers, likes, description, website, phone and address. Paste page URLs, export to JSON, CSV or Excel, or call it as an API. No login needed. For lead generation, enrichment and competitor research. $10/1K pages, $1.56/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/facebook-page-scraper](https://apify.com/om_kh/facebook-page-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Facebook page info scraper: any public page's name, category, followers, likes, 
 | **You give** | Public Facebook page links |
 | **We do** | Read each page's public profile, and compare with your last run |
 | **You get** | One row per page: name, category, followers, likes, website, phone, creation date, ad status and confirmed owner, plus every field the supplier returns (`source_data`) |
-| **It costs** | $10 per 1,000 pages + $0.001 per run. Optional scheduled monitoring: +$0.35 per check (one-off runs never pay it). Apify also bills the supplier Actor `apify/facebook-pages-scraper` that this robot runs for you, at its own price (about $12 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $10 per 1,000 pages today, $1.56 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.35 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `apify/facebook-pages-scraper` that this robot runs for you, at its own price (about $12 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Facebook or read private profiles |
 
 ## Input fields

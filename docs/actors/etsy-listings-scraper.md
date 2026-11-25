@@ -1,13 +1,13 @@
 ---
 title: "Etsy Listings Scraper - Price, Stock, Ratings"
-description: "Scrape Etsy shops and listings: title, price range, currency, stock, rating, review count, variants, category, description, images and shop. Export to JSON, CSV or Excel, or use the API, n8n or Make. No login. For pricing research and product ideas. $7 per 1,000 listings."
+description: "Scrape Etsy shops and listings: title, price range, currency, stock, rating, review count, variants, category, description, images and shop. Export to JSON, CSV or Excel, or use the API, n8n or Make. No login. For pricing research and product ideas. $7 per 1,000 listings, $1.75 from 16 Dec 2026."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Etsy Listings Scraper - Price, Stock, Ratings
 
-Scrape Etsy shops and listings: title, price range, currency, stock, rating, review count, variants, category, description, images and shop. Export to JSON, CSV or Excel, or use the API, n8n or Make. No login. For pricing research and product ideas. $7 per 1,000 listings.
+Scrape Etsy shops and listings: title, price range, currency, stock, rating, review count, variants, category, description, images and shop. Export to JSON, CSV or Excel, or use the API, n8n or Make. No login. For pricing research and product ideas. $7 per 1,000 listings, $1.75 from 16 Dec 2026.
 
 **Run it on Apify:** [https://apify.com/om_kh/etsy-listings-scraper](https://apify.com/om_kh/etsy-listings-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Scrape Etsy shops and listings: title, price range, currency, stock, rating, rev
 | **You give** | Etsy shop or listing links |
 | **We do** | Read each listing, and compare with your last run |
 | **You get** | One row per listing: title, price range, currency, stock, rating, review count, variants, category, description, images and shop, plus every field the supplier returns (`source_data`) |
-| **It costs** | $7 per 1,000 listings + $0.001 per run. Optional scheduled monitoring: +$0.35 per check (one-off runs never pay it). Apify also bills the supplier Actor `cirkit/etsy-shop-product-scraper` that this robot runs for you, at its own price (about $3.50 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $7 per 1,000 listings today, $1.75 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.35 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `cirkit/etsy-shop-product-scraper` that this robot runs for you, at its own price (about $3.50 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Etsy or buy anything |
 
 ## Input fields

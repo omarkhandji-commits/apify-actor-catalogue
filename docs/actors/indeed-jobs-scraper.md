@@ -1,13 +1,13 @@
 ---
 title: "Indeed Jobs Scraper API - Descriptions, Post Dates"
-description: "Indeed jobs scraper API: job listings for any title, keyword or location: job title, full description, posting date, urgent-hire and high-volume flags and the job URL. Export to JSON, CSV or Excel, or call it as an API. No login needed. For recruiting and hiring signals. $0.30 per 1,000 jobs."
+description: "Indeed jobs scraper API: job listings for any title, keyword or location: job title, full description, posting date, urgent-hire and high-volume flags and the job URL. Export to JSON, CSV or Excel or API. No login. For recruiting and hiring signals. $0.30/1K jobs, $0.25/1K from 16 Dec."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Indeed Jobs Scraper API - Descriptions, Post Dates
 
-Indeed jobs scraper API: job listings for any title, keyword or location: job title, full description, posting date, urgent-hire and high-volume flags and the job URL. Export to JSON, CSV or Excel, or call it as an API. No login needed. For recruiting and hiring signals. $0.30 per 1,000 jobs.
+Indeed jobs scraper API: job listings for any title, keyword or location: job title, full description, posting date, urgent-hire and high-volume flags and the job URL. Export to JSON, CSV or Excel or API. No login. For recruiting and hiring signals. $0.30/1K jobs, $0.25/1K from 16 Dec.
 
 **Run it on Apify:** [https://apify.com/om_kh/indeed-jobs-scraper](https://apify.com/om_kh/indeed-jobs-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Indeed jobs scraper API: job listings for any title, keyword or location: job ti
 | **You give** | A job title or keyword and a location |
 | **We do** | Search Indeed and read each listing |
 | **You get** | One row per job: title, full description, posting date, urgent-hire and high-volume flags, and the link, plus every field the supplier returns (`source_data`) |
-| **It costs** | **$0.30 per 1,000 jobs** + $0.001 per run. Optional scheduled monitoring: +$0.05 per check (one-off runs never pay it). Apify also bills the supplier Actor `valig/indeed-jobs-scraper` that this robot runs for you, at its own price (about $0.10 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | **$0.30 per 1,000 jobs today, $0.25 per 1,000 from 16 December 2026** + $0.001 per run. Optional scheduled monitoring: +$0.05 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `valig/indeed-jobs-scraper` that this robot runs for you, at its own price (about $0.10 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in to Indeed or apply to jobs |
 
 ## Input fields

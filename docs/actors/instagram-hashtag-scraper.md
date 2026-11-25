@@ -1,13 +1,13 @@
 ---
 title: "Instagram Hashtag Media Scraper - Images, Likes, Captions"
-description: "Instagram hashtag media scraper: posts for any hashtag with image links (every carousel image), caption, post URL, author, likes, comments, media type and date, plus a flag for fast-rising hashtags. No login. For UGC discovery and campaigns. $6 per 1,000 posts. All supplier fields included."
+description: "Instagram hashtag media scraper: posts for any hashtag with image links (all carousel images), caption, post URL, author, likes, comments, media type and date, plus a flag for rising hashtags. No login. For UGC discovery and campaigns. $6/1K posts, $1/1K from 16 Dec. All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Instagram Hashtag Media Scraper - Images, Likes, Captions
 
-Instagram hashtag media scraper: posts for any hashtag with image links (every carousel image), caption, post URL, author, likes, comments, media type and date, plus a flag for fast-rising hashtags. No login. For UGC discovery and campaigns. $6 per 1,000 posts. All supplier fields included.
+Instagram hashtag media scraper: posts for any hashtag with image links (all carousel images), caption, post URL, author, likes, comments, media type and date, plus a flag for rising hashtags. No login. For UGC discovery and campaigns. $6/1K posts, $1/1K from 16 Dec. All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/instagram-hashtag-scraper](https://apify.com/om_kh/instagram-hashtag-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Instagram hashtag media scraper: posts for any hashtag with image links (every c
 | **You give** | Instagram hashtags |
 | **We do** | Read the public posts under each hashtag |
 | **You get** | One row per post: image links, caption, link, author, likes, comments, media type and date, with a flag for hashtags rising fast, plus every field the supplier returns (`source_data`) |
-| **It costs** | $6 per 1,000 posts + $0.001 per run. Optional scheduled monitoring: +$0.10 per check (one-off runs never pay it). Apify also bills the supplier Actor `apify/instagram-hashtag-scraper` that this robot runs for you, at its own price (about $2.60 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
+| **It costs** | $6 per 1,000 posts today, $1 per 1,000 from 16 December 2026 + $0.001 per run. Optional scheduled monitoring: +$0.10 per check today, $0.005 from 16 December 2026 (one-off runs never pay it). Apify also bills the supplier Actor `apify/instagram-hashtag-scraper` that this robot runs for you, at its own price (about $2.60 per 1,000 results). The first 10 results of every run are free of this robot's fee. |
 | **It does not** | Sign in, use your account, or read private content |
 
 ## Input fields
