@@ -1,13 +1,13 @@
 ---
 title: "Taobao 淘宝 & Tmall 天猫 Product Detail Scraper - Real Price"
-description: "Taobao and Tmall product detail scraper: price, every SKU variant with stock, photos and shop, in a cheaper Fast mode or a Full mode with the verified post-coupon price, units sold and specs. Our fee $5 per 1,000 products + supplier. All supplier fields included."
+description: "Taobao and Tmall product detail scraper: price, every SKU variant with stock, photos and shop, in a cheaper Fast mode or a Full mode with the verified post-coupon price, units sold and specs. Our fee $5 per 1,000 products, $2 from Nov 28, 2026, + supplier. All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Taobao 淘宝 & Tmall 天猫 Product Detail Scraper - Real Price
 
-Taobao and Tmall product detail scraper: price, every SKU variant with stock, photos and shop, in a cheaper Fast mode or a Full mode with the verified post-coupon price, units sold and specs. Our fee $5 per 1,000 products + supplier. All supplier fields included.
+Taobao and Tmall product detail scraper: price, every SKU variant with stock, photos and shop, in a cheaper Fast mode or a Full mode with the verified post-coupon price, units sold and specs. Our fee $5 per 1,000 products, $2 from Nov 28, 2026, + supplier. All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/taobao-tmall-product-scraper](https://apify.com/om_kh/taobao-tmall-product-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Taobao and Tmall product detail scraper: price, every SKU variant with stock, ph
 | **You give** | Taobao or Tmall product links or item IDs |
 | **We do** | Read each product, in Fast mode (default, cheaper) or Full mode (also checks the real price after coupons) |
 | **You get** | One row per product. Fast: title, price, every SKU (variant) with its price and stock, total stock, photos and description images, shop name. Full adds the real post-coupon price (or an honest `price_verified: false`), brand, Tmall flag, specifications, category, units sold, ship-from city, shipping fee, seller and shop ids. Every row also has every field the supplier returns (`source_data`) |
-| **It costs** | $0.005 per product + $0.002 per SKU variant + $0.001 per verified coupon price, + $0.001 per run from Nov 26, 2026 (no start fee before). Apify also bills the supplier Actor this robot runs for you, at its own price: `memo23/taobao-scraper` in Fast mode (about $4 per 1,000 products + $0.005 per batch of up to 20), `zen-studio/taobao-detail-scraper` in Full mode (about $9.99 per 1,000 + $0.009 per batch). An item that returns an error is never charged |
+| **It costs** | $0.005 per product ($0.002 from Nov 28, 2026, 12:00 UTC) + $0.002 per SKU variant + $0.001 per verified coupon price, + $0.001 per run. Apify also bills the supplier Actor this robot runs for you, at its own price: `memo23/taobao-scraper` in Fast mode (about $4 per 1,000 products + $0.005 per batch of up to 20), `zen-studio/taobao-detail-scraper` in Full mode (about $9.99 per 1,000 + $0.009 per batch). An item that returns an error is never charged |
 | **It does not** | Pass the list price off as the final price, sign in, or place orders |
 
 ## Input fields

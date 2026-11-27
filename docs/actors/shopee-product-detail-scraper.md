@@ -1,13 +1,13 @@
 ---
 title: "Shopee Price Tracker - Exact Price, Variants, Units Sold"
-description: "Shopee price tracker by product URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products + supplier (~$0.70). All supplier fields included."
+description: "Shopee price tracker by product URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products, $3 from Nov 28, 2026, + supplier (~$4.20). All supplier fields included."
 ---
 
 [← All Actors](index.md) · [Catalogue home](../index.md)
 
 # Shopee Price Tracker - Exact Price, Variants, Units Sold
 
-Shopee price tracker by product URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products + supplier (~$0.70). All supplier fields included.
+Shopee price tracker by product URL: exact price included, rating, SKU variants, description, images and the seller profile (followers, response rate). price_verified flag. Our fee $4 per 1,000 products, $3 from Nov 28, 2026, + supplier (~$4.20). All supplier fields included.
 
 **Run it on Apify:** [https://apify.com/om_kh/shopee-product-detail-scraper](https://apify.com/om_kh/shopee-product-detail-scraper) — browser, API, schedules, n8n / Make / Zapier, or an AI agent through MCP.
 
@@ -18,7 +18,7 @@ Shopee price tracker by product URL: exact price included, rating, SKU variants,
 | **You give** | Shopee product links or item IDs |
 | **We do** | Read each product's page |
 | **You get** | One row per product: title, exact price, rating, SKU variants, description, category, images, specifications, option lists (colours, sizes), ship-from location, delivery estimate, units sold, favourites and the seller's profile (rating, followers, response rate, official shop), plus every field the supplier returns (`source_data`) |
-| **It costs** | $0.004 per product + $0.002 per priced SKU variant, + $0.001 per run from Nov 26, 2026 (no start fee before). Apify also bills the supplier Actor `lergassy/shopee-scraper` that this robot runs for you, at its own price (about $0.70 per 1,000 products). An item that returns an error is never charged |
+| **It costs** | $0.004 per product ($0.003 from Nov 28, 2026, 12:00 UTC) + $0.002 per priced SKU variant, + $0.001 per run. Apify also bills the supplier Actor `lergassy/shopee-scraper` that this robot runs for you, at its own price (about $3.20 per 1,000 products + $0.005 per batch of up to 5). An item that returns an error is never charged |
 | **It does not** | Sign in to Shopee or place orders |
 
 ## Input fields

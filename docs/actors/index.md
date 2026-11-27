@@ -76,11 +76,11 @@ Inputs, a real output row, the price and ready-to-run Python, cURL and MCP examp
 - [Reddit User Scraper API - Posts, Comments, Upvotes, Flair](reddit-user-scraper.md) — Our fee is $0.75 per 1,000 posts; the optional scheduled monitoring adds $0.005 per check (one-off runs never pay it)
 - [Redfin Search Scraper - Homes for Sale, Prices, Photos](redfin-scraper.md) — **$0.40 per 1,000 homes**, + $0.001 per run from Nov 24, 2026 (no start fee before)
 - [Review Cleaner & Deduplicator - Fakes, Duplicates, Score](reviews-cleaner-deduplicator.md) — $0.02 per review row delivered + $0.001 per run
-- [Shopee Price Tracker - Exact Price, Variants, Units Sold](shopee-product-detail-scraper.md) — $0.004 per product + $0.002 per priced SKU variant, + $0.001 per run from Nov 26, 2026 (no start fee before)
+- [Shopee Price Tracker - Exact Price, Variants, Units Sold](shopee-product-detail-scraper.md) — $0.004 per product ($0.003 from Nov 28, 2026, 12:00 UTC) + $0.002 per priced SKU variant, + $0.001 per run
 - [Snapchat Profile Scraper - Subscribers, Bio, Spotlight](snapchat-profile-scraper.md) — $1.50 per 1,000 profiles, + $0.001 per Spotlight video if you ask for them, + $0.001 per run from Dec 2, 2026 (no start fee before)
 - [Stack Overflow Scraper - Questions, Answers, Vote Count](stack-overflow-scraper.md) — $2 per 1,000 questions + $0.001 per run
 - [Substack Posts Scraper - Newsletters, Subscribers, Likes](substack-scraper.md) — $0.50 per 1,000 posts, $1 per 1,000 with full text, $2 per 1,000 newsletters, + $0.001 per run from Dec 4, 2026 (no start fee before)
-- [Taobao 淘宝 & Tmall 天猫 Product Detail Scraper - Real Price](taobao-tmall-product-scraper.md) — $0.005 per product + $0.002 per SKU variant + $0.001 per verified coupon price, + $0.001 per run from Nov 26, 2026 (no start fee before)
+- [Taobao 淘宝 & Tmall 天猫 Product Detail Scraper - Real Price](taobao-tmall-product-scraper.md) — $0.005 per product ($0.002 from Nov 28, 2026, 12:00 UTC) + $0.002 per SKU variant + $0.001 per verified coupon price, + $0.001 per run
 - [TED Europa Tenders Scraper - EU Public Procurement, Winners](eu-tenders-scraper.md) — $1.50 per 1,000 notices + $0.001 per run
 - [Telegram Channel Posts Scraper - Views, Reactions](telegram-channel-scraper.md) — $0.50 per 1,000 posts (lowered to $0.40 on 4 December 2026) + $0.001 per run
 - [ThomasNet Supplier Scraper - Name, Address, Verified Status](thomasnet-supplier-scraper.md) — $0.011 per verified supplier, $0.0025 from 2 December 2026, + $0.001 per run
